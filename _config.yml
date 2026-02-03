@@ -13,15 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Abarajithan G
+email: agnaneswaran<at>gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  PhD candidate (CE) building parameterized RTL subsystems (AXI SoCs, DMA control, accelerators) and end-toend SoC integration (FPGA+ASIC flows). Current work develops Hyperflow-guided hardware security fuzzing with information-flow tracking to expose vulnerabilities in Out-of-Order CPUs and SoC fabrics.
+# twitter_username: username
+github_username: abarajithan11
+minimal_mistakes_skin: sunrise
 search: true
 
 # Build settings
@@ -58,34 +56,25 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "G Abarajithan"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "PhD candidate (CE) building parameterized RTL subsystems (AXI SoCs, DMA control, accelerators) and end-toend SoC integration (FPGA+ASIC flows). Current work develops Hyperflow-guided hardware security fuzzing with information-flow tracking to expose vulnerabilities in Out-of-Order CPUs and SoC fabrics."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://aba-blog.xyz/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/abarajithan11"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://aba-blog.xyz/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/abarajithan11"
 
 defaults:
   # _posts
