@@ -30,9 +30,10 @@ My current research develops Hyperflow-guided hardware security fuzzing with inf
 - Reported targets: 250 MHz on FPGA (ZCU104) and ~1 GHz on 65 nm LP
 
 ### FireBridge: Virtual CPU VIP & AXI subsystem testbed (SV + C + TCL)
+- A virtual CPU VIP that replaces the usual CPU + interconnect in an SoC during verification, to execute the real-world C firmware while driving AXI subsystems in simulation.
 - Compact AXI-Stream systolic-array accelerator with RTL DMAs + controller
 - Packaged as a highly-parameterized SystemVerilog IP with multiple AXI master ports and a matching C driver/firmware stack
-- Enables running “real firmware” and generating randomized transaction traffic without simulating a full CPU for faster iteration
+- Generates randomized transaction traffic without simulating a full CPU for faster iteration
 - Integrated end-to-end with a RISC-V SoC platform; automated board packaging via TCL
 
 ### YOLOv2 object detection for road-traffic control (FPGA + ARM PSoC)
