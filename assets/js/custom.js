@@ -10,6 +10,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         item.classList.add("nav-dropdown");
 
+        const toggle = document.createElement("button");
+        toggle.type = "button";
+        toggle.className = "nav-dropdown__toggle";
+        toggle.textContent = anchor.textContent;
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.setAttribute("aria-haspopup", "true");
+        anchor.replaceWith(toggle);
+
         const menu = document.createElement("ul");
         menu.className = "nav-dropdown__menu";
 
@@ -24,21 +32,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
         item.appendChild(menu);
 
-        anchor.addEventListener("click", function (event) {
+        toggle.addEventListener("click", function (event) {
           event.preventDefault();
+          event.stopPropagation();
+          const willOpen = !item.classList.contains("is-open");
           document.querySelectorAll(".nav-dropdown.is-open").forEach(function (openItem) {
-            if (openItem !== item) openItem.classList.remove("is-open");
+            if (openItem !== item) {
+              openItem.classList.remove("is-open");
+              const openToggle = openItem.querySelector(".nav-dropdown__toggle");
+              if (openToggle) openToggle.setAttribute("aria-expanded", "false");
+            }
           });
-          item.classList.toggle("is-open");
+          item.classList.toggle("is-open", willOpen);
+          toggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
         });
       });
 
-    document.addEventListener("click", function (event) {
-      document.querySelectorAll(".nav-dropdown.is-open").forEach(function (item) {
-        if (!item.contains(event.target)) item.classList.remove("is-open");
+      document.addEventListener("click", function (event) {
+        document.querySelectorAll(".nav-dropdown.is-open").forEach(function (item) {
+          if (!item.contains(event.target)) {
+            item.classList.remove("is-open");
+            const toggle = item.querySelector(".nav-dropdown__toggle");
+            if (toggle) toggle.setAttribute("aria-expanded", "false");
+          }
+        });
       });
-    });
-  }
+    }
 
   function createLightbox() {
     const overlay = document.createElement("div");
