@@ -1,4 +1,8 @@
---- # Only the main Sass file needs front matter. --- @import "minimal-mistakes";
+---
+# Only the main Sass file needs front matter.
+---
+
+@import "minimal-mistakes";
 
 .page {
   max-width: 96rem;
@@ -76,15 +80,15 @@
 
 .post-card__meta {
   color: inherit;
-  opacity: 0.72;
   font-size: 0.78em;
+  opacity: 0.72;
 }
 
 .post-card__excerpt {
   color: inherit;
-  opacity: 0.88;
   font-size: 0.88em;
   margin: 0;
+  opacity: 0.88;
 }
 
 .entry-gallery {
@@ -94,7 +98,7 @@
   margin: 1.25rem 0;
 }
 
-.entry-gallery>p {
+.entry-gallery > p {
   margin: 0;
 }
 
@@ -108,10 +112,7 @@
   cursor: zoom-in;
 }
 
-.video-embed {
-  margin: 1.25rem 0;
-}
-
+.video-embed,
 .embed-block {
   margin: 1.25rem 0;
 }
@@ -200,6 +201,73 @@
   text-align: center;
 }
 
+.page__content .contact-form-wrap {
+  margin-top: 1.5rem;
+}
+
+.page__content .contact-form-wrap,
+.page__content .contact-form-wrap form,
+.page__content .contact-form-wrap input,
+.page__content .contact-form-wrap textarea,
+.page__content .contact-form-wrap label,
+.page__content .contact-form-wrap button {
+  color: inherit;
+  font: inherit;
+}
+
+.page__content .contact-form-wrap form {
+  background: transparent !important;
+  border: 0;
+  box-shadow: none;
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.page__content .contact-form-wrap label {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.page__content .contact-form-wrap input,
+.page__content .contact-form-wrap textarea {
+  background: transparent !important;
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 0.75rem 1rem;
+  width: 100%;
+}
+
+.page__content .contact-form-wrap textarea {
+  min-height: 10rem;
+  resize: vertical;
+}
+
+.page__content .contact-form-wrap input::placeholder,
+.page__content .contact-form-wrap textarea::placeholder {
+  color: inherit;
+  opacity: 0.6;
+}
+
+.page__content .contact-form-wrap input:focus,
+.page__content .contact-form-wrap textarea:focus {
+  background: transparent !important;
+  border-color: currentColor;
+  outline: none;
+}
+
+.page__content .contact-form-wrap button {
+  background: transparent !important;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  color: inherit;
+  cursor: pointer;
+  justify-self: start;
+  padding: 0.7rem 1.1rem;
+}
+
 @media (max-width: 40em) {
   .entry-gallery {
     grid-template-columns: 1fr;
@@ -212,56 +280,4 @@
   .lightbox__image {
     max-height: calc(100vh - 2rem);
   }
-}
-
-.contact-form-wrap,
-.contact-form-wrap form,
-.contact-form-wrap input,
-.contact-form-wrap textarea,
-.contact-form-wrap label,
-.contact-form-wrap button {
-  font: inherit;
-  color: inherit;
-}
-
-.contact-form-wrap form {
-  background: transparent;
-}
-
-.contact-form-wrap input,
-.contact-form-wrap textarea {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0.75rem 1rem;
-  background: transparent;
-  border: 1px solid rgba(127, 127, 127, 0.35);
-  border-radius: 6px;
-}
-
-.contact-form-wrap textarea {
-  min-height: 10rem;
-  resize: vertical;
-}
-
-.contact-form-wrap input::placeholder,
-.contact-form-wrap textarea::placeholder {
-  color: inherit;
-  opacity: 0.6;
-}
-
-.contact-form-wrap input:focus,
-.contact-form-wrap textarea:focus {
-  outline: none;
-  background: transparent;
-  border-color: currentColor;
-}
-
-.contact-form-wrap button {
-  font: inherit;
-  color: inherit;
-  background: transparent;
-  border: 1px solid currentColor;
-  padding: 0.7rem 1.1rem;
-  border-radius: 999px;
-  cursor: pointer;
 }
