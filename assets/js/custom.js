@@ -1,41 +1,53 @@
 document.addEventListener("DOMContentLoaded", function () {
   function injectSidebarTags() {
     if (!Array.isArray(window.siteTagPages) || window.siteTagPages.length === 0) return;
-    if (document.querySelector(".sidebar-tags")) return;
+    if (document.querySelector(".sidebar-tags__heading")) return;
 
-    const section = document.createElement("section");
-    section.className = "sidebar-tags";
+    const urlsList = document.querySelector(".sidebar .author__urls");
+    if (urlsList) {
+      const heading = document.createElement("li");
+      heading.className = "sidebar-tags__heading";
+      heading.textContent = "Tags";
+      urlsList.appendChild(heading);
 
-    const title = document.createElement("div");
-    title.className = "sidebar-tags__title";
-    title.textContent = "Tags";
-    section.appendChild(title);
+      window.siteTagPages.forEach(function (tagPage) {
+        const item = document.createElement("li");
+        item.className = "sidebar-tags__item";
 
-    const list = document.createElement("ul");
-    list.className = "sidebar-tags__list";
+        const link = document.createElement("a");
+        link.href = tagPage.url;
+        link.textContent = tagPage.title;
 
-    window.siteTagPages.forEach(function (tagPage) {
-      const item = document.createElement("li");
-      const link = document.createElement("a");
-      link.href = tagPage.url;
-      link.textContent = tagPage.title;
-      item.appendChild(link);
-      list.appendChild(item);
-    });
-
-    section.appendChild(list);
-
-    const authorContent = document.querySelector(".sidebar .author__content");
-    const urlsWrapper = document.querySelector(".sidebar .author__urls-wrapper");
-
-    if (authorContent) {
-      authorContent.insertAdjacentElement("afterend", section);
+        item.appendChild(link);
+        urlsList.appendChild(item);
+      });
       return;
     }
 
-    if (urlsWrapper) {
-      urlsWrapper.prepend(section);
-    }
+    const authorContent = document.querySelector(".sidebar .author__content");
+    if (!authorContent) return;
+
+    const section = document.createElement("section");
+    section.className = "sidebar-tags-fallback";
+
+    const title = document.createElement("div");
+    title.className = "sidebar-tags__heading";
+    title.textContent = "Tags";
+    section.appendChild(title);
+
+    window.siteTagPages.forEach(function (tagPage) {
+      const item = document.createElement("div");
+      item.className = "sidebar-tags__item";
+
+      const link = document.createElement("a");
+      link.href = tagPage.url;
+      link.textContent = tagPage.title;
+
+      item.appendChild(link);
+      section.appendChild(item);
+    });
+
+    authorContent.insertAdjacentElement("afterend", section);
   }
 
   function createLightbox() {

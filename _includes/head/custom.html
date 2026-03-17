@@ -21,30 +21,23 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   }
 
-  .sidebar-tags {
-    margin-top: 1rem;
-  }
-
-  .sidebar-tags__title {
+  .sidebar-tags__heading {
     font-size: 0.9rem;
     font-weight: 600;
-    margin-bottom: 0.45rem;
-  }
-
-  .sidebar-tags__list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 0.8rem;
+    padding-top: 0.8rem;
   }
 
-  .sidebar-tags__list a {
+  .sidebar-tags__item {
+    list-style: none;
+  }
+
+  .author__urls .sidebar-tags__item a {
     text-decoration: none;
   }
 
-  .sidebar-tags__list a:hover {
+  .author__urls .sidebar-tags__item a:hover {
     text-decoration: underline;
   }
 </style>
@@ -59,4 +52,4 @@
     {% endfor %}
   ];
 </script>
-<script defer src="{{ '/assets/js/custom.js?v=10' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/custom.js?v=11' | relative_url }}"></script>
