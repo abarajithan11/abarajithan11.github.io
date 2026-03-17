@@ -1,0 +1,31 @@
+<div class="post-grid">
+  {% for item in site.data.tag_pages %}
+    {% assign teaser = item.teaser | default: "" %}
+    {% if teaser contains 'site.content_base_url' %}
+      {% assign teaser = teaser | split: '}}' | last %}
+    {% endif %}
+    {% if teaser contains '/content/' %}
+      {% assign teaser = teaser | split: '/content' | last %}
+    {% endif %}
+    <div class="post-grid__item">
+      <a class="post-card" href="{{ item.url | relative_url }}">
+        {% if teaser != "" %}
+          <div class="post-card__image">
+            {% if teaser contains '://' %}
+              <img src="{{ teaser }}" alt="{{ item.title | escape }}">
+            {% else %}
+              <img src="{{ site.content_base_url }}{{ teaser }}" alt="{{ item.title | escape }}">
+            {% endif %}
+          </div>
+        {% endif %}
+        <div class="post-card__body">
+          <h2 class="post-card__title">{{ item.title }}</h2>
+          <div class="post-card__meta">{{ item.count }} posts</div>
+          {% if item.latest_title %}
+            <p class="post-card__excerpt">Latest: {{ item.latest_title }}</p>
+          {% endif %}
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>

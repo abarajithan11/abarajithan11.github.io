@@ -1,63 +1,42 @@
 document.addEventListener("DOMContentLoaded", function () {
-  function enhanceTagDropdown() {
+  function injectSidebarTags() {
     if (!Array.isArray(window.siteTagPages) || window.siteTagPages.length === 0) return;
+    if (document.querySelector(".sidebar-tags")) return;
 
-    document
-      .querySelectorAll('.greedy-nav .visible-links a[href$="/tags/"], .greedy-nav .hidden-links a[href$="/tags/"]')
-      .forEach(function (anchor) {
-        const item = anchor.parentElement;
-        if (!item || item.querySelector(".nav-dropdown__menu")) return;
+    const section = document.createElement("section");
+    section.className = "sidebar-tags";
 
-        item.classList.add("nav-dropdown");
+    const title = document.createElement("div");
+    title.className = "sidebar-tags__title";
+    title.textContent = "Tags";
+    section.appendChild(title);
 
-        const toggle = document.createElement("button");
-        toggle.type = "button";
-        toggle.className = "nav-dropdown__toggle";
-        toggle.textContent = anchor.textContent;
-        toggle.setAttribute("aria-expanded", "false");
-        toggle.setAttribute("aria-haspopup", "true");
-        anchor.replaceWith(toggle);
+    const list = document.createElement("ul");
+    list.className = "sidebar-tags__list";
 
-        const menu = document.createElement("ul");
-        menu.className = "nav-dropdown__menu";
+    window.siteTagPages.forEach(function (tagPage) {
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = tagPage.url;
+      link.textContent = tagPage.title;
+      item.appendChild(link);
+      list.appendChild(item);
+    });
 
-        window.siteTagPages.forEach(function (tagPage) {
-          const li = document.createElement("li");
-          const link = document.createElement("a");
-          link.href = tagPage.url;
-          link.textContent = tagPage.title;
-          li.appendChild(link);
-          menu.appendChild(li);
-        });
+    section.appendChild(list);
 
-        item.appendChild(menu);
+    const authorContent = document.querySelector(".sidebar .author__content");
+    const urlsWrapper = document.querySelector(".sidebar .author__urls-wrapper");
 
-        toggle.addEventListener("click", function (event) {
-          event.preventDefault();
-          event.stopPropagation();
-          const willOpen = !item.classList.contains("is-open");
-          document.querySelectorAll(".nav-dropdown.is-open").forEach(function (openItem) {
-            if (openItem !== item) {
-              openItem.classList.remove("is-open");
-              const openToggle = openItem.querySelector(".nav-dropdown__toggle");
-              if (openToggle) openToggle.setAttribute("aria-expanded", "false");
-            }
-          });
-          item.classList.toggle("is-open", willOpen);
-          toggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
-        });
-      });
-
-      document.addEventListener("click", function (event) {
-        document.querySelectorAll(".nav-dropdown.is-open").forEach(function (item) {
-          if (!item.contains(event.target)) {
-            item.classList.remove("is-open");
-            const toggle = item.querySelector(".nav-dropdown__toggle");
-            if (toggle) toggle.setAttribute("aria-expanded", "false");
-          }
-        });
-      });
+    if (authorContent) {
+      authorContent.insertAdjacentElement("afterend", section);
+      return;
     }
+
+    if (urlsWrapper) {
+      urlsWrapper.prepend(section);
+    }
+  }
 
   function createLightbox() {
     const overlay = document.createElement("div");
@@ -310,7 +289,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const lightbox = createLightbox();
-  enhanceTagDropdown();
+  injectSidebarTags();
 
   document.querySelectorAll(".page__content").forEach(function (content) {
     upgradeYouTubeEmbeds(content);

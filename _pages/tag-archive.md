@@ -1,6 +1,8 @@
 ---
-title: "Posts by Tag"
+title: "Tags"
 permalink: /tags/
-layout: tags
+layout: single
 author_profile: true
 ---
+
+{% include tag-page-grid.html %}
