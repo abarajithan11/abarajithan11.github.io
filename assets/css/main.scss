@@ -91,30 +91,24 @@
   margin: 0;
 }
 
-@media (min-width: 40em) {
-  .layout--single .page__content {
-    align-items: start;
-    column-gap: 0.75rem;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    row-gap: 1rem;
-  }
+.entry-gallery {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1.25rem 0;
+}
 
-  .layout--single .page__content > * {
-    grid-column: 1 / -1;
-  }
+.entry-gallery > p {
+  margin: 0;
+}
 
-  .layout--single .page__content > p:has(> img:only-child):has(+ p:has(> img:only-child)),
-  .layout--single .page__content > p:has(> img:only-child) + p:has(> img:only-child),
-  .layout--single .page__content > p:has(> a:only-child > img:only-child):has(+ p:has(> a:only-child > img:only-child)),
-  .layout--single .page__content > p:has(> a:only-child > img:only-child) + p:has(> a:only-child > img:only-child) {
-    grid-column: span 1;
-    margin: 0;
-  }
+.entry-gallery img {
+  display: block;
+  width: 100%;
+}
 
-  .layout--single .page__content > p:has(> img:only-child) img,
-  .layout--single .page__content > p:has(> a:only-child > img:only-child) img {
-    display: block;
-    width: 100%;
+@media (max-width: 40em) {
+  .entry-gallery {
+    grid-template-columns: 1fr;
   }
 }
