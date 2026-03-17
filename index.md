@@ -10,9 +10,9 @@ I am a PhD student in Kastner Research Lab @ UCSD CSE, focusing on hardware secu
 
 ## Tech Stack
 
-* **Languages:** SystemVerilog, Python, C/C++, OpenCL, Bash, Tcl
+* **Languages:** SystemVerilog (RTL, DV, SVA), Python, C/C++, OpenCL, Bash, Tcl
 * **EDA Tools:** AMD/Xilinx Vivado, Cadence Genus, Cadence Innovus, Synopsys Design Compiler
-* **Verification:** Verilator, Synopsys VCS, AMD Xsim, Cadence Xcelium, Questa Formal, SymbiYosys, cocotb
+* **Verification:** Verilator, VCS, Xsim, Questa Formal, SymbiYosys, cocotb
 * **Other:** Git, Docker, LaTeX, GitHub Actions
 
 ## Projects
@@ -21,16 +21,16 @@ I am a PhD student in Kastner Research Lab @ UCSD CSE, focusing on hardware secu
   A framework to evaluate hardware verification methods by automatically injecting bugs into SoC IPs, providing a standardized testbed for fuzzers like Intel PreSiFuzz and RFuzz against industrial AXI cores.
 
 * **[CGRA4ML](/cgra4ml/)**
-  An open-source, automated framework for mapping complex, deep neural networks to custom parameterizable Coarse-Grained Reconfigurable Arrays (CGRAs) on FPGA and ASIC targets for scientific edge computing.
+  An open-source, automated framework for mapping DNNs from Python to custom parameterizable SystemVerilog CGRAs with C Firmware on FPGA and ASIC targets for scientific edge computing.
   
-* **[FireBridge: SoC Verification](/firebridge/)**
-  A novel integration framework allowing transactional verification of SystemVerilog subsystems with real C firmware payloads, dramatically accelerating iteration cycles without the overhead of full CPU simulation.
+* **[FireBridge](/firebridge/)**
+  A framework for transactional verification of AXI subsystems in SystemVerilog with real C firmware through DPI-C without simulating a CPU, enabling rapid FW/HW co-development.
 
 * **[Formal AXI Verification Stack](/formal-axi/)**
-  A lightweight, reusable stack of formally proven primitives and SystemVerilog assertions designed to bulletproof AXI4 protocol interactions, tested against both open-source and commercial formal solvers.
+  A reusable Formal VIP for AXI4 and AXI5 protocols and for complex IPs like interconnects being built and tested against both open-source and commercial tools.
 
 * **[Formally Verified AXI Stream Systolic Array](/axis-systolic-array-testbed/)**
-  A lightweight, highly paramatrizable systolic array in SystemVerilog, integrated with Ibex-SoC via AXI DMAs, a custom DMA controller and corresponding C firmware. I'm currently formally verifying this using ghost abstractions.
+  A lightweight, highly parameterizable systolic array in SystemVerilog, integrated with Ibex-SoC via AXI DMAs, a custom DMA controller and corresponding C firmware. I'm currently formally verifying this using ghost abstractions.
 
 ## Publications
 
