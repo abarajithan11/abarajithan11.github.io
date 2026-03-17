@@ -2,6 +2,7 @@
 title: 'Webinars: Design and Simulation with SystemVerilog'
 date: 2020-11-17 20:23:00
 last_modified_at: 2022-01-21 14:05:33
+teaser: /images/2021/11/Slide1-1.jpg
 categories:
   - 'Teaching'
 tags:
