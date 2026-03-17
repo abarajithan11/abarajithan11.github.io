@@ -22,7 +22,7 @@ I wanted to quickly co-develop SystemVerilog hardware and C firmware. This led m
 - Seamlessly integrates with Ibex and typical RISC-V toolchains.
 - Supports randomized ready/valid throttling, which uncovers subtle corner cases.
 
-### How I Approached It
+### Technical Details
 
 I built an SV + C harness that behaves in simulation as an AXI Interconnect + CPU. The C firmware is compiled and executed in the host machine (x86). The register writes & reads are mapped to SV tasks that drive the AXI slave interfaces. The AXI master ports of the subsystem read/write from the host machine's DDR through C functions.
 
@@ -36,7 +36,6 @@ I built an SV + C harness that behaves in simulation as an AXI Interconnect + CP
     fb_task_read_reg((uint64_t)(uintptr_t)addr);
     return (fb_reg_t)fb_fn_read_reg();
   }
-
   static inline void fb_write_reg(fb_reg_t *addr, fb_reg_t data) {
     fb_task_write_reg((uint64_t)(uintptr_t)addr, (uint64_t)data);
   }
@@ -44,7 +43,6 @@ I built an SV + C harness that behaves in simulation as an AXI Interconnect + CP
   static inline fb_reg_t fb_read_reg(fb_reg_t *addr) {
     return *addr;
   }
-
   static inline void fb_write_reg(fb_reg_t *addr, fb_reg_t data) {
     *addr = data;
   }
