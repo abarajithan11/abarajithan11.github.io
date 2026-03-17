@@ -1,5 +1,7 @@
 main:
-  - title: "My Work"
+  - title: "Publications"
+    url: /publications/
+  - title: "Engineering"
     url: /my-work/
   - title: "Teaching"
     url: /teaching/
