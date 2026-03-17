@@ -9,7 +9,7 @@ tags:
 permalink: /reusable-axis-vip/
 ---
 
-![]({{ site.content_base_url }}/images/2026/03/axis-vip.png)
+![]({{ site.content_base_url }}/images/2026/axis.svg)
 
 AXI Stream is my favorite protocol for custom designs. It's dead simple (just `tvalid` and `tready`), yet can be made extremely performant and flexible. There are also several open source DMAs to bridge full AXI and AXI Stream, allowing quick SoC deployment.
 

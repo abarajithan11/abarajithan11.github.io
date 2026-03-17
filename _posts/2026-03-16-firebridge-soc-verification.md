@@ -9,7 +9,7 @@ tags:
 permalink: /firebridge/
 ---
 
-![]({{ site.content_base_url }}/images/2026/03/firebridge.png)
+![]({{ site.content_base_url }}/images/2026/firebridge.png)
 
 Verifying hardware accelerators at the system level is a classic headache. We first verify the RTL design using transaction level testbenches, then write firmware to control them, then put them together on an FPGA and bang our heads wondering why they hang. Getting the firmware and hardware to work together often takes weeks of iterative debugging. On the other hand, simulating a full CPU + accelerator as an SoC takes forever.
 
