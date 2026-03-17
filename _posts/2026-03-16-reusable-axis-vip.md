@@ -27,7 +27,7 @@ Before integrating a DMA, we need to verify our IP follows AXI Stream perfectly.
 
 I have two SV modules: Sink and Source. I pass in SystemVerilog queues containing the packets to be driven, and a task runs an infinite loop pushing data synchronously to the clock. I injected parameterized probabilities for stalling the interface (randomized `tvalid` gaps, randomly de-asserting `tready`). 
 
-```systemverilog
+```verilog
   task automatic axis_push_packet(input logic signed [WORD_W-1:0] packet [$]);
     int total_words = packet.size();
     int n_beats = `CEIL(total_words, WORDS_PER_BEAT);
