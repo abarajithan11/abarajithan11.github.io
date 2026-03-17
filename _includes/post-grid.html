@@ -1,0 +1,29 @@
+{% assign category_posts = site.posts | where_exp: "post", "post.categories contains include.category" %}
+<div class="post-grid">
+  {% for post in category_posts %}
+    {% assign post_html = post.content %}
+    {% assign teaser = "" %}
+    {% if post_html contains '<img ' %}
+      {% assign teaser = post_html | split: '<img ' | last | split: 'src="' | last | split: '"' | first %}
+    {% elsif post_html contains '![' %}
+      {% assign teaser = post_html | split: '![' | last | split: '](' | last | split: ')' | first %}
+    {% endif %}
+    <div class="post-grid__item">
+      <a class="post-card" href="{{ post.url | relative_url }}">
+        {% if teaser != "" %}
+          <div class="post-card__image">
+            <img src="{{ teaser }}" alt="{{ post.title | escape }}">
+          </div>
+        {% endif %}
+        <div class="post-card__body">
+          <h2 class="post-card__title">{{ post.title }}</h2>
+          <div class="post-card__meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+          {% assign excerpt = post.excerpt | markdownify | strip_html | strip %}
+          {% if excerpt != "" %}
+            <p class="post-card__excerpt">{{ excerpt | truncate: 140 }}</p>
+          {% endif %}
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>

@@ -11,3 +11,67 @@
 .page__content {
   font-size: 0.9em;
 }
+
+.post-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.post-grid__item {
+  display: flex;
+}
+
+.post-card {
+  background: #fff;
+  border: 1px solid #e6ded2;
+  border-radius: 0.35rem;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-decoration: none;
+  width: 100%;
+}
+
+.post-card:hover {
+  text-decoration: none;
+}
+
+.post-card__image {
+  background: #f3ece2;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+
+.post-card__image img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.post-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 1rem;
+}
+
+.post-card__title {
+  font-size: 1rem;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.post-card__meta {
+  color: #7f7467;
+  font-size: 0.78em;
+}
+
+.post-card__excerpt {
+  color: #4f463c;
+  font-size: 0.88em;
+  margin: 0;
+}

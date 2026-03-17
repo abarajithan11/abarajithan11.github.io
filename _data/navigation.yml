@@ -1,12 +1,12 @@
 main:
   - title: "My Work"
-    url: /categories/#my-work
+    url: /my-work/
   - title: "Teaching"
-    url: /categories/#teaching
+    url: /teaching/
   - title: "Travel"
-    url: /categories/#travel
+    url: /travel/
   - title: "Other"
-    url: /categories/#other
+    url: /other/
   - title: "Tags"
     url: /tags/
   - title: "Posts"
