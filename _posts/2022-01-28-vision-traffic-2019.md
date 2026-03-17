@@ -3,6 +3,7 @@ title: 'Vision-Based Adaptive Traffic Control on an MPSoC [ARM+FPGA]'
 date: 2022-01-28 00:00:00
 last_modified_at: 2022-01-29 19:23:49
 categories:
+  - 'Engineering'
   - 'My Work'
 tags:
   - 'Technical Projects'
