@@ -1,4 +1,56 @@
 document.addEventListener("DOMContentLoaded", function () {
+  function createLightbox() {
+    const overlay = document.createElement("div");
+    overlay.className = "lightbox";
+    overlay.setAttribute("aria-hidden", "true");
+
+    overlay.innerHTML = `
+      <div class="lightbox__inner">
+        <button class="lightbox__close" type="button" aria-label="Close image viewer">×</button>
+        <img class="lightbox__image" alt="">
+        <div class="lightbox__caption"></div>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    const closeButton = overlay.querySelector(".lightbox__close");
+    const image = overlay.querySelector(".lightbox__image");
+    const caption = overlay.querySelector(".lightbox__caption");
+
+    function closeLightbox() {
+      overlay.classList.remove("is-open");
+      overlay.setAttribute("aria-hidden", "true");
+      image.removeAttribute("src");
+      image.alt = "";
+      caption.textContent = "";
+      document.body.style.removeProperty("overflow");
+    }
+
+    function openLightbox(sourceImage) {
+      image.src = sourceImage.currentSrc || sourceImage.src;
+      image.alt = sourceImage.alt || "";
+      caption.textContent = sourceImage.alt || "";
+      overlay.classList.add("is-open");
+      overlay.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
+
+    overlay.addEventListener("click", function (event) {
+      if (event.target === overlay) closeLightbox();
+    });
+
+    closeButton.addEventListener("click", closeLightbox);
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && overlay.classList.contains("is-open")) {
+        closeLightbox();
+      }
+    });
+
+    return { openLightbox };
+  }
+
   function parseTime(value) {
     if (!value) return 0;
     if (/^\d+$/.test(value)) return parseInt(value, 10);
@@ -180,9 +232,25 @@ document.addEventListener("DOMContentLoaded", function () {
     );
   }
 
+  function enableImageLightbox(content, lightbox) {
+    content.querySelectorAll("img").forEach(function (image) {
+      if (image.closest(".lightbox")) return;
+      if (image.closest(".post-card")) return;
+
+      image.addEventListener("click", function (event) {
+        const link = image.closest("a");
+        if (link) event.preventDefault();
+        lightbox.openLightbox(image);
+      });
+    });
+  }
+
+  const lightbox = createLightbox();
+
   document.querySelectorAll(".page__content").forEach(function (content) {
     upgradeYouTubeEmbeds(content);
     upgradeSlideShareEmbeds(content);
+    enableImageLightbox(content, lightbox);
 
     let node = content.firstElementChild;
 
