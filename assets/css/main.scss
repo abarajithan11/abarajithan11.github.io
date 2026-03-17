@@ -155,10 +155,13 @@
   align-items: center;
   background: rgba(0, 0, 0, 0.88);
   display: none;
-  inset: 0;
   justify-content: center;
   padding: 2rem;
   position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 10000;
 }
 

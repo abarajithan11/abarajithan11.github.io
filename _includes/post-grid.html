@@ -1,6 +1,12 @@
-{% assign category_posts = site.posts | where_exp: "post", "post.categories contains include.category" %}
+{% if include.category %}
+  {% assign grid_posts = site.posts | where_exp: "post", "post.categories contains include.category" %}
+{% elsif include.tag %}
+  {% assign grid_posts = site.posts | where_exp: "post", "post.tags contains include.tag" %}
+{% else %}
+  {% assign grid_posts = site.posts %}
+{% endif %}
 <div class="post-grid">
-  {% for post in category_posts %}
+  {% for post in grid_posts %}
     {% assign post_html = post.content %}
     {% assign teaser = "" %}
     {% if post_html contains '<img ' %}
