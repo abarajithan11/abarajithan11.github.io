@@ -43,17 +43,19 @@ I am an engineer and researcher focusing on hardware security and verification, 
 
 ## Contact Me
 
-<form
-  action="https://formspree.io/f/mjgapveo"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <button type="submit">Send</button>
-</form>
+<div class="contact-form-wrap">
+  <form
+    action="https://formspree.io/f/mjgapveo"
+    method="POST"
+  >
+    <label>
+      Your email:
+      <input type="email" name="email">
+    </label>
+    <label>
+      Your message:
+      <textarea name="message"></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
+</div>

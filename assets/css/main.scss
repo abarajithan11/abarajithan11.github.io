@@ -1,8 +1,4 @@
----
-# Only the main Sass file needs front matter.
----
-
-@import "minimal-mistakes";
+--- # Only the main Sass file needs front matter. --- @import "minimal-mistakes";
 
 .page {
   max-width: 96rem;
@@ -98,7 +94,7 @@
   margin: 1.25rem 0;
 }
 
-.entry-gallery > p {
+.entry-gallery>p {
   margin: 0;
 }
 
@@ -216,4 +212,56 @@
   .lightbox__image {
     max-height: calc(100vh - 2rem);
   }
+}
+
+.contact-form-wrap,
+.contact-form-wrap form,
+.contact-form-wrap input,
+.contact-form-wrap textarea,
+.contact-form-wrap label,
+.contact-form-wrap button {
+  font: inherit;
+  color: inherit;
+}
+
+.contact-form-wrap form {
+  background: transparent;
+}
+
+.contact-form-wrap input,
+.contact-form-wrap textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  border-radius: 6px;
+}
+
+.contact-form-wrap textarea {
+  min-height: 10rem;
+  resize: vertical;
+}
+
+.contact-form-wrap input::placeholder,
+.contact-form-wrap textarea::placeholder {
+  color: inherit;
+  opacity: 0.6;
+}
+
+.contact-form-wrap input:focus,
+.contact-form-wrap textarea:focus {
+  outline: none;
+  background: transparent;
+  border-color: currentColor;
+}
+
+.contact-form-wrap button {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid currentColor;
+  padding: 0.7rem 1.1rem;
+  border-radius: 999px;
+  cursor: pointer;
 }
