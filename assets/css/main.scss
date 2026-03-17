@@ -2,7 +2,16 @@
 # Only the main Sass file needs front matter.
 ---
 
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap");
 @import "minimal-mistakes";
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Crimson Pro", serif;
+}
 
 .page {
   max-width: 96rem;
@@ -15,7 +24,19 @@
 .post-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 48em) {
+  .post-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 72em) {
+  .post-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .post-grid__item {
@@ -23,9 +44,10 @@
 }
 
 .post-card {
-  background: #fff;
-  border: 1px solid #e6ded2;
+  background: inherit;
+  border: 1px solid rgba(127, 127, 127, 0.28);
   border-radius: 0.35rem;
+  box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.08);
   color: inherit;
   display: flex;
   flex-direction: column;
@@ -39,7 +61,7 @@
 }
 
 .post-card__image {
-  background: #f3ece2;
+  background: rgba(127, 127, 127, 0.12);
   aspect-ratio: 16 / 10;
   overflow: hidden;
 }
@@ -66,12 +88,14 @@
 }
 
 .post-card__meta {
-  color: #7f7467;
+  color: inherit;
+  opacity: 0.72;
   font-size: 0.78em;
 }
 
 .post-card__excerpt {
-  color: #4f463c;
+  color: inherit;
+  opacity: 0.88;
   font-size: 0.88em;
   margin: 0;
 }

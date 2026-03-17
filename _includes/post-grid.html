@@ -4,9 +4,13 @@
     {% assign post_html = post.content %}
     {% assign teaser = "" %}
     {% if post_html contains '<img ' %}
-      {% assign teaser = post_html | split: '<img ' | last | split: 'src="' | last | split: '"' | first %}
+      {% assign image_parts = post_html | split: '<img ' %}
+      {% assign first_image = image_parts[1] %}
+      {% assign teaser = first_image | split: 'src="' | last | split: '"' | first %}
     {% elsif post_html contains '![' %}
-      {% assign teaser = post_html | split: '![' | last | split: '](' | last | split: ')' | first %}
+      {% assign image_parts = post_html | split: '![' %}
+      {% assign first_image = image_parts[1] %}
+      {% assign teaser = first_image | split: '](' | last | split: ')' | first %}
     {% endif %}
     <div class="post-grid__item">
       <a class="post-card" href="{{ post.url | relative_url }}">

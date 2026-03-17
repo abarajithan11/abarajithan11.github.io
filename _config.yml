@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   PhD candidate (CE) building parameterized RTL subsystems (AXI SoCs, DMA control, accelerators) and end-toend SoC integration (FPGA+ASIC flows). Current work develops Hyperflow-guided hardware security fuzzing with information-flow tracking to expose vulnerabilities in Out-of-Order CPUs and SoC fabrics.
 # twitter_username: username
 github_username: abarajithan11
-minimal_mistakes_skin: "sunrise"
+minimal_mistakes_skin: "contrast"
 search: true
 content_base_url: "https://pub-0718e0124bee4fb880ecad10710509d5.r2.dev/content"
 
@@ -84,6 +84,7 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
       read_time: true
       comments: true
@@ -91,11 +92,11 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
-      layout: single
       author_profile: true
+      classes: wide
 
 category_archive:
   type: liquid
