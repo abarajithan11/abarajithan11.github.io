@@ -107,6 +107,45 @@
   width: 100%;
 }
 
+.video-embed {
+  margin: 1.25rem 0;
+}
+
+.embed-block {
+  margin: 1.25rem 0;
+}
+
+.video-embed__frame {
+  aspect-ratio: 16 / 9;
+  background: #000;
+  width: 100%;
+}
+
+.video-embed__frame iframe {
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.video-embed__caption {
+  font-size: 0.88em;
+  margin-top: 0.45rem;
+}
+
+.slides-embed__frame {
+  aspect-ratio: 4 / 3;
+  background: #f3f3f3;
+  width: 100%;
+}
+
+.slides-embed__frame iframe {
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 @media (max-width: 40em) {
   .entry-gallery {
     grid-template-columns: 1fr;
