@@ -18,19 +18,22 @@ I am a PhD student in Kastner Research Lab @ UCSD CSE, focusing on hardware secu
 ## Projects
 
 * **[SoC Fuzzing Benchmark](/soc-fuzzing-benchmark/)**
-  A framework to evaluate hardware verification methods by automatically injecting bugs into SoC IPs, providing a standardized testbed for fuzzers like Intel PreSiFuzz and RFuzz against industrial AXI cores.
+  A standardized testbed to evaluate hardware fuzzers like Intel PreSiFuzz and RFuzz. Maps their bytestreams into AXI and test them on SoC IPs with automatically injected bugs.
 
 * **[CGRA4ML](/cgra4ml/)**
-  An open-source, automated framework for mapping DNNs from Python to custom parameterizable SystemVerilog CGRAs with C Firmware on FPGA and ASIC targets for scientific edge computing.
+  An open-source, automated framework for scientific edge computing. Maps DNNs from Python to custom, parameterizable SystemVerilog CGRAs with C firmware, targeting FPGAs and custom ASICs.
   
 * **[FireBridge](/firebridge/)**
-  A framework for transactional verification of AXI subsystems in SystemVerilog with real C firmware through DPI-C without simulating a CPU, enabling rapid FW/HW co-development.
+  A framework for system-level verification enabling rapid Firmware/Hardware co-development. Bridges SystemVerilog AXI subsystems to real C firmware via DPI-C, without simulating a CPU.
+
+* **[SystemVerilog Course for 300 students](/systemverilog-course/)**
+  64-hour short course, collaborating with Synopsys, covering RTL design, randomized transactional testbenches, AXI protocol design, FPGA & ASIC flow labs.
 
 * **[Formal AXI Verification Stack](/formal-axi/)**
   A reusable Formal VIP for AXI4 and AXI5 protocols and for complex IPs like interconnects being built and tested against both open-source and commercial tools.
 
-* **[Formally Verified AXI Stream Systolic Array](/axis-systolic-array-testbed/)**
-  A lightweight, highly parameterizable systolic array in SystemVerilog, integrated with Ibex-SoC via AXI DMAs, a custom DMA controller and corresponding C firmware. I'm currently formally verifying this using ghost abstractions.
+* **[AXI Stream Systolic Array](/axis-systolic-array-testbed/)**
+  A lightweight, highly parameterizable systolic array in SV, integrated with Ibex-SoC via AXI DMAs, a custom DMA controller, and corresponding C firmware. Currently being formally verified.
 
 ## Publications
 
