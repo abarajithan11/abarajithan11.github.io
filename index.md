@@ -40,3 +40,20 @@ I am an engineer and researcher focusing on hardware security and verification, 
 * **Kraken: An Efficient Engine with a Uniform Dataflow for Deep Neural Networks**. G Abarajithan, CUS Edussooriya. *arXiv preprint arXiv:2112.02793, 2021.*
 * **A mostly-online CAS teaching experience**. C Wijenayake, K Wickremasinghe, G Abarajithan, A Madanayake, et al. *2022 IEEE International Symposium on Circuits and Systems (ISCAS), 1783-1787, 2022.*
 * **Machine Learning on Heterogeneous, Edge, and Quantum Hardware for Particle Physics (ML-HEQUPP)**. J Gonski, J Ott, S Abbaszadeh, S Addepalli, M Cremonesi, J Dickinson, et al. *2026.*
+
+## Contact Me
+
+<form
+  action="https://formspree.io/f/mjgapveo"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit">Send</button>
+</form>
