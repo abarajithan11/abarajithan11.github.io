@@ -4,3 +4,9 @@
     - "Australia"
     - "Nature"
     - "Travels"
+- title: "Other"
+  children:
+    - "Stories"
+    - "Thoughts"
+    - "Reviews"
+    - "Community Work"

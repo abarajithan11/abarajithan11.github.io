@@ -38,7 +38,7 @@ This repo includes small matrix/vector experiments such as `gemv`, `gemv_opt`, a
 
 ![]({{ site.content_base_url }}/images/2026/aie_autoenc_matlab.png)
 
-That work later evolved into this repository where some undegrad students work on optimizing intrinsics for GEMV and GEMM: **[aie-intrinsics-nn](https://github.com/KastnerRG/aie-intrinsics-nn). This effort moved toward a more structured intrinsics-based workflow for small neural-network style building blocks. The focus was on reusable kernels and a clearer path from GemV-style experiments toward denser NN-style compositions.
+That work later evolved into this repository where some undegrad students work on optimizing intrinsics for GEMV and GEMM: **[aie-intrinsics-nn](https://github.com/KastnerRG/aie-intrinsics-nn)**. This effort moved toward a more structured intrinsics-based workflow for small neural-network style building blocks. The focus was on reusable kernels and a clearer path from GemV-style experiments toward denser NN-style compositions.
 
 ## Lightweight backend work for hls4ml
 
