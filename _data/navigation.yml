@@ -1,9 +1,11 @@
 main:
+  - title: "Home"
+    url: /index/
   - title: "CV"
     url: https://pub-0718e0124bee4fb880ecad10710509d5.r2.dev/content/resume.pdf
-  - title: "Publications"
+  - title: "Papers"
     url: /publications/
-  - title: "Engineering"
+  - title: "Projects"
     url: /my-work/
   - title: "Teaching"
     url: /teaching/
