@@ -22,35 +22,6 @@ I wanted to quickly co-develop SystemVerilog hardware and C firmware. This led m
 - Seamlessly integrates with Ibex and typical RISC-V toolchains.
 - Supports randomized ready/valid throttling, which uncovers subtle corner cases.
 
-### Technical Details
-
-I built an SV + C harness that behaves in simulation as an AXI Interconnect + CPU. The C firmware is compiled and executed in the host machine (x86). The register writes & reads are mapped to SV tasks that drive the AXI slave interfaces. The AXI master ports of the subsystem read/write from the host machine's DDR through C functions.
-
-```c
-#ifdef SIM
-  extern void fb_task_write_reg(uint64_t addr, uint64_t data);
-  extern void fb_task_read_reg(uint64_t addr);
-  extern uint64_t fb_fn_read_reg(void);
-
-  static inline fb_reg_t fb_read_reg(fb_reg_t *addr) {
-    fb_task_read_reg((uint64_t)(uintptr_t)addr);
-    return (fb_reg_t)fb_fn_read_reg();
-  }
-  static inline void fb_write_reg(fb_reg_t *addr, fb_reg_t data) {
-    fb_task_write_reg((uint64_t)(uintptr_t)addr, (uint64_t)data);
-  }
-#else
-  static inline fb_reg_t fb_read_reg(fb_reg_t *addr) {
-    return *addr;
-  }
-  static inline void fb_write_reg(fb_reg_t *addr, fb_reg_t data) {
-    *addr = data;
-  }
-#endif
-```
-
-I built a Makefile flow to make this setup work with XSim and Xcelium. The entire setup is also containerized in Docker for reproducibility.
-
 ### How to use
 
 C Firmware:
@@ -95,16 +66,11 @@ module tb;
   ) FB (.*);
 
   my_ip DUT (
-    .clk(clk), .rstn(rstn),
-    ...
-    .s_axi0_awaddr (s_axi_awaddr[0]),
-    ...
-    .s_axi1_awaddr (s_axi_awaddr[1]),
-    ...
-    .m_axi0_araddr (m_axi_araddr[0]),
-    ...
-    .m_axi1_araddr (m_axi_araddr[1]),
-    ...
+    .clk(clk), .rstn(rstn), ...
+    .s_axi0_awaddr (s_axi_awaddr[0]), ...
+    .s_axi1_awaddr (s_axi_awaddr[1]), ...
+    .m_axi0_araddr (m_axi_araddr[0]), ...
+    .m_axi1_araddr (m_axi_araddr[1]), ...
   );
 
   initial begin
@@ -116,6 +82,35 @@ module tb;
 endmodule
 
 ```
+
+### Technical Details
+
+I built an SV + C harness that behaves in simulation as an AXI Interconnect + CPU. The C firmware is compiled and executed in the host machine (x86). The register writes & reads are mapped to SV tasks that drive the AXI slave interfaces. The AXI master ports of the subsystem read/write from the host machine's DDR through C functions.
+
+```c
+#ifdef SIM
+  extern void fb_task_write_reg(uint64_t addr, uint64_t data);
+  extern void fb_task_read_reg(uint64_t addr);
+  extern uint64_t fb_fn_read_reg(void);
+
+  static inline fb_reg_t fb_read_reg(fb_reg_t *addr) {
+    fb_task_read_reg((uint64_t)(uintptr_t)addr);
+    return (fb_reg_t)fb_fn_read_reg();
+  }
+  static inline void fb_write_reg(fb_reg_t *addr, fb_reg_t data) {
+    fb_task_write_reg((uint64_t)(uintptr_t)addr, (uint64_t)data);
+  }
+#else
+  static inline fb_reg_t fb_read_reg(fb_reg_t *addr) {
+    return *addr;
+  }
+  static inline void fb_write_reg(fb_reg_t *addr, fb_reg_t data) {
+    *addr = data;
+  }
+#endif
+```
+
+I built a Makefile flow to make this setup work with XSim and Xcelium. The entire setup is also containerized in Docker for reproducibility.
 
 ### Problems Faced and Solved
 
