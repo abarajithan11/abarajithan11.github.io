@@ -51,10 +51,76 @@ I built an SV + C harness that behaves in simulation as an AXI Interconnect + CP
 
 I built a Makefile flow to make this setup work with XSim and Xcelium. The entire setup is also containerized in Docker for reproducibility.
 
+### How to use
+
+C Firmware:
+
+```c
+#define CFG0_BASE 0xA0000000u
+#define CFG1_BASE 0xA1000000u
+
+fb_reg_t *cfg0 = (fb_reg_t*)CFG0_BASE;  // slave window 0
+fb_reg_t *cfg1 = (fb_reg_t*)CFG1_BASE;  // slave window 1
+
+fb_write_reg(cfg0 + 1, 10); // write 10 to the 2nd register in slave 0
+fb_write_reg(cfg1 + 5, 20); // write 20 to the 6th register in slave 0
+```
+
+SystemVerilog Testbench:
+
+```verilog
+module tb;
+  localparam int S_COUNT = 2, M_COUNT = 2;
+
+  // VIP -> DUT slave windows (MMIO)
+  wire [S_COUNT-1:0][ID_W  -1:0] s_axi_awid;
+  wire [S_COUNT-1:0][ADDR_W-1:0] s_axi_awaddr;
+  ...
+  // DUT masters -> VIP DDR
+  wire [M_COUNT-1:0][ID_W  -1:0] m_axi_arid;
+  wire [M_COUNT-1:0][ADDR_W-1:0] m_axi_araddr;
+  ...
+
+  // Two slave base addrs. Concatenation corresponds to indices [1], [0].
+  localparam [S_COUNT-1:0][31:0] S_BASE = {
+    32'hA100_0000,  // s=1 (window 1)
+    32'hA000_0000   // s=0 (window 0)
+  };
+
+  fb_axi_vip #(
+    .S_COUNT(S_COUNT),
+    .M_COUNT(M_COUNT),
+    .S_AXI_BASE_ADDR(S_BASE),
+    ...
+  ) FB (.*);
+
+  my_ip DUT (
+    .clk(clk), .rstn(rstn),
+    ...
+    .s_axi0_awaddr (s_axi_awaddr[0]),
+    ...
+    .s_axi1_awaddr (s_axi_awaddr[1]),
+    ...
+    .m_axi0_araddr (m_axi_araddr[0]),
+    ...
+    .m_axi1_araddr (m_axi_araddr[1]),
+    ...
+  );
+
+  initial begin
+    repeat (2) @(posedge clk);
+    rstn = 1;
+    wait (firebridge_done);
+    $finish;
+  end
+endmodule
+
+```
+
 ### Problems Faced and Solved
 
-A real CPU stalls and has stalls and cache misses. While FireBridge doesn't model these exact CPU stalls, I implemented randomized delays and randomized ready/valid backpressure on the AXI channels. This ended up being far more effective at catching timing bugs in the DMA and Systolic Array than standard CPU execution.
+A real CPU stalls and cache misses. While FireBridge doesn't model these exact CPU stalls, I implemented randomized delays and randomized ready/valid backpressure on the AXI channels. This ended up being far more effective at catching timing bugs in the DMA and Systolic Array than standard CPU execution.
 
 Integrating the full Ibex SoC for final validation proved this approach. The design verified via FireBridge worked as is on the actual Ibex-driven SoC simulation, and on FPGA with ARM-based Zynq SoC.
 
-You can check out the testbed and the code here: [GitHub - axis-systolic-array](https://github.com/abarajithan11/axis-systolic-array)
+You can check out the testbed and the code here: [GitHub](https://github.com/abarajithan11/axis-systolic-array/tree/master/firebridge)
