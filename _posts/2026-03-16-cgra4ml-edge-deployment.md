@@ -1,5 +1,5 @@
 ---
-title: 'CGRA4ML: from model to custom SoC and edge deployment'
+title: 'CGRA4ML: An End-to-End Framework for Deploying DNNs on FPGAs and ASICs'
 date: 2026-03-16 20:10:00
 categories:
   - 'Engineering'
