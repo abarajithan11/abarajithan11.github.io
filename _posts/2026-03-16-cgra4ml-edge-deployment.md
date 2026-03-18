@@ -13,7 +13,7 @@ permalink: /cgra4ml/
 
 CGRA4ML is an open-source, modular hardware/software co-design framework built to implement deep neural networks (DNNs) for scientific edge computing applications.
 
-*Read the framework paper:* [CGRA4ML: A Hardware/Software Framework to Implement Neural Networks for Scientific Edge Computing](https://dl.acm.org/doi/10.1145/3801097)
+**[Read our framework paper at ACM TRETS](https://dl.acm.org/doi/10.1145/3801097)**
 
 While existing tools like hls4ml and FINN excel at small, low-latency models, they often struggle to scale to deeper networks. This is due to their layer-by-layer dataflow architecture, which consumes increasing hardware resources as model depth grows. CGRA4ML addresses this by employing a lightweight and highly parameterizable Coarse-Grained Reconfigurable Array (CGRA) that reuses processing elements (PEs) across layers. This approach enables the deployment of larger models, such as ResNet-50 and PointNet, on FPGAs and ASICs.
 
@@ -29,6 +29,7 @@ While existing tools like hls4ml and FINN excel at small, low-latency models, th
 * Supports full System-on-Chip integration (e.g., ZYNQ, Ibex RISC-V SoC, ARM NanoSoC).
 
 ![]({{ site.content_base_url }}/images/2026/cgra4ml_sys.png)
+
 ![]({{ site.content_base_url }}/images/2026/cgra4ml_infra.png)
 
 ## Unified Dataflow
