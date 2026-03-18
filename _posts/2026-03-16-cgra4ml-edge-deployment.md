@@ -28,7 +28,7 @@ While existing tools like hls4ml and FINN excel at small, low-latency models, th
 * Verification via [FireBridge](/firebridge/) & [AXI-Stream VIP](/reusable-axis-vip/): Comprehensive system verification using SystemVerilog DPI-C wrappers and a testbench that runs the same C-firmware to uncover real memory congestion bugs with randomized AXI `ready/valid` signals.
 * Supports full System-on-Chip integration (e.g., ZYNQ, Ibex RISC-V SoC, ARM NanoSoC).
 
-![]({{ site.content_base_url }}/images/2026/cgra4ml_sys.png)
+![]({{ site.content_base_url }}/images/2026/cgra4ml_soc.png)
 
 ![]({{ site.content_base_url }}/images/2026/cgra4ml_infra.png)
 
