@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username: abarajithan11
 minimal_mistakes_skin: "contrast"
 search: true
-content_base_url: "https://media.abapages.com"
+content_base_url: "https://media.abapages.com/content"
 
 # Build settings
 markdown: kramdown
@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "G Abarajithan"
-  avatar : "https://pub-0718e0124bee4fb880ecad10710509d5.r2.dev/content/images/bio-photo.jpg"
+  avatar : "https://media.abapages.com/content/images/bio-photo.jpg"
   bio    : "PhD student @ UC San Diego working on Hardware Security & Verification, Custom Hardware for Edge AI and SoC-level Integration"
   links:
     - label: "Website"
