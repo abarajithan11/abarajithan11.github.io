@@ -27,14 +27,11 @@ I wanted to quickly co-develop SystemVerilog hardware and C firmware. This led m
 C Firmware:
 
 ```c
-#define CFG0_BASE 0xA0000000u
-#define CFG1_BASE 0xA1000000u
-
-fb_reg_t *cfg0 = (fb_reg_t*)CFG0_BASE;  // slave window 0
-fb_reg_t *cfg1 = (fb_reg_t*)CFG1_BASE;  // slave window 1
+fb_reg_t *cfg0 = (fb_reg_t*)0xA0000000u;  // slave window 0
+fb_reg_t *cfg1 = (fb_reg_t*)0xA1000000u;  // slave window 1
 
 fb_write_reg(cfg0 + 1, 10); // write 10 to the 2nd register in slave 0
-fb_write_reg(cfg1 + 5, 20); // write 20 to the 6th register in slave 0
+fb_write_reg(cfg1 + 5, 20); // write 20 to the 6th register in slave 1
 ```
 
 SystemVerilog Testbench:

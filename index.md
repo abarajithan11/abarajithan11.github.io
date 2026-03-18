@@ -24,7 +24,7 @@ I am a PhD student in Kastner Research Lab @ UCSD CSE, focusing on hardware secu
   An open-source, automated framework for scientific edge computing. Maps DNNs from Python to custom, parameterizable SystemVerilog CGRAs with C firmware, targeting FPGAs and custom ASICs.
   
 * **[FireBridge](/firebridge/)**
-  A framework for system-level verification enabling rapid Firmware/Hardware co-development. Bridges SystemVerilog AXI subsystems to real C firmware via DPI-C, without simulating a CPU.
+  A framework to enable rapid Firmware/Hardware co-development at the system-level. Bridges SystemVerilog AXI subsystems to real C firmware via DPI-C, without simulating a CPU.
 
 * **[SystemVerilog Course for 300 students](/systemverilog-course/)**
   64-hour short course, collaborating with Synopsys, covering RTL design, randomized transactional testbenches, AXI protocol design, FPGA & ASIC flow labs.
