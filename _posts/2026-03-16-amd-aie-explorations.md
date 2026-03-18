@@ -1,6 +1,6 @@
 ---
 title: 'AI Engine Experiments'
-date: 2026-03-16 20:40:00
+date: 2025-10-25 20:40:00
 categories:
   - 'Engineering'
   - 'My Work'

@@ -1,6 +1,6 @@
 ---
 title: 'FireBridge: Verifying SoC Subsystems with Real Firmware Without Simulating a CPU'
-date: 2026-03-16 20:00:00
+date: 2026-11-10 20:00:00
 categories:
   - 'Engineering'
   - 'My Work'

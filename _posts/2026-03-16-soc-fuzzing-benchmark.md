@@ -1,6 +1,6 @@
 ---
 title: 'A Framework to Evaluate Verification Methods by Automatically Injecting Bugs into SoC IPs'
-date: 2026-03-16 20:00:00
+date: 2026-03-10 20:00:00
 categories:
   - 'Engineering'
   - 'My Work'

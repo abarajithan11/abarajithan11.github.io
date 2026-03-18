@@ -1,6 +1,6 @@
 ---
 title: 'AXI-Stream Systolic Array → SoC Testbed'
-date: 2026-03-16 20:15:00
+date: 2025-12-10 20:15:00
 categories:
   - 'Engineering'
   - 'My Work'
