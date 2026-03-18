@@ -1,7 +1,85 @@
 document.addEventListener("DOMContentLoaded", function () {
+  function createTagLink(tagPage) {
+    const link = document.createElement("a");
+    link.href = tagPage.url;
+    link.textContent = tagPage.title;
+    return link;
+  }
+
+  function createTagItem(tagPage, tagNameOverride) {
+    const item = document.createElement("li");
+    item.className = "sidebar-tags__item";
+
+    const link = createTagLink(tagPage);
+    if (tagNameOverride) link.textContent = tagNameOverride;
+
+    item.appendChild(link);
+    return item;
+  }
+
+  function buildSidebarTagNodes() {
+    if (!Array.isArray(window.siteTagPages) || window.siteTagPages.length === 0) {
+      return [];
+    }
+
+    const tagPagesByTitle = new Map();
+    window.siteTagPages.forEach(function (tagPage) {
+      tagPagesByTitle.set(tagPage.title, tagPage);
+    });
+
+    const groupedTitles = new Set();
+    const nodes = [];
+
+    if (Array.isArray(window.siteTagHierarchy)) {
+      window.siteTagHierarchy.forEach(function (group) {
+        if (!group || !group.title || !Array.isArray(group.children)) return;
+
+        const childPages = group.children
+          .map(function (childTitle) {
+            const tagPage = tagPagesByTitle.get(childTitle);
+            if (tagPage) groupedTitles.add(childTitle);
+            return tagPage || null;
+          })
+          .filter(Boolean);
+
+        if (childPages.length === 0) return;
+
+        const item = document.createElement("li");
+        item.className = "sidebar-tags__group";
+
+        const details = document.createElement("details");
+
+        const summary = document.createElement("summary");
+        summary.textContent = group.title;
+        details.appendChild(summary);
+
+        const childList = document.createElement("ul");
+        childList.className = "sidebar-tags__children";
+
+        childPages.forEach(function (tagPage) {
+          childList.appendChild(createTagItem(tagPage));
+        });
+
+        details.appendChild(childList);
+        item.appendChild(details);
+        nodes.push(item);
+      });
+    }
+
+    window.siteTagPages.forEach(function (tagPage) {
+      if (groupedTitles.has(tagPage.title)) return;
+      nodes.push(createTagItem(tagPage));
+    });
+
+    return nodes;
+  }
+
   function injectSidebarTags() {
     if (!Array.isArray(window.siteTagPages) || window.siteTagPages.length === 0) return;
     if (document.querySelector(".sidebar-tags__heading")) return;
+
+    const tagNodes = buildSidebarTagNodes();
+    if (tagNodes.length === 0) return;
 
     const urlsList = document.querySelector(".sidebar .author__urls");
     if (urlsList) {
@@ -10,16 +88,8 @@ document.addEventListener("DOMContentLoaded", function () {
       heading.textContent = "Tags";
       urlsList.appendChild(heading);
 
-      window.siteTagPages.forEach(function (tagPage) {
-        const item = document.createElement("li");
-        item.className = "sidebar-tags__item";
-
-        const link = document.createElement("a");
-        link.href = tagPage.url;
-        link.textContent = tagPage.title;
-
-        item.appendChild(link);
-        urlsList.appendChild(item);
+      tagNodes.forEach(function (node) {
+        urlsList.appendChild(node);
       });
       return;
     }
@@ -35,18 +105,14 @@ document.addEventListener("DOMContentLoaded", function () {
     title.textContent = "Tags";
     section.appendChild(title);
 
-    window.siteTagPages.forEach(function (tagPage) {
-      const item = document.createElement("div");
-      item.className = "sidebar-tags__item";
+    const list = document.createElement("ul");
+    list.className = "author__urls social-icons";
 
-      const link = document.createElement("a");
-      link.href = tagPage.url;
-      link.textContent = tagPage.title;
-
-      item.appendChild(link);
-      section.appendChild(item);
+    tagNodes.forEach(function (node) {
+      list.appendChild(node);
     });
 
+    section.appendChild(list);
     authorContent.insertAdjacentElement("afterend", section);
   }
 
