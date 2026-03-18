@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: /index/
+    url: /
   - title: "CV"
     url: https://pub-0718e0124bee4fb880ecad10710509d5.r2.dev/content/resume.pdf
   - title: "Papers"
@@ -11,9 +11,5 @@ main:
     url: /teaching/
   - title: "Travel"
     url: /travel/
-  - title: "Other"
-    url: /other/
   - title: "Tags"
     url: /tags/
-  - title: "Posts"
-    url: /posts/

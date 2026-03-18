@@ -68,8 +68,11 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/abarajithan11"
     - label: "Scholar"
-      icon: "fab fa-fw fa-link"
+      icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=7T40DhoAAAAJ"
+    - label: "All posts"
+      icon: "fas fa-fw fa-newspaper"
+      url: "/posts/"
 
 footer:
   links:
@@ -80,8 +83,11 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/abarajithan11"
     - label: "Scholar"
-      icon: "fab fa-fw fa-link"
+      icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=7T40DhoAAAAJ"
+    - label: "All posts"
+      icon: "fas fa-fw fa-newspaper"
+      url: "/posts/"
 
 defaults:
   # _posts
@@ -110,3 +116,4 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
