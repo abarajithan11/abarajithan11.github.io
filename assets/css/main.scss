@@ -281,3 +281,11 @@
     max-height: calc(100vh - 2rem);
   }
 }
+
+.year-archive-section + .year-archive-section {
+  margin-top: 2.5rem;
+}
+
+.year-archive-heading {
+  margin-bottom: 1rem;
+}

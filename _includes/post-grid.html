@@ -1,4 +1,6 @@
-{% if include.category %}
+{% if include.posts %}
+  {% assign grid_posts = include.posts %}
+{% elsif include.category %}
   {% assign grid_posts = site.posts | where_exp: "post", "post.categories contains include.category" %}
 {% elsif include.tag %}
   {% assign grid_posts = site.posts | where_exp: "post", "post.tags contains include.tag" %}

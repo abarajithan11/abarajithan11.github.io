@@ -2,7 +2,6 @@
 title: 'SystemVerilog Course at Scale'
 date: 2026-03-15 20:45:00
 last_modified_at: 2026-03-15 20:45:00
-teaser: /images/2026/03/sv-course.png
 categories:
   - 'Engineering'
   - 'Teaching'
