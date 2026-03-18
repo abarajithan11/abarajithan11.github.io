@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-### [CGRA4ML: A Hardware/Software Framework to Implement Neural Networks for Scientific Edge Computing](https://arxiv.org/abs/2408.15561)
+### [CGRA4ML: A Hardware/Software Framework to Implement Neural Networks for Scientific Edge Computing](https://dl.acm.org/doi/10.1145/3801097)
   
 An open-source, modular framework generating a parameterizable Coarse-Grained Reconfigurable Array (CGRA) in synthesizable SystemVerilog RTL, tailored to common ML compute patterns for scientific applications.
 *G Abarajithan, Z Ma, R Munasinghe, F Restuccia, R Kastner. ACM Transactions on Reconfigurable Technology and Systems, 2026.* 

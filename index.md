@@ -37,12 +37,9 @@ I am a PhD student in Kastner Research Lab @ UCSD CSE, focusing on hardware secu
 
 ## Publications
 
-* **CGRA4ML: A Hardware/Software Framework to Implement Neural Networks for Scientific Edge Computing**. G Abarajithan, Z Ma, R Munasinghe, F Restuccia, R Kastner. *ACM Transactions on Reconfigurable Technology and Systems, 2026/2024.*
-* **Tailor: Altering Skip Connections for Resource-Efficient Inference**. O Weng, G Marcano, V Loncar, A Khodamoradi, G Abarajithan, et al. *ACM Transactions on Reconfigurable Technology and Systems 17 (1), 1-23, 2024.*
-* **Within-Camera Multilayer Perceptron DVS Denoising**. A Rios-Navarro, S Guo, G Abarajithan, K Vijayakumar, et al. *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2023.*
-* **Kraken: An Efficient Engine with a Uniform Dataflow for Deep Neural Networks**. G Abarajithan, CUS Edussooriya. *arXiv preprint arXiv:2112.02793, 2021.*
-* **A mostly-online CAS teaching experience**. C Wijenayake, K Wickremasinghe, G Abarajithan, A Madanayake, et al. *2022 IEEE International Symposium on Circuits and Systems (ISCAS), 1783-1787, 2022.*
-* **Machine Learning on Heterogeneous, Edge, and Quantum Hardware for Particle Physics (ML-HEQUPP)**. J Gonski, J Ott, S Abbaszadeh, S Addepalli, M Cremonesi, J Dickinson, et al. *2026.*
+* **[CGRA4ML: A Hardware/Software Framework to Implement Neural Networks for Scientific Edge Computing](https://dl.acm.org/doi/10.1145/3801097)**. G Abarajithan, Z Ma, R Munasinghe, F Restuccia, R Kastner. *ACM Transactions on Reconfigurable Technology and Systems, 2026/2024.*
+* **[Within-Camera Multilayer Perceptron DVS Denoising](https://arxiv.org/abs/2304.07543)**. A Rios-Navarro, S Guo, G Abarajithan, K Vijayakumar, et al. *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2023.*
+* **[Kraken: An Efficient Engine with a Uniform Dataflow for Deep Neural Networks](https://arxiv.org/abs/2112.02793)**. G Abarajithan, CUS Edussooriya. *arXiv preprint arXiv:2112.02793, 2021.*
 
 ## Contact Me
 
