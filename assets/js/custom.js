@@ -1,4 +1,36 @@
 document.addEventListener("DOMContentLoaded", function () {
+  function normalizePathname(pathname) {
+    if (!pathname) return "/";
+    const normalized = pathname.replace(/\/+$/, "");
+    return normalized === "" ? "/" : normalized;
+  }
+
+  function hideHomeNavOnHomepage() {
+    if (normalizePathname(window.location.pathname) !== "/") return;
+
+    document.querySelectorAll(".greedy-nav a").forEach(function (link) {
+      const href = link.getAttribute("href");
+      if (!href) return;
+
+      let linkPathname = href;
+      try {
+        linkPathname = new URL(href, window.location.origin).pathname;
+      } catch (_error) {
+        return;
+      }
+
+      if (normalizePathname(linkPathname) !== "/") return;
+      if (link.textContent.trim() !== "Home") return;
+
+      const listItem = link.closest("li");
+      if (listItem) {
+        listItem.style.display = "none";
+      } else {
+        link.style.display = "none";
+      }
+    });
+  }
+
   function createTagLink(tagPage) {
     const link = document.createElement("a");
     link.href = tagPage.url;
@@ -494,6 +526,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const lightbox = createLightbox();
+  hideHomeNavOnHomepage();
   injectSidebarTags();
 
   document.querySelectorAll(".page__content").forEach(function (content) {
