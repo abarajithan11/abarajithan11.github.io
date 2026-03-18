@@ -32,7 +32,7 @@ I am a PhD student in Kastner Research Lab @ UCSD CSE, focusing on hardware secu
 * **Formal AXI Verification Stack:**
   A reusable Formal VIP for AXI4 and AXI5 protocols and for complex IPs like interconnects being built and tested against both open-source and commercial tools. **[More](/formal-axi/)**
 
-* **AXI Stream Systolic Array:*
+* **AXI Stream Systolic Array:**
   A lightweight, highly parameterizable systolic array in SV, integrated with Ibex-SoC via AXI DMAs, a custom DMA controller, and corresponding C firmware. Currently being formally verified. **[More](/axis-systolic-array-testbed/)**
 
 ## Publications
