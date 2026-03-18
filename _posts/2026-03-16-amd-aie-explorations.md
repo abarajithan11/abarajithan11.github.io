@@ -1,5 +1,5 @@
 ---
-title: 'AI Engine explorations'
+title: 'AI Engine Experiments'
 date: 2026-03-16 20:40:00
 categories:
   - 'Engineering'
