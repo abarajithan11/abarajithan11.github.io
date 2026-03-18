@@ -44,12 +44,12 @@ module tb;
   localparam int S_COUNT = 2, M_COUNT = 2;
 
   // VIP -> DUT slave windows (MMIO)
-  wire [S_COUNT-1:0][ID_W  -1:0] s_axi_awid;
-  wire [S_COUNT-1:0][ADDR_W-1:0] s_axi_awaddr;
+  logic [S_COUNT-1:0][ID_W  -1:0] s_axi_awid;
+  logic [S_COUNT-1:0][ADDR_W-1:0] s_axi_awaddr;
   ...
   // DUT masters -> VIP DDR
-  wire [M_COUNT-1:0][ID_W  -1:0] m_axi_arid;
-  wire [M_COUNT-1:0][ADDR_W-1:0] m_axi_araddr;
+  logic [M_COUNT-1:0][ID_W  -1:0] m_axi_arid;
+  logic [M_COUNT-1:0][ADDR_W-1:0] m_axi_araddr;
   ...
 
   // Two slave base addrs. Concatenation corresponds to indices [1], [0].
@@ -80,7 +80,6 @@ module tb;
     $finish;
   end
 endmodule
-
 ```
 
 ### Technical Details
