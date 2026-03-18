@@ -189,6 +189,72 @@ document.addEventListener("DOMContentLoaded", function () {
     return null;
   }
 
+  function getGoogleSlidesEmbedUrl(rawUrl) {
+    let url;
+
+    try {
+      url = new URL(rawUrl);
+    } catch (_error) {
+      return null;
+    }
+
+    if (url.hostname !== "docs.google.com") return null;
+    if (!url.pathname.includes("/presentation/")) return null;
+    if (!url.pathname.endsWith("/embed")) return null;
+
+    url.protocol = "https:";
+    return url.toString();
+  }
+
+  function getGoogleDrivePreviewUrl(rawUrl) {
+    let url;
+
+    try {
+      url = new URL(rawUrl);
+    } catch (_error) {
+      return null;
+    }
+
+    if (url.hostname !== "drive.google.com") return null;
+    if (!url.pathname.endsWith("/preview")) return null;
+
+    url.protocol = "https:";
+    return url.toString();
+  }
+
+  function getGoogleSheetsEmbedUrl(rawUrl) {
+    let url;
+
+    try {
+      url = new URL(rawUrl);
+    } catch (_error) {
+      return null;
+    }
+
+    if (url.hostname !== "docs.google.com") return null;
+    if (!url.pathname.includes("/spreadsheets/")) return null;
+    if (!url.pathname.endsWith("/pubhtml")) return null;
+
+    url.protocol = "https:";
+    return url.toString();
+  }
+
+  function getOneDriveEmbedUrl(rawUrl) {
+    let url;
+
+    try {
+      url = new URL(rawUrl);
+    } catch (_error) {
+      return null;
+    }
+
+    if (url.hostname !== "onedrive.live.com") return null;
+    if (!url.pathname.endsWith("/embed")) return null;
+
+    url.protocol = "https:";
+    return url.toString();
+  }
+
   function isStandaloneLinkParagraph(node) {
     if (!node || node.tagName !== "P") return false;
     if (node.childElementCount !== 1) return false;
@@ -199,6 +265,41 @@ document.addEventListener("DOMContentLoaded", function () {
     return node.textContent.trim() === child.textContent.trim();
   }
 
+  function createEmbedBlock(paragraph, embedUrl, options) {
+    const wrapper = document.createElement("div");
+    wrapper.className = `embed-block ${options.wrapperClass}`;
+
+    const frame = document.createElement("div");
+    frame.className = options.frameClass;
+
+    const iframe = document.createElement("iframe");
+    iframe.src = embedUrl;
+    iframe.title = options.defaultTitle;
+    iframe.loading = "lazy";
+    iframe.allowFullscreen = true;
+
+    if (options.allow) iframe.allow = options.allow;
+    if (options.referrerPolicy) iframe.referrerPolicy = options.referrerPolicy;
+
+    frame.appendChild(iframe);
+    wrapper.appendChild(frame);
+
+    const link = paragraph.firstElementChild;
+    const label = link.textContent.trim();
+    if (
+      label &&
+      label.toLowerCase() !== "embedded media" &&
+      label !== link.href
+    ) {
+      const caption = document.createElement("div");
+      caption.className = "video-embed__caption";
+      caption.textContent = label;
+      wrapper.appendChild(caption);
+    }
+
+    paragraph.replaceWith(wrapper);
+  }
+
   function upgradeYouTubeEmbeds(content) {
     content.querySelectorAll("p").forEach(function (paragraph) {
       if (!isStandaloneLinkParagraph(paragraph)) return;
@@ -207,33 +308,14 @@ document.addEventListener("DOMContentLoaded", function () {
       const embedUrl = getYouTubeEmbedUrl(link.href);
       if (!embedUrl) return;
 
-      const wrapper = document.createElement("div");
-      wrapper.className = "embed-block video-embed";
-
-      const frame = document.createElement("div");
-      frame.className = "video-embed__frame";
-
-      const iframe = document.createElement("iframe");
-      iframe.src = embedUrl;
-      iframe.title = link.textContent.trim() || "YouTube video";
-      iframe.loading = "lazy";
-      iframe.allow =
-        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-      iframe.referrerPolicy = "strict-origin-when-cross-origin";
-      iframe.allowFullscreen = true;
-
-      frame.appendChild(iframe);
-      wrapper.appendChild(frame);
-
-      const label = link.textContent.trim();
-      if (label && label.toLowerCase() !== "embedded media") {
-        const caption = document.createElement("div");
-        caption.className = "video-embed__caption";
-        caption.textContent = label;
-        wrapper.appendChild(caption);
-      }
-
-      paragraph.replaceWith(wrapper);
+      createEmbedBlock(paragraph, embedUrl, {
+        wrapperClass: "video-embed",
+        frameClass: "video-embed__frame",
+        defaultTitle: link.textContent.trim() || "YouTube video",
+        allow:
+          "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        referrerPolicy: "strict-origin-when-cross-origin"
+      });
     });
   }
 
@@ -245,30 +327,75 @@ document.addEventListener("DOMContentLoaded", function () {
       const embedUrl = getSlideShareEmbedUrl(link.href);
       if (!embedUrl) return;
 
-      const wrapper = document.createElement("div");
-      wrapper.className = "embed-block slides-embed";
+      createEmbedBlock(paragraph, embedUrl, {
+        wrapperClass: "slides-embed",
+        frameClass: "slides-embed__frame",
+        defaultTitle: link.textContent.trim() || "SlideShare presentation"
+      });
+    });
+  }
 
-      const frame = document.createElement("div");
-      frame.className = "slides-embed__frame";
+  function upgradeGoogleSlidesEmbeds(content) {
+    content.querySelectorAll("p").forEach(function (paragraph) {
+      if (!isStandaloneLinkParagraph(paragraph)) return;
 
-      const iframe = document.createElement("iframe");
-      iframe.src = embedUrl;
-      iframe.title = link.textContent.trim() || "SlideShare presentation";
-      iframe.loading = "lazy";
-      iframe.allowFullscreen = true;
+      const link = paragraph.firstElementChild;
+      const embedUrl = getGoogleSlidesEmbedUrl(link.href);
+      if (!embedUrl) return;
 
-      frame.appendChild(iframe);
-      wrapper.appendChild(frame);
+      createEmbedBlock(paragraph, embedUrl, {
+        wrapperClass: "presentation-embed",
+        frameClass: "presentation-embed__frame",
+        defaultTitle: link.textContent.trim() || "Google Slides presentation"
+      });
+    });
+  }
 
-      const label = link.textContent.trim();
-      if (label && label.toLowerCase() !== "embedded media" && label !== link.href) {
-        const caption = document.createElement("div");
-        caption.className = "video-embed__caption";
-        caption.textContent = label;
-        wrapper.appendChild(caption);
-      }
+  function upgradeGoogleDriveEmbeds(content) {
+    content.querySelectorAll("p").forEach(function (paragraph) {
+      if (!isStandaloneLinkParagraph(paragraph)) return;
 
-      paragraph.replaceWith(wrapper);
+      const link = paragraph.firstElementChild;
+      const embedUrl = getGoogleDrivePreviewUrl(link.href);
+      if (!embedUrl) return;
+
+      createEmbedBlock(paragraph, embedUrl, {
+        wrapperClass: "document-embed",
+        frameClass: "document-embed__frame",
+        defaultTitle: link.textContent.trim() || "Google Drive document"
+      });
+    });
+  }
+
+  function upgradeGoogleSheetsEmbeds(content) {
+    content.querySelectorAll("p").forEach(function (paragraph) {
+      if (!isStandaloneLinkParagraph(paragraph)) return;
+
+      const link = paragraph.firstElementChild;
+      const embedUrl = getGoogleSheetsEmbedUrl(link.href);
+      if (!embedUrl) return;
+
+      createEmbedBlock(paragraph, embedUrl, {
+        wrapperClass: "document-embed",
+        frameClass: "document-embed__frame",
+        defaultTitle: link.textContent.trim() || "Google Sheets document"
+      });
+    });
+  }
+
+  function upgradeOneDriveEmbeds(content) {
+    content.querySelectorAll("p").forEach(function (paragraph) {
+      if (!isStandaloneLinkParagraph(paragraph)) return;
+
+      const link = paragraph.firstElementChild;
+      const embedUrl = getOneDriveEmbedUrl(link.href);
+      if (!embedUrl) return;
+
+      createEmbedBlock(paragraph, embedUrl, {
+        wrapperClass: "presentation-embed",
+        frameClass: "presentation-embed__frame",
+        defaultTitle: link.textContent.trim() || "OneDrive presentation"
+      });
     });
   }
 
@@ -306,6 +433,10 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".page__content").forEach(function (content) {
     upgradeYouTubeEmbeds(content);
     upgradeSlideShareEmbeds(content);
+    upgradeGoogleSlidesEmbeds(content);
+    upgradeGoogleDriveEmbeds(content);
+    upgradeGoogleSheetsEmbeds(content);
+    upgradeOneDriveEmbeds(content);
     enableImageLightbox(content, lightbox);
 
     let node = content.firstElementChild;

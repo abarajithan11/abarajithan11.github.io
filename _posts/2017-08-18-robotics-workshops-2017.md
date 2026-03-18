@@ -18,7 +18,7 @@ As with all developing countries, students of Sri Lanka are not exposed to the l
 
 From August 2017 to December 2017, our team organized and conducted six workshops for over 160 students from over 20 schools. Following is the slideshow I prepared for my presentation for students who are absolute beginners for programming and robotics.
 
- 
+[Embedded media](https://www.slideshare.net/slideshow/embed_code/key/FQd28sKqYNCBoC)
 
 The students were very enthusiastic. Being absolute beginners to programming, they quickly learnt to code within a matter of hours and started modified the for loop and while loops to do whatever they want by the end.
 
@@ -40,7 +40,7 @@ We faced several difficulties during the workshops:
 
 Following is a slideshow I created for a nationwide exhibition to explain PID concepts for newbies.
 
- 
+[Embedded media](https://www.slideshare.net/slideshow/embed_code/key/7UvdXF0ZUQT5g6)
 
 ### Few points which I learnt from my experience
 

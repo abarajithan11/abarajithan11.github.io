@@ -22,3 +22,5 @@ Site: [kavigai.org/](http://kavigai.org/)
 - Finding sponsorship, partnerships
 - Building a brand for the non-profit foundation
 - Dealing with university administration and legal bodies
+
+<https://drive.google.com/file/d/1Fe4B9jdsDZtV9NjpLdDnD2aci9K_zDrK/preview>

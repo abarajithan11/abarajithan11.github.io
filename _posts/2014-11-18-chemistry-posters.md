@@ -15,6 +15,12 @@ I created these charts to prepare for my GCE A/L Examinations. When I graduated 
 
 ### Organic Chemistry (Slideshow)
 
- 
+[Embedded media](https://www.slideshare.net/slideshow/embed_code/key/sRYmRjUWHOZoNh)
 
 ### Inorganic Chemistry
+
+<https://drive.google.com/file/d/1185vVB6BxdW8f4twdecYm1wQcI_X-xjL/preview>
+
+<https://drive.google.com/file/d/1eEmZ4aYsRDEiG0UfYxbLM4MHRcVWJItE/preview>
+
+<https://drive.google.com/file/d/1c7UwkM3Q8F7QoVIjO04bxC7EaVGpU_L3/preview>

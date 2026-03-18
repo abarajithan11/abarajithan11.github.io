@@ -36,6 +36,8 @@ For better intuition on wavefunctions and observables of Quantum Mechanics, chec
 
 The intuition I gained from this, led me to write this [explanation of basic QM](/making-sense-of-quantum-mechanics/), and [this rant about how Linear Algebra is introduced poorly](/linear-algebra-a-rant/).
 
+<https://drive.google.com/file/d/1Y47oOdTp-2dujR818NFB1On63MwSjHXq/preview>
+
 ## MATLAB Code
 
 Two of the five Matlab programs I wrote are given here for reference.

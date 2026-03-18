@@ -11,6 +11,8 @@ permalink: /software-design-course/
 
 ![]({{ site.content_base_url }}/images/2021/11/module.png)
 
+<https://drive.google.com/file/d/1an0GZqptvaSXXpSWALi5RvyHFrJ12kPB/preview>
+
 A major curriculum revision for our Department of Electronics and Telecommunications, University of Moratuwa was underway for several years, when I joined as a junior lecturer. Several streams of interest: telecommunications, robotics, electronics...etc. were being revised and overhauled to provide a more coherent and effective learning experience for our students.
 
 ### My other initiatives
