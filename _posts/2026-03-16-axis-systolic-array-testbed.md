@@ -1,5 +1,5 @@
 ---
-title: 'An AXI-stream systolic array that became a full research testbed'
+title: 'AXI-Stream Systolic Array → SoC Testbed'
 date: 2026-03-16 20:15:00
 categories:
   - 'Engineering'

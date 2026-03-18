@@ -1,5 +1,5 @@
 ---
-title: 'Building a lightweight formal AXI verification stack'
+title: 'Lightweight Formal AXI VIP'
 date: 2026-03-16 20:05:00
 categories:
   - 'Engineering'
