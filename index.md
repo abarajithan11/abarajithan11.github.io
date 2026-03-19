@@ -21,7 +21,7 @@ I am a PhD student in Kastner Research Lab @ UCSD CSE, focusing on hardware secu
   A standardized testbed to evaluate hardware fuzzers like Intel PreSiFuzz and RFuzz. Maps their bytestreams into AXI and test them on SoC IPs with automatically injected bugs. **[[more...]](/soc-fuzzing-benchmark/)**
 
 * **CGRA4ML:**
-  An open-source, automated framework for scientific edge computing. Maps DNNs from Python to custom, parameterizable SystemVerilog CGRAs with C firmware, targeting FPGAs and custom ASICs. **[[more...]](/cgra4ml/)**
+  An open-source framework for scientific edge computing that maps DNNs from Python to custom, parameterizable SystemVerilog CGRAs with C firmware with FPGA and ASIC flows. **[[more...]](/cgra4ml/)**
   
 * **FireBridge:**
   A framework to enable rapid Firmware/Hardware co-development at the system-level. Bridges SystemVerilog AXI subsystems to real C firmware via DPI-C, without simulating a CPU. **[[more...]](/firebridge/)**

@@ -18,7 +18,7 @@ url: "https://abapages.com"
 baseurl: ""
 email: agnaneswaran<at>gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  PhD student (CE) building parameterized RTL subsystems (AXI SoCs, DMA control, accelerators) and end-to-end SoC integration (FPGA+ASIC flows). Current work develops Hyperflow-guided hardware security fuzzing with information-flow tracking to expose vulnerabilities in Out-of-Order CPUs and SoC fabrics.
+  PhD student @ UC San Diego. Hardware Security & Verification, Custom Hardware for Edge AI and SoC-level Integration
 # twitter_username: username
 github_username: abarajithan11
 minimal_mistakes_skin: "contrast"
@@ -63,7 +63,7 @@ author:
   name   : "G Abarajithan"
   url    : "https://abapages.com/"
   avatar : "https://media.abapages.com/content/images/bio-photo.jpg"
-  bio    : "PhD student @ UC San Diego working on Hardware Security & Verification, Custom Hardware for Edge AI and SoC-level Integration"
+  bio    : "PhD student @ UC San Diego. Hardware Security & Verification, Custom Hardware for Edge AI and SoC-level Integration"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
