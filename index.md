@@ -10,7 +10,7 @@ I am a PhD student in Kastner Research Lab @ UCSD CSE, focusing on hardware secu
 
 ## Tech Stack
 
-* **Languages:** SystemVerilog (RTL, DV, SVA), Python, C/C++, OpenCL, Bash, Tcl
+* **Languages:** SystemVerilog (RTL, DV, SVA), Python, C/C++, Bash, Tcl
 * **EDA Tools:** AMD/Xilinx Vivado, Cadence Genus, Cadence Innovus, Synopsys Design Compiler
 * **Verification:** Verilator, VCS, Xsim, Questa Formal, SymbiYosys, cocotb
 * **Other:** Git, Docker, LaTeX, GitHub Actions
