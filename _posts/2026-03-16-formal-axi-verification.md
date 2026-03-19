@@ -21,7 +21,7 @@ A standard AXI interface has 5 channels, each with its own handshake protocol an
 
 AXI has both intra-channel rules and inter-channel rules. For example,
 
-* Intra-channel: `araddr` should remain stable during a stall (when `ar_valid` && !`ar_ready`)
+* Intra-channel: `araddr` should remain stable during a stall (when `ar_valid && !ar_ready`)
 * Inter-channel: For narrow bursts, `wstrb` in each beat should match the `awlen`, `awsize`, `awburst` and `awaddr` of the corresponding `aw` beat.
 
 Writing intra-channel SVAs are pretty easy, which I've already done. For inter-channel properties, we need to match the corresponding beats & packets between channels. I'm working on a FIFO abstraction to do this with minimal overhead. [GitHub - formal_fifo](https://github.com/abarajithan11/formal_fifo)
