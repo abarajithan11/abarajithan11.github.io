@@ -80,5 +80,3 @@ One way to temporarily solve it is by using FIFOs of appropriate length on the A
 The real bug was that Alex Forencich's DMA was pre-fetching requests without having enough buffer to hold the responses of its outstanding requests when the output stream stalls. Fixing this within the IP is non-trivial, so I implemented a patch by gating the DMA's request port using the `ready` from the stream side. When the systolic array pulls `ready` down, the DMA thinks the crossbar has also pulled `arready` down and the crossbar thinks DMA has pulled `arvalid` down. This worked, although it is not strictly AXI compliant in a way where `valid` has to be held stable during an `arready` stall.
 
 **[GitHub - axis-systolic-array](https://github.com/abarajithan11/axis-systolic-array)**
-
-

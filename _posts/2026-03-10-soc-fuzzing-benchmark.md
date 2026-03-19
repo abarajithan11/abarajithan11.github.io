@@ -1,5 +1,5 @@
 ---
-title: 'A Framework to Evaluate Verification Methods by Automatically Injecting Bugs into SoC IPs'
+title: 'Hardware Fuzzing Benchmark Framework for AXI'
 date: 2026-03-10 20:00:00
 categories:
   - 'Projects'
@@ -38,5 +38,3 @@ make fuzz_axi FUZZER=hw_like_sw IP=axi_fifo VENDOR=pulp SIM=verilator
 ```
 
 The system automatically spins up the target IP, binds the harness, and begins bombarding the design with packed fuzzed bytes to uncover edge-case behavioral bugs or security violations. By standardizing this, we can easily inject known bugs and quantify precisely which fuzzers identify the faults earliest and with the least overhead. 
-
-

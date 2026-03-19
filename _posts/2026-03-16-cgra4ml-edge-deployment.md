@@ -1,5 +1,5 @@
 ---
-title: 'CGRA4ML: An End-to-End Framework for Deploying DNNs on FPGAs and ASICs'
+title: 'CGRA4ML: Py+SV+C Framework for DNNs → FPGA/ASIC'
 date: 2026-03-16 20:10:00
 categories:
   - 'Projects'
