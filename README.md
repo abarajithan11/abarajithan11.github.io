@@ -9,3 +9,10 @@ Setup:
 * Custom domain - `abapages.com` owned in Cloudflare
 * Cloudflare R2 bucket - Files (images, pdf, video) are stored, with custom domain `media.abapages.com`
 * Old domain - `aba-pages.xyz` owned in Namecheap, managed in Cloudflare to redirect it to the new domain
+* Search Engine
+  * Google Search Console
+  * Bing Webmaster Tools
+* Analytics
+  * Google Analytics 4
+  * Microsoft Clarity
+  * Cloudflare Analytics
