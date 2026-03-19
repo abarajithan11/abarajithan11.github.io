@@ -17,7 +17,7 @@ He came home after 3 months, and immediately went with his friends. After some t
 
 Dad was furious. Went and picked him up. He was blabbering, calling "dad, dad", but dad was angry & didn't reply. His mom asked dad to bring him to their home, but dad declined and took him to son's wife and kid.
 
-Wife called the mom few hours later, said he got dinner. He wanted to talk to mom, but mom angirly told his wife said "No need to talk to me when he is high".
+Wife called the mom a few hours later and said he got dinner. He wanted to talk to his mom, but she angrily told his wife, "No need to talk to me when he is high."
 
 Dude went to sleep, wife called few hours later saying he is choking, they went to take him to hospital, he's dead.
 

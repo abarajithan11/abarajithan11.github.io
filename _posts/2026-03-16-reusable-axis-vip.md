@@ -53,7 +53,7 @@ I have two SV modules: Sink and Source. I pass in SystemVerilog queues containin
   endtask
 ```
 
-Getting it to work without #1ps delays, on Verilator, Icarus and Xsim was a pain. But it was one-time, and now I re-use this everywhere.
+Getting it to work without #1ps delays, on Verilator, Icarus and Xsim was a pain. But it was a one-time pain, and now I reuse this everywhere.
 
 Repo: [GitHub - axis_vip](https://github.com/abarajithan11/axis_vip)
 

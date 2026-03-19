@@ -1,5 +1,5 @@
 ---
-title: 'Mysore & Food: The Cul(tural+inary) Capital of Karnataka'
+title: 'Mysore & Food [India 2022]'
 date: 2022-08-26 07:13:14 -0700
 last_modified_at: 2022-08-26 07:13:14 -0700
 categories:

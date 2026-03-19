@@ -8,14 +8,14 @@ tags:
   - 'Travels'
 ---
 
-Santa Fe and ABQ old town have a unique vibe, filled with adobe (mud)-like houses. This architectural style originated with the native tribes and was improved upon by the Spanish settlers. Many buildings have mud verandah (திண்ணை), and are decorated with red chillis woven into various patterns. New Mexico cuisine is also unique, utilizing a lot of red and green chillies.
+Santa Fe and ABQ Old Town have a unique vibe, filled with adobe-like houses. This architectural style originated with the native tribes and was improved upon by the Spanish settlers. Many buildings have mud verandahs (திண்ணை), and are decorated with red chilies woven into various patterns. New Mexico cuisine is also unique, using a lot of red and green chilies.
 
 Santa Fe had several artisan galleries with modern pottery and other artwork inspired by native tribes.
 We visited a museum about native history, but it wasn't particularly interesting.
 
 We rented a car from ABQ airport, paying $850 for 13 days. I had booked a medium economy car, but they gave me an SUV: Subaru Outback. It was a pleasure to drive, especially since we drove it for 4600 km.
 
-Los Alamos is about 30 minutes from Santa Fe. We visited Oppenheimer’s house, saw his Baghavat Gita, and the intact project gate. The museum there explains the science and history of nuclear bomb development very well. The landscape around Los Alamos was gorgeous, which was one of the reasons Oppenheimer chose this spot.
+Los Alamos is about 30 minutes from Santa Fe. We visited Oppenheimer’s house, saw his Bhagavad Gita, and the intact project gate. The museum there explains the science and history of nuclear bomb development very well. The landscape around Los Alamos was gorgeous, which was one of the reasons Oppenheimer chose this spot.
 
 [Overview of the road trip](/travel/texas-trip-16-days-4600-km-drive/)
 

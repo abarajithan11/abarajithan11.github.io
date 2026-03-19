@@ -22,7 +22,7 @@ I later named him one of the three vestal virgins of our department. That is, if
 
 ## The Group That Must Not Be Named
 
-We are also among the founding members of a well known, secret organisation, who's favourite hobby is roasting the fish out of Chinthana. I should warn you, its other members are hiding in plain sight among the guests here, with malicious intentions.
+We are also among the founding members of a well-known, secret organisation, whose favorite hobby is roasting the fish out of Chinthana. I should warn you, its other members are hiding in plain sight among the guests here, with malicious intentions.
 
 I had come across Sunimali years before we all met. Bhanuka & I were planning to make a tourism app, and he suggested a good developer from the University of Colombo, a friend of Lashini. In fact, her name is saved in my phone as Sunimali UoC Developer.
 
@@ -32,23 +32,23 @@ The ‘How I met your mother’ story that Chinthana would tell his kids also st
 
 We took three bikes to see around Jaffna. Bhanuka & Lashini took a small mosquito; I ended up with a guy; Chinthana & Sunimali took this big manly bike. Many roads in the outskirts of Jaffna are bumpy and full of potholes. So… one thing led to another, and rest is history.
 
-We went camping to Delft, the island furthest from mainland Sri Lanka. In hurry, we forgot to take sausages and meat from home. So, Chinthana & I spent the new year’s eve walking around the entire Delft island, searching for fish. A fisherman noticed us, took us to his home and gave us some fresh fish. But we had no idea how to cook it. Bhanuka dived in to gut the fish, then we tried cooking it. It ended up as an inedible porridge of fish bones. While it wasn’t Sunimali’s fault, we named that dish Sunimalu, cuz why not.
+We went camping to Delft, the island furthest from mainland Sri Lanka. In a hurry, we forgot to take sausages and meat from home. So, Chinthana & I spent the new year’s eve walking around the entire Delft island, searching for fish. A fisherman noticed us, took us to his home and gave us some fresh fish. But we had no idea how to cook it. Bhanuka dived in to gut the fish, then we tried cooking it. It ended up as an inedible porridge of fish bones. While it wasn’t Sunimali’s fault, we named that dish Sunimalu, cuz why not.
 
-As I often say, this hike test is a testament of a successful relationship. No complaints, no blaming, always in the same team, appreciating and finding joy in such moments.
+As I often say, this hike test is a testament to a successful relationship. No complaints, no blaming, always in the same team, appreciating and finding joy in such moments.
 
 ## Final Year Project
 
 Chinthana spent the next year, trying for Sunimali. He definitely needed help. Tehara stepped in, played cupid. She taught Chinthana and I, the tricks Rukshan employed to get her, which Rukshan himself had forgotten thanks to his legendary memory loss.
 
-That year, Chinthana was more occupied with this business than our final year project. And he got a distinction, when Sunimali said yes. Even then, he kept telling her that he is too busy to chat, because I am giving him too much project work. In reality he was watching youtube videos and sleeping.
+That year, Chinthana was more occupied with this business than our final year project. And he got a distinction, when Sunimali said yes. Even then, he kept telling her that he is too busy to chat, because I am giving him too much project work. In reality he was watching YouTube videos and sleeping.
 
-Through the pandemic, they supported each other, empowered each other.  Last week, when Sunimali was freaking out about the wedding, Chinthana was calm and he calmed her down too. I noticed this contrast, how they complement each other.
+Through the pandemic, they supported each other and empowered each other. Last week, when Sunimali was freaking out about the wedding, Chinthana was calm and he calmed her down too. I noticed this contrast, how they complement each other.
 
 Chinthana is beloved among all our friends. We love roasting him, and today we love seeing him happy with his soulmate. We all have been looking forward to this occasion. I actually made my India trip based on this wedding date. We wish Chinthana & Sunimali the happiest married life.
 
 ## Wrap Up
 
-Let me wrap up with this. Sunimali and Chinthana are two of the warmest, nicest, people with the biggest hearts. In other words, they are humid, prepossessing, Homo Sapiens with full-sized aortic pumps.
+Let me wrap up with this. Sunimali and Chinthana are two of the warmest, nicest people with the biggest hearts. In other words, they are humid, prepossessing, Homo Sapiens with full-sized aortic pumps.
 
 Over to you!
 

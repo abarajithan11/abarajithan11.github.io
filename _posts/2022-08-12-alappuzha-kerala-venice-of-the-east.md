@@ -11,11 +11,11 @@ tags:
 
 Dubbed “God’s Own Country”, Kerala truly is amazing beyond expectations. Serene backwaters with boat rides, unmatched cuisine, and a genuine culture of men walking around in vettis, it's an experience of a lifetime.
 
-Backwaters are the network of navigable canals that total 1,900 km in length, winding through half the length of the state. Five large lakes, 38 rivers, and 200+ km long highway-like “national waterways” are part of this system, which is blocked from the sea with barrages at two points, to keep the water fresh for paddy cultivation. Kuttanad, known as the ‘rice bowl of Kerala is one of the few places in the world where paddy is cultivated 3 m below sea level.
+Backwaters are the network of navigable canals that total 1,900 km in length, winding through half the length of the state. Five large lakes, 38 rivers, and 200+ km long highway-like “national waterways” are part of this system, which is blocked from the sea with barrages at two points, to keep the water fresh for paddy cultivation. Kuttanad, known as the “rice bowl of Kerala,” is one of the few places in the world where paddy is cultivated 3 m below sea level.
 
 I traveled through the backwaters three times: in a shikara boat with an Assamese friend I met in the hostel, on a kayaking tour, and then on public transport (government boats).
 
-Hundreds, if not thousands of houses, from mud cottages to multi-story palaces in these regions have only canals around them. Some houses are surrounded by water on three sides. Each such house owns a boat, some even have boat garages. There are “school-boats” to pick kids to school, which is also similarly surrounded by water. People casually walk along the canal banks and over tall bridges that allow boats to pass. Government boats operate on a schedule, like buses. There are a few boat supermarkets as well. All but one canal I saw were being maintained exceptionally clean. People bathe, swim, and wash clothes & dishes in the canals. Many casually catch oysters and fish and cook them for lunch.
+Hundreds, if not thousands of houses, from mud cottages to multi-story palaces in these regions have only canals around them. Some houses are surrounded by water on three sides. Each such house owns a boat, some even have boat garages. There are “school-boats” to pick kids up for school, which is also similarly surrounded by water. People casually walk along the canal banks and over tall bridges that allow boats to pass. Government boats operate on a schedule, like buses. There are a few boat supermarkets as well. All but one canal I saw was being maintained exceptionally well. People bathe, swim, and wash clothes & dishes in the canals. Many casually catch oysters and fish and cook them for lunch.
 
 In the 18th century, Raja Kesavadas, a man from a poor family whose talent was rewarded by the British and local kings, identified the economic potential of Alappuzha. He settled British investors and Indian technicians from Bengal and kickstarted the coir industry. He also built canals and a port to transport the products. During WW2, parts of Vembanad lake, the longest lake in India (97 km) were reclaimed as new land to boost paddy cultivation.
 
@@ -23,7 +23,7 @@ In 2018, Kerala faced the worst flood in its history, with over 483 dead. The go
 
 Today, over 1200 houseboats and countless shikara boats (smaller) sail through the canals, as tourism is booming. Alappuzha is also the “coir capital of India”, with a coir institute that receives students from around India, pays them a 3500 INR/m stipend for 6 months, and provides subsidies to start businesses at the end of the course.
 
-Backwaters of Kerala is an experience that must not be missed. I want to go back one day and explore more of Kerala.
+The backwaters of Kerala are an experience that must not be missed. I want to go back one day and explore more of Kerala.
 
 ![]({{ site.content_base_url }}/images/2026_from_fb/alappuzha-kerala-venice-of-the-east/10225259835194408.jpg)
 

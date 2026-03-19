@@ -9,7 +9,7 @@ tags:
   - 'Nature'
 ---
 
-Drove 4660 km (2896 mi) in 13 days in a Subaru Outback as a road trip across New Mexico, Texas, and Louisiana. We visited 3 national parks and camped for 4 days straight in 0 °C weather on the last day. Highlights:
+Drove 4660 km (2896 mi) in 13 days in a Subaru Outback as a road trip across New Mexico, Texas, and Louisiana. We visited 3 national parks and camped for 4 days straight, with 0 °C weather on the last day. Highlights:
 
 * LOS ALAMOS --- where Oppenheimer’s team developed the bomb
 * SANTA FE --- Adobe (mud) houses
@@ -19,11 +19,11 @@ Drove 4660 km (2896 mi) in 13 days in a Subaru Outback as a road trip across New
 * BIG BEND NP --- massive swaths of remoteness; a tiny, unprotected creek that serves as the US-Mexico border
 * SAN ANTONIO, AUSTIN, DALLAS --- beautiful river walk; wild trail within the city; unbelievable BBQ; gas station with 250 pumps.
 * FORTWORTH --- cowboys; cattle herding; gun sale
-* HOUSTON --- we have a problem (NASA); with a full Saturn V rocket; Moon rock we could touch
+* HOUSTON --- we have a problem (NASA); with a full Saturn V rocket; moon rock we could touch
 * LAFAYETTE --- swamp tour, alligators
-* NEW ORLEANS --- city with best vibes in the US; amazing street music at every corner; cute, colorful houses.
+* NEW ORLEANS --- city with the best vibes in the US; amazing street music at every corner; cute, colorful houses.
 
-More info on future posts...
+More info in future posts...
 
 ![]({{ site.content_base_url }}/images/2026_from_fb/texas-trip-16-days-4600-km-drive/10237504303938474.jpg)
 

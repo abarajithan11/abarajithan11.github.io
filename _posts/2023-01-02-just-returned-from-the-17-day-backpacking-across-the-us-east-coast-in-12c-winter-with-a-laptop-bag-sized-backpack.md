@@ -8,9 +8,9 @@ tags:
   - 'Travels'
 ---
 
-I visited Las Vegas (0.5) Baltimore (1), DC (2), Philadelphia (2), Boston (3) and NYC (8 ). I planned to spend 3 days in Buffalo/Toronto, but my flights got cancelled, and 33 people died from a once-in-a-century snowstorm, so I decided to spend those days in NYC.
+I visited Las Vegas (0.5) Baltimore (1), DC (2), Philadelphia (2), Boston (3) and NYC (8). I planned to spend 3 days in Buffalo/Toronto, but my flights got cancelled, and 33 people died from a once-in-a-century snowstorm, so I decided to spend those days in NYC.
 
-Air tickets are relatively cheap in the USA, but they don't even allow carry-on luggage for that price. So I got this backpack that fits the size of a personal item (laptop bag) and packed everything into it, which weighed about 5-6 kg. I left the backpack at the hostel every day and walked around the city with the fenny pack.
+Air tickets are relatively cheap in the USA, but they don't even allow carry-on luggage for that price. So I got this backpack that fits the size of a personal item (laptop bag) and packed everything into it, which weighed about 5-6 kg. I left the backpack at the hostel every day and walked around the city with the fanny pack.
 
 ## Item List
 
