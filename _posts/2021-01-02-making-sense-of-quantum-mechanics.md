@@ -27,7 +27,7 @@ I had a long discussion with my good friend Kasun Withana on these topics, and I
 
 ---
 
-### The Wavefunction
+## The Wavefunction
 
 Let’s start with the true nature of particles. Particles are stuff that is each governed by a fundamental 'wavefunction'. The wavefunction is THE most fundamental thing. It's not just another property of a particle. It's THE particle.
 
@@ -43,7 +43,7 @@ Fun fact: the time-independent Schrodinger’s Equation is just a simple harmoni
 
 [An approachable video on why harmonic oscillators are fundamental to physics.](https://www.youtube.com/watch?v=bmGqhM-tUk4)
 
-### Observables
+## Observables
 
 We cannot measure the wavefunction directly. It's always behind the scenes. We can only measure the 'observables'. Properties of the given particle such as momentum, position... are called observables and are all just different 'views' or projections of this wavefunction. We get the position 'distribution' of the particle by applying the position 'operator' on the wavefunction.  
   
@@ -51,7 +51,7 @@ Distribution? Yes. These observables (position, momentum) are not numbers. Each 
 
 > It’s not like we are unable to build a device to measure a particle’s position. The particle actually doesn’t have a 'position'.
 
-### Operators
+## Operators
 
 A mathematical operator maps/projects one function space into another. Differentiation is an operator, Fourier transform is another. Both are linear operators. Operators are functions that operate on functions.
 
@@ -61,7 +61,7 @@ The probability distribution of the observables (position, momentum) of a partic
 
 The linear operators, when applied to the wavefunction, give observables
 
-### Heisenberg's Uncertainty Principle
+## Heisenberg's Uncertainty Principle
 
 Here comes the fun part. Position and momentum operators are Fourier transform pairs of each other. Just like time and frequency.   
   
@@ -79,7 +79,7 @@ Heisenberg’s uncertainty principle follows this. The product of the error in p
   
 Ok, from this we can look at wavefunction collapse.
 
-### Wavefunction Collapse
+## Wavefunction Collapse
 
 Wavefunction never 'collapses'. Say, we set up a detector to read position. That detector does it by interacting with the particle, modifying its wavefunction to make the position distribution 'view' sharper (uncertainty in that 'view' is reduced). That will never be 100% sharp as a point. This means we can never know the exact location of the particle. Because it doesn't actually have a position.  
   
@@ -93,7 +93,7 @@ Isn't it fascinating to know that 'imaginary' numbers and Fourier transform are 
 
 My exposure to hardcore QM is a basic module and an assignment on numerically solving the Schrodinger equation in 1D, 2D, and 3D. It was fun to see how the atomic orbitals are just simple harmonic motion in space in 3D. If anyone finds a mistake in this write-up, feel free to point it out.
 
-### First posted on Facebook:
+## First posted on Facebook:
 
 [Abarajithan Gn](http://web.facebook.com/abarajithan11/posts/10221489444176989)
 

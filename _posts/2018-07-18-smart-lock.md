@@ -15,7 +15,7 @@ The objective of this project is to gain experience in designing and launching a
 
 I am the Group Leader for the group of 10. Apart from management and coordination responsibilities, I was the main mechanical designer in version 1.0 and the person responsible for micro-controller programming in version 2.0
 
-### Version 1.0
+#### Version 1.0
 
 We designed the version 1.0 of this product in 2016. Having limited knowledge of design theory, we ran into a few problems. Key product goals were:
 

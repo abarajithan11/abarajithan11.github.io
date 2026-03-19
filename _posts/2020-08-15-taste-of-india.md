@@ -60,7 +60,7 @@ North-East Indian Snacks. Momos (bottom)
 
 ## Breads
 
-### Naan, Chapati, Tandoori Roti, Paratha, Puri
+#### Naan, Chapati, Tandoori Roti, Paratha, Puri
 
 ![]({{ site.content_base_url }}/images/2022/01/2.2.jpg)
 
@@ -106,7 +106,7 @@ North Indian Dosa
 
 ## Thali
 
-### Combo meals of each state
+#### Combo meals of each state
 
 ![]({{ site.content_base_url }}/images/2022/01/24.jpg)
 
@@ -148,7 +148,7 @@ Assamese Thali
 
 ## Drinks
 
-### Hot chai, cold lassi
+#### Hot chai, cold lassi
 
 ![]({{ site.content_base_url }}/images/2022/01/5.jpg)
 
@@ -202,7 +202,7 @@ Chai walas (tea vendor)
 
 ## Free Breakfast
 
-### From the hotels where I stayed
+#### From the hotels where I stayed
 
 I stayed mostly in backpackers hostels, for about 100-200 INR per night. Even those provide great, but simple breakfast such as these.
 

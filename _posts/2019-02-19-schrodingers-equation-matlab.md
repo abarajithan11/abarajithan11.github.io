@@ -42,7 +42,7 @@ The intuition I gained from this, led me to write this [explanation of basic QM]
 
 Two of the five Matlab programs I wrote are given here for reference.
 
-### Solving 1D equation directly
+#### Solving 1D equation directly
 
 ```
 clear all
@@ -113,7 +113,7 @@ end
 hold off;
 ```
 
-### Solving 3D equation in fourier domain
+#### Solving 3D equation in fourier domain
 
 ```
 clear all

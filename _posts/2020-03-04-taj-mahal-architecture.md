@@ -94,6 +94,6 @@ Taj as seen from Agra fort. Emperor Shah Jahan died in this prison with this vie
 
 Taj is definitely a must-see in North India. Visit early (6 am) to avoid long lines. Read about these architectural details and a bit of history in advance. I got most of the information from the Lonely Planet guidebook. That definitely improves the experience.
 
-### First posted on Facebook:
+#### First posted on Facebook:
 
 [Abarajithan Gn](https://web.facebook.com/abarajithan11/posts/10218980888664669?__cft__[0]=AZW0j_uRceS5fvb_JvDP8u4Yth791kgjOsywnOljcUGExUMOgDluGsVkCjVgbBAfi5X7v7JQX9ehamtQ_IQgqGca0SCosmllOFzZwDOY3mK-2cpWxYcYZCXB9aqUORyowsU&__tn__=%2CO%2CP-R)

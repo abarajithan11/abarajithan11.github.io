@@ -14,11 +14,11 @@ permalink: /chemistry-posters/
 
 I created these charts to prepare for my GCE A/L Examinations. When I graduated from school, I redesigned them in Powerpoint and printed them into charts.
 
-### Organic Chemistry (Slideshow)
+## Organic Chemistry (Slideshow)
 
 [Embedded media](https://www.slideshare.net/slideshow/embed_code/key/sRYmRjUWHOZoNh)
 
-### Inorganic Chemistry
+## Inorganic Chemistry
 
 <https://drive.google.com/file/d/1185vVB6BxdW8f4twdecYm1wQcI_X-xjL/preview>
 

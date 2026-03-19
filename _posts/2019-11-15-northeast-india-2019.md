@@ -31,7 +31,7 @@ After my workshop, we took a flight to Bagdogra to read Darjeeling by shared jee
 
 ## Darjeeling
 
-### One of my favorite towns in India, Golden sunrise over the world's 3rd highest peak
+#### One of my favorite towns in India, Golden sunrise over the world's 3rd highest peak
 
 A truly unique, compact city full of friendly & helpful Buddhists. I walked around the city at night and it is one of my best experiences from the trip. Houses are built of wood but packed within narrow areas at the cliffs of the mountain. Schoolkids wear cute uniforms and walk to school with clouds moving through them. It was built by the British as a mountain resort, and the city still keeps its Britishness (like Nuwara Eliya) in a good way.
 
@@ -73,7 +73,7 @@ Sunrise from Tiger Hill over Kanchenjunga. Everest can be seen on the left side 
 
 ## Tsongmo Lake
 
-### 12,300 feet high, China border, Sikkim
+#### 12,300 feet high, China border, Sikkim
 
 ![]({{ site.content_base_url }}/images/2022/01/IMG_20191112_100503.jpg)
 
@@ -107,7 +107,7 @@ View of Kanchenjunga (3rd highest peak in the world) and an ocean of clouds spil
 
 ## Guwahati
 
-### The capital of Assam, Brahmaputra river, One-horned rhinos, and Kali's genitals
+#### The capital of Assam, Brahmaputra river, One-horned rhinos, and Kali's genitals
 
 ![]({{ site.content_base_url }}/images/2022/01/IMG_20191101_161014.jpg)
 
@@ -145,7 +145,7 @@ Kamakya Temple
 
 ## Dawki
 
-### Unprotected Bangladesh Border, crystal clear waters
+#### Unprotected Bangladesh Border, crystal clear waters
 
 ![]({{ site.content_base_url }}/images/2022/01/IMG_20191115_155244.jpg)
 
@@ -167,7 +167,7 @@ We went boating in crystal clear waters in Dowki. We could see the Bangladesh si
 
 ## Living Root Bridges
 
-### Meghalaya
+#### Meghalaya
 
 ![]({{ site.content_base_url }}/images/2022/01/IMG_20191115_102642.jpg)
 
@@ -187,7 +187,7 @@ Khasi and Jaintia tribes of Meghalaya have mastered the art of building living r
 
 ## Shillong
 
-### The beautiful capital of Meghalaya
+#### The beautiful capital of Meghalaya
 
 ![]({{ site.content_base_url }}/images/2022/01/IMG_20191114_081943.jpg)
 
@@ -207,7 +207,7 @@ Ward's Lake, Elephant Falls
 
 ## Mawlynnong
 
-### The cleanest city in Asia is in India (yes!)
+#### The cleanest city in Asia is in India (yes!)
 
 ![]({{ site.content_base_url }}/images/2022/01/IMG_20191115_114430.jpg)
 
@@ -231,7 +231,7 @@ Mawlynnong was awarded the cleanest city in Asia and mom wanted to visit it. It 
 
 ## Kolkata
 
-### City of the sweets
+#### City of the sweets
 
 ![]({{ site.content_base_url }}/images/2022/01/IMG_20191116_140534.jpg)
 
@@ -251,7 +251,7 @@ Our hotel owner started shouting at us for not knowing Hindi, thinking we are So
 
 ## Food
 
-### India is a foodie's paradise!
+#### India is a foodie's paradise!
 
 ![]({{ site.content_base_url }}/images/2022/01/IMG_20191101_125700-3.jpg)
 
@@ -335,7 +335,7 @@ We had a transit at Chennai and managed to get out in Chennai metro for an hour 
 
 Chennai Metro, Kichchadi, Sambar vadai and sunrise from the plane
 
-### First posted on Facebook
+#### First posted on Facebook
 
 [View Facebook Album](http://web.facebook.com/media/set/?set=a.10218014223778651&type=3)
 

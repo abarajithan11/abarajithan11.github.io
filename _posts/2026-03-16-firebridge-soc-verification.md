@@ -15,14 +15,14 @@ Verifying hardware accelerators at the system level is a classic headache. We fi
 
 I wanted to quickly co-develop SystemVerilog hardware and C firmware. This led me to build **FireBridge** as part of a **CGRA4ML** project. 
 
-### Features of FireBridge
+## Features of FireBridge
 
 - Allows transactional verification of an SoC with real C firmware.
 - Completely removes the need to simulate the entire CPU.
 - Seamlessly integrates with Ibex and typical RISC-V toolchains.
 - Supports randomized ready/valid throttling, which uncovers subtle corner cases.
 
-### How to use
+## How to use
 
 C Firmware:
 
@@ -79,7 +79,7 @@ module tb;
 endmodule
 ```
 
-### Technical Details
+## Technical Details
 
 I built an SV + C harness that behaves in simulation as an AXI Interconnect + CPU. The C firmware is compiled and executed in the host machine (x86). The register writes & reads are mapped to SV tasks that drive the AXI slave interfaces. The AXI master ports of the subsystem read/write from the host machine's DDR through C functions.
 
@@ -108,7 +108,7 @@ I built an SV + C harness that behaves in simulation as an AXI Interconnect + CP
 
 I built a Makefile flow to make this setup work with XSim and Xcelium. The entire setup is also containerized in Docker for reproducibility.
 
-### Problems Faced and Solved
+## Problems Faced and Solved
 
 A real CPU stalls and cache misses. While FireBridge doesn't model these exact CPU stalls, I implemented randomized delays and randomized ready/valid backpressure on the AXI channels. This ended up being far more effective at catching timing bugs in the DMA and Systolic Array than standard CPU execution.
 

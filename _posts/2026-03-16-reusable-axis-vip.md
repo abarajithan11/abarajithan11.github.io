@@ -15,7 +15,7 @@ AXI Stream is my favorite protocol for custom designs. It's dead simple (just `t
 
 Before integrating a DMA, we need to verify our IP follows AXI Stream perfectly. Transaction level testbenches with randomized drivers and monitors are the way to go. Building this for every IP is pretty repetitive. I built this VIP to make it modular, clean, and highly reusable.
 
-### Features
+#### Features
 
 - Configurable AXI-Stream Source and Sink blocks.
 - Simple API (`file_tb` and `nofile_tb` examples provided).
@@ -23,7 +23,7 @@ Before integrating a DMA, we need to verify our IP follows AXI Stream perfectly.
 - Built-in randomization of valid/ready backpressure signals and `s_last`, `s_keep` assertions.
 - Functions to easily load from or dump out to text/binary test vector files.
 
-### Technical Details
+#### Technical Details
 
 I have two SV modules: Sink and Source. I pass in SystemVerilog queues containing the packets to be driven, and a task runs an infinite loop pushing data synchronously to the clock. I injected parameterized probabilities for stalling the interface (randomized `tvalid` gaps, randomly de-asserting `tready`). 
 

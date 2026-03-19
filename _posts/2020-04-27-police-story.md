@@ -26,7 +26,7 @@ Then, around 5 pm, a doctor arrived to test us for COVID-19. He sat 15 feet away
 
 I stopped him and asked for help. He quickly called through his medical circle and got the phone number of the airport terminal manager! THE FLIGHT IS CONFIRMED. Now, police MUST believe. Because he's their own doctor.
 
-### A quick substory:
+#### A quick substory:
 
 There was this German guy. He was travelling around the world on foot! The dude walked all the way from the Czech Republic (Europe) to India and was staying in a hostel when they locked down and threw him out. He slept in the street starving for two days, got arrested by police and was finally put in this hotel just as I reached there. When I was randomly messaging another German friend I found, the next day there was the last rescue flight for Germans. From Delhi. So, this guy considered dropping his 'on foot' policy and taking that flight. But the policemen kept saying there's no way to get to Delhi.
 

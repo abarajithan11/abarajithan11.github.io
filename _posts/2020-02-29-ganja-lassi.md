@@ -60,7 +60,7 @@ At 2.5 hours, I got an urge to vomit. I climbed down from the bed (upper berth i
 
 I hated the taste. And the feeling wasn't enjoyable. Not gonna try it again. The next whole day was a bit sleepy. Everything was alright otherwise. Slight diarrhoea lasted for a day or two. Handled it with Imodium and two strong black coffees.
 
-### Disclaimer and tips:
+#### Disclaimer and tips:
 
 I was aware it's quite dangerous to try this when travelling alone. Many intoxicated tourists have been robbed. Knowing this, it's good to take some precautions. First, I tried from a popular shop (recommended by lonely planet and by the hostel owner. hostel itself is high rated). Next, never try in the wild. I had booked the hostel for multiple days, I knew the staff were reliable, the hostel was busy with many foreign guests and I tried it as a takeaway after safely settling inside the hostel. Finally, not to have any serious plans or travelling on the following day. I just wanted to see the sunrise and walk by the Ganges, nothing much.
 

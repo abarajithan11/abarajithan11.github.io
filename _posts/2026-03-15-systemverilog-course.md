@@ -59,18 +59,18 @@ The course received overwhelmingly positive feedback across all its iterations:
 
 I structured the course into modular, hands-on labs with increasing complexity. For each circuit, I explained the background, the problem, how it is designed, then implementation and verification constraints. [GitHub Repo with example](https://github.com/SkillSurf/systemverilog)
 
-**Combinational Circuits**
+#### Combinational Circuits
 - **`full_adder`**: Introduces assignments, logic operators, assertions, and variables.
 - **`n_bit_adder`**: Ripple carry adder showing parameters, `for` loops, and simple constraints (`std::randomize`).
 - **`alu`**: ALUs with `signed` types, `if-else` vs `unique case`, and 4-state vs 2-state variables.
 - **`function_lut`**: Demonstrates lookup tables, recursive functions, arrays, and synthesis impact.
 - **`decoder`**: Streamlining a 435-line verbose instruction decoder into 95-lines utilizing "last assignment wins" feature of verilog.
 
-**Sequential Circuits**
+#### Sequential Circuits
 - **`counter`**: N-bit counters, synchronous active-high resets, and non-blocking assignments (`always_ff`).
 - **`fir_filter`**: FIR filters, shift registers, retiming.
 
-**Advanced SoC & Interconnects**
+#### Advanced SoC & Interconnects
 - **`p2s`**: Parallel-to-Serial converter with a simple state machine.
 - **`uart_rx` & `uart_tx`**: UART modules with AXI-Stream interfaces to connect the outside world to the FPGA.
 - **`skid_buffer`**: Breaking combinational paths in the `ready` of AXI-Stream interfaces.

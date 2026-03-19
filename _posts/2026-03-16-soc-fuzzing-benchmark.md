@@ -13,7 +13,7 @@ permalink: /soc-fuzzing-benchmark/
 
 Hardware fuzzing is an emerging technique in SoC verification. Recently, there has been a lot of buzz around fuzzers like Google's "HW like SW", Intel PreSiFuzz, HyperFuzzer, RFuzz, and many FIRRTL/Chisel fuzzers. However, measuring how effective different fuzzers are against real-world designs can be extremely challenging. This project aims to create a framework that can evaluate various verification methods by automatically injecting bugs into standard SoC IPs from popular open source repositories such as PULP, TAXI, ZipCPU and proprietary IPs from ARM and Xilinx, giving researchers a standardized benchmark to measure their fuzzer's performance.
 
-### Features
+## Features
 
 - **Unified Harness:** A standardized AXI harness that consumes packed binary commands from standard input, mapping them seamlessly to AXI reads, writes, and parallel transactions.
 - **Broad Tool Support:** Integrated with both Verilator and Synopsys VCS simulation environments.
@@ -21,7 +21,7 @@ Hardware fuzzing is an emerging technique in SoC verification. Recently, there h
 - **Industrial IPCores:** Evaluates against AXI IPs from sources like PULP, TAXI, ARM, and Xilinx.
 - **Containerized Environment:** Full Docker support so anyone can run the entire suite of fuzzers with a single `make run_example` command.
 
-### Technical Details
+## Technical Details
 
 Fuzzers generate randomly mutated bytes to be input into the hardware's pins. For protocol based designs, randomly mutating the inputs cause almost all inputs to be invalid. A bus grammar and a harness it needed to bridge this gap. 
 

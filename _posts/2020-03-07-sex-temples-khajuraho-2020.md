@@ -90,7 +90,7 @@ Light playing inside the temples, main deity (shiva lingam of one temple), some 
 
 Khajuraho is definitely a must-visit. It's only accessible (easily) from Delhi through an 11-hour bus/train. I spent just one day here, but you better spend two. The village itself is quiet and calm, also you can see the temples coming alive with the sound and light show in the evening. Make sure to stop by every sculpture, take your time, and enjoy it. Check out the other groups of temples as well, if possible. I'm hoping to come back, probably with a future girlfriend or an art-enthusiast friend.
 
-### First published on Facebook:
+#### First published on Facebook:
 
 [Abarajithan Gn](https://web.facebook.com/abarajithan11/posts/10219064363831496)
 

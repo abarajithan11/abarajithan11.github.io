@@ -56,7 +56,7 @@ The loop detectors and radar-based traffic sensing methods lacked accuracy, espe
 
 ---
 
-### 1. Machine Learning
+## 1. Machine Learning
 
 #### 1.1 Inference Framework for Precision Experiments (Aba)
 
@@ -68,13 +68,13 @@ I built a Keras-like object-oriented inference framework using the multidimensio
 
 Part of my code shows convolution via Einstein summation and custom requantization scheme
 
-### 1.2 Data Collection Devices (Rukshan, Chinthana) & Annotation (Tehara)
+#### 1.2 Data Collection Devices (Rukshan, Chinthana) & Annotation (Tehara)
 
 Built four remotely powered, wirelessly data-collection devices. Collected, annotated and augment traffic images to create a Sri Lankan traffic dataset (1500 images).
 
 ![]({{ site.content_base_url }}/images/2021/11/data-coll.jpg)
 
-### 1.3 CNN Architecture & Training (Tehara)
+#### 1.3 CNN Architecture & Training (Tehara)
 
 Optimized the architecture of the YOLOv2 object detection neural network for hardware implementation. Trained YOLOv2 and TinyYOLO.
 
@@ -92,7 +92,7 @@ Optimized the architecture of the YOLOv2 object detection neural network for har
 
 ![]({{ site.content_base_url }}/images/2021/11/Slide10.JPG)
 
-### 2. CNN Accelerator Design (Aba)
+## 2. CNN Accelerator Design (Aba)
 
 I designed our first engine, which in retrospect resembled ShiDianNao (ISCA’15). With 9-muxes x 24, 3-muxes x 48, 16-bit registers x 144, multipliers x 3, accumulators x 3, each core, performed 12 of 3x3 convolutions in 9 clock cycles. Rukshan implemented it and demonstrated it in simulation. But we couldn't fit enough processing elements of it in our FPGA to run YOLOv2 at any respectable speed. The LUT count exceeded, thanks to large 9-way multiplexers. Several registers stayed unused over most clocks. In addition, Rukshan hated the ad-hoc solutions we came up with to handle edge cases, calling them c*ello tape solutions*.
 
@@ -112,7 +112,7 @@ Four of us stayed together at Tehara's home for a month-long sprint. The final s
 
 System Design on ZYNQ Programmable SoC (left); One of the 192 cores, able to do 3x3 and 1x1 convolutions (right)
 
-### 3. Tracking Algorithm (Aba)
+## 3. Tracking Algorithm (Aba)
 
 Meanwhile, I designed a lightweight, IOU-based, standalone (no libraries) object tracking algorithm, robust to broken tracks, double-counting...etc and implemented them in both python and C (bare-metal on ARM side of ZYNQ FPGA.
 
@@ -121,7 +121,7 @@ Meanwhile, I designed a lightweight, IOU-based, standalone (no libraries) object
 
 ![]({{ site.content_base_url }}/images/2022/01/vision-traffic-tracking-results.png)
 
-### 4. Delta Algorithm for Traffic timing (Aba), VISSIM verification (Chinthana)
+## 4. Delta Algorithm for Traffic timing (Aba), VISSIM verification (Chinthana)
 
 With that, I also designed and tested 8 algorithms based on density, bounding box count, flow...etc. Chinatha figured out the VISSIM software, built a sophisticated intersection based on a real-world one, and tested the algorithms. None of them converged.
 

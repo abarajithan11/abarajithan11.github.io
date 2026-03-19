@@ -42,7 +42,7 @@ Following is a slideshow I created for a nationwide exhibition to explain PID co
 
 [Embedded media](https://www.slideshare.net/slideshow/embed_code/key/7UvdXF0ZUQT5g6)
 
-### Few points which I learnt from my experience
+#### Few points which I learnt from my experience
 
 - Kindly choose schools without much exposure. Big schools, which already have robotics and electronics clubs are able to conduct annual workshops themselves.
 - Make the key objective of your workshops: creating self-sustainable electronics and robotics clubs.

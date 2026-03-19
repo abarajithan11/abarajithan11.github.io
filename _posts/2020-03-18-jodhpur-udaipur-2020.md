@@ -16,7 +16,7 @@ From Jaisalmer, Erwin Makki and I traveled to Jodhpur. It was one of the Rajput 
 
 ## Jodhpur
 
-### The blue city
+#### The blue city
 
 ![]({{ site.content_base_url }}/images/2022/02/IMG_20200318_120119.jpg)
 
@@ -50,7 +50,7 @@ Bus to Udaipur at night
 
 ## Udaipur
 
-### City of lakes
+#### City of lakes
 
 ![]({{ site.content_base_url }}/images/2022/02/IMG_20200320_173324.jpg)
 

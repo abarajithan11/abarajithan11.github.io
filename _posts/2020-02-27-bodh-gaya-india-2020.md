@@ -50,7 +50,7 @@ I randomly sat in a temple for rest and found Anagarika Darmapala staring at me.
 
 Bodh Gaya is where Buddha (Siddartha) attained enlightenment under the Bodhi tree in 6th c. BCE. The original tree withered some 200 years later (legend says poisoned by Ashoka's wife out of envy). But before that, a part of it is said to have been taken to Sri Lanka and it thrives in Anuradhapura till today. Structures built by Ashoka and railings of Sunga period (150 BCE) became ruins, and are placed in a nearby museum. In Gupta period (5,6 c AD), the current temple was built as a restoration of Ashoka's one. It too was damaged over time and was restored by the British and then by the Indian government.
 
-### Food
+#### Food
 
 ![]({{ site.content_base_url }}/images/2022/01/87534634_10218854646988706_120112110507130880_n.jpg)
 
@@ -66,7 +66,7 @@ Bodh Gaya is where Buddha (Siddartha) attained enlightenment under the Bodhi tre
 
 ![]({{ site.content_base_url }}/images/2022/01/87552205_10218854644668648_804232819449528320_n.jpg)
 
-### First posted on Facebook:
+#### First posted on Facebook:
 
 [Abarajithan Gn](http://web.facebook.com/abarajithan11/posts/10218884977266944)
 

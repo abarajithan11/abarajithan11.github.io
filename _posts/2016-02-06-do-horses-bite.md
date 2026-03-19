@@ -73,6 +73,6 @@ Being a cheapskate, I had selected the free vaccine, which had a slightly higher
 
 Thereafter, whenever I happen to tell this story to people, the first question they ask is (after having good laugh, course), Thereafter, whenever I happen to tell this story to people, the first question they ask is (after having a good laugh, of course), *“Hahaha… What did you do to the horse?”*
 
-### First posted on Facebook:
+#### First posted on Facebook:
 
 [Facebook Note](https://web.facebook.com/notes/648704156078948/)
