@@ -5,7 +5,6 @@ last_modified_at: 2022-03-03 03:08:51
 categories:
   - 'Other'
 tags:
-  - 'Technical Projects'
 permalink: /schrodingers-equation-matlab/
 ---
 
@@ -317,4 +316,5 @@ end
 - [12] “LAPLACIAN - The Discrete Laplacian Operator.” [Online]. Available: <https://people.sc.fsu.edu/~jburkardt/m_src/laplacian/laplacian.html>.
 - [13] M. A. Mahmood, “Novel Numerical Solution of Schrodinger Equation for Hydrogen-like Atoms,” vol. 6, no. 3, p. 5, 2015.
 - [14] G. Lindblad, “Quantum Mechanics with MATLAB,” p. 28.
+
 

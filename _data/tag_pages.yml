@@ -5,8 +5,8 @@
   count: 10
 - title: "Community Work"
   url: /tags/community-work/
-  teaser: "/images/2021/11/modern_cpp_2021.png"
-  latest_title: "Webinars: Modern C++ & Embedded"
+  teaser: "/images/2026/sv_first_page.png"
+  latest_title: "SystemVerilog Course at Scale"
   count: 10
 - title: "India"
   url: /tags/india/
@@ -22,27 +22,22 @@
   url: /tags/reviews/
   teaser: "/images/2022/01/Feature-image-e1490252320964.jpg"
   latest_title: "The Jam Fruit Tree - Book Review"
-  count: 15
+  count: 13
 - title: "Stories"
   url: /tags/stories/
   teaser: "/images/2022/01/jaffna-wedding.jpg"
   latest_title: "A Jaffna Marriage Story, Jam-Fruit-Tree-style"
-  count: 16
+  count: 15
 - title: "Teaching"
   url: /tags/teaching/
-  teaser: "/images/2021/11/modern_cpp_2021.png"
-  latest_title: "Webinars: Modern C++ & Embedded"
+  teaser: "/images/2026/sv_first_page.png"
+  latest_title: "SystemVerilog Course at Scale"
   count: 6
-- title: "Technical Projects"
-  url: /tags/technical-projects/
-  teaser: "/images/2022/04/cocotb-feature.jpg"
-  latest_title: "CocoTB: FPGA/ASIC Testbenches in Python + Automated Testing in GitHub"
-  count: 19
 - title: "Thoughts"
   url: /tags/thoughts/
   teaser: "/images/2022/04/220405002141-01-sri-lanka-protest-04042022-exlarge-169.jpg"
   latest_title: "#GoHomeRajapaksas - An Unprecedented Revolution"
-  count: 33
+  count: 18
 - title: "Travels"
   url: /tags/travels/
   teaser: "/images/2022/03/PXL_20220226_125117243-2.jpg"

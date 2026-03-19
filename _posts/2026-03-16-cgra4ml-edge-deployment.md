@@ -3,9 +3,8 @@ title: 'CGRA4ML: An End-to-End Framework for Deploying DNNs on FPGAs and ASICs'
 date: 2026-03-16 20:10:00
 categories:
   - 'Engineering'
-  - 'My Work'
+  - 'Projects'
 tags:
-  - 'Technical Projects'
 permalink: /cgra4ml/
 ---
 
@@ -45,3 +44,5 @@ Deployment is streamlined via automated TCL scripts for synthesis, floorplanning
 **Check out the repo here:** [GitHub - cgra4ml](https://github.com/KastnerRG/cgra4ml)
 
 ![Synthesis, Place and Route results for TSMC 7nm with Cadence tools]({{ site.content_base_url }}/images/2026/cgra4ml_7nm.png)
+
+

@@ -3,9 +3,8 @@ title: 'Lightweight Formal AXI VIP'
 date: 2026-03-16 20:05:00
 categories:
   - 'Engineering'
-  - 'My Work'
+  - 'Projects'
 tags:
-  - 'Technical Projects'
 permalink: /formal-axi/
 ---
 
@@ -101,3 +100,5 @@ Writing intra-channel SVAs are pretty easy, which I've already done. For inter-c
 ```
 
 Code: [GitHub - formal_axi](https://github.com/abarajithan11/formal_axi)
+
+

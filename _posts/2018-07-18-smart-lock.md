@@ -3,9 +3,8 @@ title: 'Smart Lock: Assembly Programming, Product Realization, Marketing'
 date: 2018-07-18 00:00:00
 last_modified_at: 2021-11-21 08:21:42
 categories:
-  - 'My Work'
+  - 'Projects'
 tags:
-  - 'Technical Projects'
 permalink: /smart-lock/
 ---
 
@@ -34,3 +33,5 @@ We designed the version 1.0 of this product in 2016. Having limited knowledge of
 ## Version 1.5
 
 Hence, we have currently redesigned the lock by eliminating a minor requirement (goal) to result in an excellent design that is far simpler and cheaper to manufacture. Our prototype in that semester was based on this new design and we have decided to proceed with that design.
+
+

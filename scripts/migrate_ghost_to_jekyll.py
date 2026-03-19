@@ -316,8 +316,8 @@ def classify_post(post: dict, tags: list[str]) -> str:
         return "Travel"
     if "teaching" in tag_set:
         return "Teaching"
-    if "technical projects" in tag_set and is_my_work(post, tags):
-        return "My Work"
+    if is_my_work(post, tags):
+        return "Projects"
     return "Other"
 
 
@@ -368,7 +368,9 @@ def build_tag_map(data: dict) -> dict[str, list[str]]:
     for relation in data["posts_tags"]:
         post_tags.setdefault(relation["post_id"], []).append(tag_names[relation["tag_id"]])
     for post_id in post_tags:
-        post_tags[post_id] = sorted(post_tags[post_id])
+        post_tags[post_id] = sorted(
+            tag for tag in post_tags[post_id] if tag != "Technical Projects"
+        )
     return post_tags
 
 
@@ -407,4 +409,7 @@ def migrate():
 
 if __name__ == "__main__":
     migrate()
+
+
+
 

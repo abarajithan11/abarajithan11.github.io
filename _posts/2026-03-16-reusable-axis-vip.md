@@ -3,9 +3,8 @@ title: 'Reusable AXI-stream verification IPs in SystemVerilog'
 date: 2026-05-16 20:25:00
 categories:
   - 'Engineering'
-  - 'My Work'
+  - 'Projects'
 tags:
-  - 'Technical Projects'
 permalink: /reusable-axis-vip/
 ---
 
@@ -56,3 +55,5 @@ I have two SV modules: Sink and Source. I pass in SystemVerilog queues containin
 Getting it to work without #1ps delays, on Verilator, Icarus and Xsim was a pain. But it was one-time, and now I re-use this everywhere.
 
 Repo: [GitHub - axis_vip](https://github.com/abarajithan11/axis_vip)
+
+

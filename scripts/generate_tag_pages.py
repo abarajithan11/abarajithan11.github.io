@@ -6,6 +6,7 @@ ROOT = Path(r"d:\blog_github\abarajithan11.github.io")
 POSTS_DIR = ROOT / "_posts"
 PAGES_DIR = ROOT / "_pages"
 DATA_DIR = ROOT / "_data"
+IGNORED_TAGS = {"Technical Projects"}
 
 
 def slugify(value: str) -> str:
@@ -101,6 +102,8 @@ def build_tag_records(posts: list[dict]) -> list[dict]:
     tag_map: dict[str, list[dict]] = {}
     for post in posts:
         for tag in post["tags"]:
+            if tag in IGNORED_TAGS:
+                continue
             tag_map.setdefault(tag, []).append(post)
 
     records = []
@@ -163,3 +166,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+

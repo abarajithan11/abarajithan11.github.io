@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "Projects"
-permalink: /tags/technical-projects/
-author_profile: true
+permalink: /tag/technical-projects/
+author_profile: false
 ---
 
 <meta http-equiv="refresh" content="0; url={{ '/projects/' | relative_url }}">

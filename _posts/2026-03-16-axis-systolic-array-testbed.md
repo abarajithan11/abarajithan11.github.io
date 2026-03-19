@@ -3,9 +3,8 @@ title: 'AXI-Stream Systolic Array → SoC Testbed'
 date: 2025-12-10 20:15:00
 categories:
   - 'Engineering'
-  - 'My Work'
+  - 'Projects'
 tags:
-  - 'Technical Projects'
 permalink: /axis-systolic-array-testbed/
 ---
 
@@ -70,3 +69,5 @@ I then integrated this with Ibex-SoC to create a full SoC. The same C firmware c
 I used my [FireBridge](/firebridge/) VIP to stress test the full AXI ports with real C firmware, emulating congestion.
 
 **[GitHub - axis-systolic-array](https://github.com/abarajithan11/axis-systolic-array)**
+
+

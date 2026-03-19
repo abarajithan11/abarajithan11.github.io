@@ -3,9 +3,8 @@ title: 'A Framework to Evaluate Verification Methods by Automatically Injecting 
 date: 2026-03-10 20:00:00
 categories:
   - 'Engineering'
-  - 'My Work'
+  - 'Projects'
 tags:
-  - 'Technical Projects'
 permalink: /soc-fuzzing-benchmark/
 ---
 
@@ -38,3 +37,5 @@ make fuzz_axi FUZZER=hw_like_sw IP=axi_fifo VENDOR=pulp SIM=verilator
 ```
 
 The system automatically spins up the target IP, binds the harness, and begins bombarding the design with fuzzed packed bytes to uncover edge-case behavioral bugs or security violations. By standardizing this, we can easily inject known bugs and quantify precisely which fuzzers identify the faults earliest and with the least overhead. 
+
+

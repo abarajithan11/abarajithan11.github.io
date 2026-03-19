@@ -3,9 +3,8 @@ title: 'FireBridge: Verifying SoC Subsystems with Real Firmware Without Simulati
 date: 2026-11-10 20:00:00
 categories:
   - 'Engineering'
-  - 'My Work'
+  - 'Projects'
 tags:
-  - 'Technical Projects'
 permalink: /firebridge/
 ---
 
@@ -115,3 +114,5 @@ A real CPU stalls and cache misses. While FireBridge doesn't model these exact C
 Integrating the full Ibex SoC for final validation proved this approach. The design verified via FireBridge worked as is on the actual Ibex-driven SoC simulation, and on FPGA with ARM-based Zynq SoC.
 
 You can check out the testbed and the code here: [GitHub](https://github.com/abarajithan11/axis-systolic-array/tree/master/firebridge)
+
+

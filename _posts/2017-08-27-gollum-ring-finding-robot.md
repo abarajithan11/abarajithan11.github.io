@@ -3,9 +3,8 @@ title: 'Gollum - Ring Finding Robot: [GPS, obstacle avoiding, wall following, co
 date: 2017-08-27 00:00:00
 last_modified_at: 2021-11-21 08:31:48
 categories:
-  - 'My Work'
+  - 'Projects'
 tags:
-  - 'Technical Projects'
 permalink: /gollum-ring-finding-robot/
 ---
 
@@ -42,3 +41,5 @@ I took Gollum to one of my basic robotics workshop as an inspiration. Some schoo
 ![]({{ site.content_base_url }}/images/2021/11/20170719_115814.jpg)
 
 ![]({{ site.content_base_url }}/images/2021/11/20170719_115907-1.jpg)
+
+

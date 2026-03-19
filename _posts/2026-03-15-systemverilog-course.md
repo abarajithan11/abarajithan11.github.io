@@ -5,9 +5,8 @@ last_modified_at: 2026-03-15 20:45:00
 categories:
   - 'Engineering'
   - 'Teaching'
-  - 'My Work'
+  - 'Projects'
 tags:
-  - 'Technical Projects'
   - 'Community Work'
   - 'Teaching'
 permalink: /systemverilog-course/
@@ -92,3 +91,5 @@ I structured the course into modular, hands-on labs with increasing complexity. 
 5. **Computer Organization and Design:**   
    **The Hardware/Software Interface, RISC-V Edition** by David A Patterson  
    One of the most popular books. Especially on processor design. I haven't read it yet.
+
+

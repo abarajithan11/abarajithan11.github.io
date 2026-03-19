@@ -3,9 +3,8 @@ title: 'AI Engine Experiments'
 date: 2025-10-25 20:40:00
 categories:
   - 'Engineering'
-  - 'My Work'
+  - 'Projects'
 tags:
-  - 'Technical Projects'
 permalink: /amd-aie-explorations/
 ---
 
@@ -65,3 +64,5 @@ This material introduces the AIE programming model through:
 The assignment code includes files like `basic_mm.py`, `matmul.cc`, `passthrough.py`, and `nn.py`.
 
 ![]({{ site.content_base_url }}/images/2026/aie_project.webp)
+
+
