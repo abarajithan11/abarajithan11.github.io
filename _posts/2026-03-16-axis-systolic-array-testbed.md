@@ -69,6 +69,16 @@ I then integrated this with Ibex-SoC to create a full SoC. The same C firmware c
 
 I used my [FireBridge](/firebridge/) VIP to stress test the full AXI ports with real C firmware, emulating congestion.
 
+## Fixing the SoC Deadlock due to Circular Dependancy
+
+I faced an AXI deadlock problem during Ibex integration. The systolic array does `y = k@x + a`, on 3 input matrices. All 4 interfaces are axi stream (3 slaves, one master). I put 4 AXI DMAs on them, which gave 4 AXI masters. Then i used a crossbar across them to unify the 4 masters into one master, and connected that to the memory slave. I set the burst length to 1.
+
+During simulation, the k-DMA kept sending requests, the crossbar kept sending that to the slave. At some point, the k-axi stream got stalled by the SA, because the SA didn't have the a-stream, because the single AXI port was being used by the k-DMA. So now, the k-DMA cannot push data into the stream. But the slave was responding with rdata for it's requests, and it cannot accept it. So the crossbar is stalled waiting for k-AXI port to accept the slave's responses before switching to another master. This is a deadlock because of this circular dependency.
+
+One way to temporarily solve it is by using FIFOs of appropriate length on axi port. But that doesn't work when the matrix sizes and legnths of axi packets are dynamic.
+
+The real bug was Alex Forencich's DMA was pre-fetching by sending requests, without having enough buffer to hold the reponses of its outstanding requests, when the output stream stalls. Fixing this within the IP is non-trivial, so I implemented a patch by gating the DMA's request port using the `ready` from the stream side. When systolic array pulls the `ready` down, DMA thinks crossbar has also pulled the `arready` down and the crossbar thinks DMA has pulled `arvalid` down. This worked, although it is not strictly AXI compliant in a way that valid has to be held stable during an `arready` stall.
+
 **[GitHub - axis-systolic-array](https://github.com/abarajithan11/axis-systolic-array)**
 
 
