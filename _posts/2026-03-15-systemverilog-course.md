@@ -47,13 +47,16 @@ My goals for each course are:
 
 ## Selected Feedback
 
-The course received overwhelmingly positive feedback across all its iterations:
+From beginners to fresh graduates working at Synopsys, participants consistently said the course helped them build a strong foundation in SystemVerilog, ASIC design, and real industry practices, and many described it as well worth the investment.
 
-> "What I feel is that this session was the cream of the HDL extracted from internet and every references. If you can do this kind of dedications, it would really helpful for the new comers to the field."
+> What I feel is that this session was the cream of the HDL extracted from internet and every references. If you can do this kind of dedications, it would really helpful for the new comers to the field.
 
-> "The things I learned from this course - the insights, tactics, and guidance - felt more valuable than everything else I gained. Hats-off to the entire team... These kind of initiatives deserves to reach much more audience."
+> The things I learned from this course - the insights, tactics, and guidance - felt more valuable than everything else I gained. Hats-off to the entire team... These kind of initiatives deserves to reach much more audience.
 
-> "The course was very interesting, and I was a total beginner for the SystemVerilog. But, at the end with the help of the teachers and the instructors I was able to grab the content in my best. I am willing to join future courses and waiting for them."
+> Special thanks to the ABA sir and the skillsurf team. This course is worth more than money, and it will definitely be a turning point in my life. I highly recommend it to all FPGA and ASIC enthusiasts.
+
+> As a fresh graduate, I never knew the importance of testbenches. Now I feel I have a very solid foundation in ASIC development.
+
 
 ## My Teaching Method
 
