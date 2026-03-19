@@ -17,7 +17,7 @@ We rented a car from ABQ airport, paying $850 for 13 days. I had booked a medium
 
 Los Alamos is about 30 minutes from Santa Fe. We visited Oppenheimer’s house, saw his Baghavat Gita, and the intact project gate. The museum there explains the science and history of nuclear bomb development very well. The landscape around Los Alamos was gorgeous, which was one of the reasons Oppenheimer chose this spot.
 
-[Overview of the road trip](/texas-trip-16-days-4600-km-drive/)
+[Overview of the road trip](/travel/texas-trip-16-days-4600-km-drive/)
 
 ![]({{ site.content_base_url }}/images/2026_from_fb/adobe-cities-and-atomic-bombs-new-mexico-texas-trip-25/10237565563429923.jpg)
 
