@@ -58,11 +58,11 @@ I then built my [FireBridge VIP](/firebridge/) around this, to do stress testing
 
 Currently, I am actively working on **formally verifying** this systolic array implementation. You can check my [formal testbench here](https://github.com/abarajithan11/axis-systolic-array/blob/master/formal/tb_axis_sa.sv).
 
-I'm using the ghost abstraction method. I leave two input matrices unconstrained, so the tool can verify for all inputs. At an arbitarily picked time, I wait for the current input packet to complete (`s_last_handshake`), then drive the selected input matrices on the slave side, after each handshake (`s_valid` is left arbitary). On the output side, I compare every beat of the data to the expected matrix and set a flag. The SVA basically says "If input was seen, then output must be seen within X clock cycles". There are a few fairness assumptions to prevent the tool from just holding `m_ready` down forever and giving a trivial counterexample.
+I'm using the ghost abstraction method. I leave two input matrices unconstrained, so the tool can verify for all inputs. At an arbitrarily picked time, I wait for the current input packet to complete (`s_last_handshake`), then drive the selected input matrices on the slave side, after each handshake (`s_valid` is left arbitrary). On the output side, I compare every beat of the data to the expected matrix and set a flag. The SVA basically says "If input was seen, then output must be seen within X clock cycles". There are a few fairness assumptions to prevent the tool from just holding `m_ready` down forever and giving a trivial counterexample.
 
 ## SoC Design Elements
 
-I used DMAs and the Interconnet from Alex Forencich's [AXI repository](https://github.com/alexforencich/verilog-axi) to turn the AXI-Stream module into a full AXI module. I built a DMA controller for the four DMAs with a register bank that is written and read from the firmware. I have TCL scripts for Vivado to implement this on the FPGA, which I have tested on ZYNQ boards.
+I used DMAs and the interconnect from Alex Forencich's [AXI repository](https://github.com/alexforencich/verilog-axi) to turn the AXI-Stream module into a full AXI module. I built a DMA controller for the four DMAs with a register bank that is written and read from the firmware. I have TCL scripts for Vivado to implement this on the FPGA, which I have tested on ZYNQ boards.
 
 I then integrated this with Ibex-SoC to create a full SoC. The same C firmware compiles to RISC-V and runs on Ibex in simulation. 
 

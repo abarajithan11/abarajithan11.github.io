@@ -14,7 +14,7 @@ permalink: /jaffna-marriage-story/
 
 During the war, many Tamils escaped abroad. Several from my family. Usually boys of age around 20-25. They get in as refugees, work and send money home here.   
   
-So, in their 28-30, when they settle and get refugee PR, they have gotta get married, right? You cant move easily back and forth. And tickets are expensive. So the standard procedure was this:  
+So, in their 28-30, when they settle and get refugee PR, they have gotta get married, right? You can't move easily back and forth. And tickets are expensive. So the standard procedure was this:  
   
 The family of the boy will find a girl of the same caste and good horoscope. Often, the boy doesn't even get to look at her picture. They arrange the marriage here. During the reception, the boy's mom wears the ring to the girl and forges her son's signature. Marriage is done! They send the girl abroad to live happily ever after with the boy, mostly on a fake passport / as a PR wife.
 

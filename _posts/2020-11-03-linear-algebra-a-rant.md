@@ -63,8 +63,8 @@ Time independent Schrodinger's equation (solutions of which are the atomic orbit
 
 To nitpick:
 
-The wavefunction is not necessarily an eigen-fuction of the Hamiltonian. The more accurate word would be 'atomic orbital' or something similar. Wavefunctions (i.e. electron states) can be almost anything (are a much bigger class). A special few of them are eigenfunctions of the Hamiltonians. These few electron states (i.e. wavefunctions which are also eigenfunctions) have the special property that they have definite energy (which are the corresponding eigenvalues).
+The wavefunction is not necessarily an eigenfunction of the Hamiltonian. The more accurate word would be 'atomic orbital' or something similar. Wavefunctions (i.e. electron states) can be almost anything (are a much bigger class). A special few of them are eigenfunctions of the Hamiltonians. These few electron states (i.e. wavefunctions which are also eigenfunctions) have the special property that they have definite energy (which are the corresponding eigenvalues).
 
-However, any wavefunction can be written as a linear combination of the eigenvectors (because of a special property of the Hamiltonian, which is not completely relevant here). In summary, if wavefunctions are vectors (say in 3D space), then the eigenfunctions are a orthonormal basis set.So you see, the error is just you have written 'wavefunction' instead of 'orbital'. Its tiny, but confused me at a first glance.
+However, any wavefunction can be written as a linear combination of the eigenvectors (because of a special property of the Hamiltonian, which is not completely relevant here). In summary, if wavefunctions are vectors (say in 3D space), then the eigenfunctions are an orthonormal basis set. So you see, the error is just that you have written 'wavefunction' instead of 'orbital'. It's tiny, but it confused me at first glance.
 
 See more in the comments: [facebook.com/abarajithan11/posts/10221074444962268](https://web.facebook.com/abarajithan11/posts/10221074444962268)

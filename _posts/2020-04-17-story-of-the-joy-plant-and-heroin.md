@@ -13,9 +13,9 @@ permalink: /story-of-the-joy-plant-and-heroin/
 
 > "Take the best orgasm you ever had, multiply it by a thousand and you're still nowhere near it."
 
-Being the most addictive and also the deadliest narcotic of all, Heroin has a history that dates back to thousands of years. Heroin overdose depresses heart rate and breathing and kills someone once every 11 minutes in US. Naloxone is kept in handy to treat overdoses. In addition to overdose, herione needles were a main cause of HIV pandemic of US in 80s.
+Being the most addictive and also the deadliest narcotic of all, Heroin has a history that dates back to thousands of years. Heroin overdose depresses heart rate and breathing and kills someone once every 11 minutes in the US. Naloxone is kept handy to treat overdoses. In addition to overdose, heroin needles were a main cause of the HIV pandemic in the US in the 80s.
 
-Opium is the dried latex of poppy plant with an 8000 year history. Sumerian tablets record the cultivation and trading of this "joy plant" 5400 years ago. The belt of Afganistan to North India to Burma have been cultivating it throughout history and even today account for the largest supply of opium. By 1100 BCE, surgical-quality knives were used to score the poppy pods. Throughout history, opium has been used for recreation, as painkiller in surgeries, to help psychotic patients, and for suicide.
+Opium is the dried latex of poppy plant with an 8000 year history. Sumerian tablets record the cultivation and trading of this "joy plant" 5400 years ago. The belt from Afghanistan to North India to Burma has cultivated it throughout history and even today accounts for the largest supply of opium. By 1100 BCE, surgical-quality knives were used to score the poppy pods. Throughout history, opium has been used for recreation, as a painkiller in surgeries, to help psychotic patients, and for suicide.
 
 Morphine was isolated from opium in 1803 and is still one of the most popular painkillers. Vicodin (Dr. House) is an opiate painkiller as well. Heroin is made from Morphine and is THE most addictive drug out there. Typically injected to vein by a syringe, it is also smoked, snorted or inhaled. It is sold as a brown / white tar like powder, which is mixed with citric acid and water and injected.
 

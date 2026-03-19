@@ -183,7 +183,7 @@ We went boating in crystal clear waters in Dowki. We could see the Bangladesh si
 
 ![]({{ site.content_base_url }}/images/2022/01/IMG_20191115_100310.jpg)
 
-Khasi and Jaintia tribes of Meghalaya have mastered the art of building living root bridges to cross strams. They wrap thick roots of trees together to form a structure, shaping them over decades into a sturdy bridge that has a capacity to hold more than 50 people.
+Khasi and Jaintia tribes of Meghalaya have mastered the art of building living root bridges to cross streams. They wrap thick roots of trees together to form a structure, shaping them over decades into a sturdy bridge that has a capacity to hold more than 50 people.
 
 ## Shillong
 

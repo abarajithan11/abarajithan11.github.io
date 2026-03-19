@@ -33,11 +33,11 @@ All planets and most moons revolve aligned to more or less the same plane (calle
 
 ## How are Raghu & Kethu related to eclipse?
 
-Raghu and Kethu of astrology are the ascending and descending lunar nodes. Lunar nodes are the points where the moons orbit (slanted by 5°) crosses the Earth's orbit (ecliptic plane). These points move with respect to a fixed point in earth, which is described as the motion of two "shadow planets" Raghu and Kethu in astrology. For an eclipse to occur, sun and moon should align into one of these points. Traditionally it was beleived one of two snakes eat the sun and spit it out.
+Raghu and Kethu of astrology are the ascending and descending lunar nodes. Lunar nodes are the points where the moon's orbit (slanted by 5°) crosses the Earth's orbit (ecliptic plane). These points move with respect to a fixed point on Earth, which is described as the motion of two "shadow planets" Raghu and Kethu in astrology. For an eclipse to occur, the sun and moon should align at one of these points. Traditionally it was believed one of two snakes would eat the sun and spit it out.
 
 ## Few million years later:
 
-After few millions of years, we would not get total solar eclipses. Because the moon is slowly moving away from earth and is getting apparently smaller and smaller. Why? Firstly, Earth spins faster (24 hours) than moon revolving around earth (30 days). This causes moon to "pull and drag" the oceans, causing tides against Earth's rotation. This slows downs earth and speeds up the moon (conservation of angular momentum of the system). As the moon speeds up, it moves futher away (gravity acting as the centripetal force implies speed and distance are inversely related) and appears smaller and smaller.
+After a few million years, we would not get total solar eclipses, because the moon is slowly moving away from Earth and is getting apparently smaller and smaller. Why? Firstly, Earth spins faster (24 hours) than the moon revolves around Earth (30 days). This causes the moon to "pull and drag" the oceans, causing tides against Earth's rotation. This slows down Earth and speeds up the moon (conservation of angular momentum of the system). As the moon speeds up, it moves further away (gravity acting as the centripetal force implies speed and distance are inversely related) and appears smaller and smaller.
 
 ## Einstein and the Eclipse
 
