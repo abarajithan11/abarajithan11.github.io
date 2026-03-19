@@ -65,9 +65,6 @@ author:
   avatar : "https://media.abapages.com/content/images/bio-photo.jpg"
   bio    : "PhD student @ UC San Diego. Hardware Security & Verification, Custom Hardware for Edge AI and SoC-level Integration"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://abapages.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/abarajithan11"
