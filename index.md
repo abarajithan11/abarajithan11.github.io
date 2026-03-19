@@ -42,6 +42,7 @@ I am a PhD student in Kastner Research Lab @ UCSD CSE, focusing on hardware secu
 * Kraken: An Efficient Engine with a Uniform Dataflow for Deep Neural Networks. **G Abarajithan**, CUS Edussooriya. *arXiv preprint arXiv:2112.02793, 2021.* **[Link](https://arxiv.org/abs/2112.02793)**
 
 ## Contact Me
+{: #contact-me }
 
 <div class="contact-form-wrap">
   <form
