@@ -24,7 +24,7 @@ github_username: abarajithan11
 minimal_mistakes_skin: "contrast"
 search: true
 content_base_url: "https://media.abapages.com/content"
-logo: "https://media.abapages.com/content/images/favicon/apple-touch-icon-180.png"
+schema_logo: "https://media.abapages.com/content/images/favicon/apple-touch-icon-180.png"
 
 # Build settings
 markdown: kramdown
