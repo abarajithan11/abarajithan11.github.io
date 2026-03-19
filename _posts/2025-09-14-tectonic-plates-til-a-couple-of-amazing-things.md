@@ -8,7 +8,7 @@ tags:
   - 'Thoughts'
 ---
 
-![]({{ site.content_base_url }}/images/2026_from_fb/craton.svg)
+![]({{ site.content_base_url }}/images/2026_from_fb/craton.png)
 
 The fact that continents are moving was accepted by the scientific community only in the 1960s. One of the major evidence was magnetite. This is lava that solidifies into magnetic rock, and as it does, it aligns with the magnetic north.
 
