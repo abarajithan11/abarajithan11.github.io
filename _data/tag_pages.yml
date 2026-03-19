@@ -1,3 +1,8 @@
+- title: "AXI"
+  url: /tags/axi/
+  teaser: "/images/2026/firebridge.png"
+  latest_title: "FireBridge: Verifying SoC Subsystems with Real Firmware Without Simulating a CPU"
+  count: 7
 - title: "Australia"
   url: /tags/australia/
   teaser: "/images/2022/01/IMG_20180701_173711-1.jpg"
@@ -18,11 +23,26 @@
   teaser: "/images/2022/03/PXL_20220226_125117243-2.jpg"
   latest_title: "Upper Gartmore Camping [2022]"
   count: 13
+- title: "Other Hardware"
+  url: /tags/other-hardware/
+  teaser: "/images/2026/aie_tiles.png"
+  latest_title: "AI Engine Experiments"
+  count: 2
 - title: "Reviews"
   url: /tags/reviews/
   teaser: "/images/2022/01/Feature-image-e1490252320964.jpg"
   latest_title: "The Jam Fruit Tree - Book Review"
   count: 13
+- title: "School"
+  url: /tags/school/
+  teaser: "/images/2021/11/Z15.jpg"
+  latest_title: "AutoCAD 3D: 3 Story House"
+  count: 3
+- title: "SoC"
+  url: /tags/soc/
+  teaser: "/images/2026/firebridge.png"
+  latest_title: "FireBridge: Verifying SoC Subsystems with Real Firmware Without Simulating a CPU"
+  count: 10
 - title: "Stories"
   url: /tags/stories/
   teaser: "/images/2022/01/jaffna-wedding.jpg"
@@ -37,9 +57,14 @@
   url: /tags/thoughts/
   teaser: "/images/2022/04/220405002141-01-sri-lanka-protest-04042022-exlarge-169.jpg"
   latest_title: "#GoHomeRajapaksas - An Unprecedented Revolution"
-  count: 18
+  count: 17
 - title: "Travels"
   url: /tags/travels/
   teaser: "/images/2022/03/PXL_20220226_125117243-2.jpg"
   latest_title: "Upper Gartmore Camping [2022]"
   count: 41
+- title: "Undergrad"
+  url: /tags/undergrad/
+  teaser: "/images/2021/11/IMG_20191204_112837--1--1.jpg"
+  latest_title: "Vision-Based Adaptive Traffic Control on an MPSoC [ARM+FPGA]"
+  count: 9

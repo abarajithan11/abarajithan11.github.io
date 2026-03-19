@@ -2,9 +2,10 @@
 title: 'FireBridge: Verifying SoC Subsystems with Real Firmware Without Simulating a CPU'
 date: 2026-11-10 20:00:00
 categories:
-  - 'Engineering'
   - 'Projects'
 tags:
+  - 'SoC'
+  - 'AXI'
 permalink: /firebridge/
 ---
 

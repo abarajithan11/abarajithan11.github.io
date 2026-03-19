@@ -2,9 +2,10 @@
 title: 'CGRA4ML: An End-to-End Framework for Deploying DNNs on FPGAs and ASICs'
 date: 2026-03-16 20:10:00
 categories:
-  - 'Engineering'
   - 'Projects'
 tags:
+  - 'SoC'
+  - 'AXI'
 permalink: /cgra4ml/
 ---
 

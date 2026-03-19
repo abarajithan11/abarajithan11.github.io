@@ -1,3 +1,10 @@
+- title: "Projects"
+  children:
+    - "SoC"
+    - "AXI"
+    - "Other Hardware"
+    - "Undergrad"
+    - "School"
 - title: "Travel"
   children:
     - "India"

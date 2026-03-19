@@ -3,8 +3,9 @@ title: 'Smart Lock: Assembly Programming, Product Realization, Marketing'
 date: 2018-07-18 00:00:00
 last_modified_at: 2021-11-21 08:21:42
 categories:
-  - 'Projects'
+  - 'Other'
 tags:
+  - 'Undergrad'
 permalink: /smart-lock/
 ---
 

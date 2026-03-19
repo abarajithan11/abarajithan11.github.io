@@ -2,9 +2,10 @@
 title: 'AXI-Stream Systolic Array → SoC Testbed'
 date: 2025-12-10 20:15:00
 categories:
-  - 'Engineering'
   - 'Projects'
 tags:
+  - 'SoC'
+  - 'AXI'
 permalink: /axis-systolic-array-testbed/
 ---
 

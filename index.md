@@ -29,7 +29,7 @@ I am a PhD student in Kastner Research Lab @ UCSD CSE, focusing on hardware secu
 * **SystemVerilog Course for 300 students:**
   64-hour short course, collaborating with Synopsys, covering RTL design, randomized transactional testbenches, AXI protocol design, FPGA & ASIC flow labs. **[More](/systemverilog-course/)**
 
-* **Formal AXI Verification Stack:**
+* **Lightweight Formal AXI VIP:**
   A reusable Formal VIP for AXI4 and AXI5 protocols and for complex IPs like interconnects being built and tested against both open-source and commercial tools. **[More](/formal-axi/)**
 
 * **AXI Stream Systolic Array:**

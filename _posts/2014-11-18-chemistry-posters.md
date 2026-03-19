@@ -6,6 +6,7 @@ categories:
   - 'Other'
 tags:
   - 'Community Work'
+  - 'School'
 permalink: /chemistry-posters/
 ---
 

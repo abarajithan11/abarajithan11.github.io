@@ -3,8 +3,9 @@ title: 'Gollum - Ring Finding Robot: [GPS, obstacle avoiding, wall following, co
 date: 2017-08-27 00:00:00
 last_modified_at: 2021-11-21 08:31:48
 categories:
-  - 'Projects'
+  - 'Other'
 tags:
+  - 'Undergrad'
 permalink: /gollum-ring-finding-robot/
 ---
 

@@ -5,6 +5,7 @@ last_modified_at: 2022-03-03 03:08:51
 categories:
   - 'Other'
 tags:
+  - 'Undergrad'
 permalink: /schrodingers-equation-matlab/
 ---
 

@@ -2,9 +2,10 @@
 title: 'A Framework to Evaluate Verification Methods by Automatically Injecting Bugs into SoC IPs'
 date: 2026-03-10 20:00:00
 categories:
-  - 'Engineering'
   - 'Projects'
 tags:
+  - 'SoC'
+  - 'AXI'
 permalink: /soc-fuzzing-benchmark/
 ---
 

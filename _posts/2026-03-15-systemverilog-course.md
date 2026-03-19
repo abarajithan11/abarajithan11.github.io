@@ -3,12 +3,13 @@ title: 'SystemVerilog Course at Scale'
 date: 2026-03-15 20:45:00
 last_modified_at: 2026-03-15 20:45:00
 categories:
-  - 'Engineering'
   - 'Teaching'
   - 'Projects'
 tags:
   - 'Community Work'
   - 'Teaching'
+  - 'SoC'
+  - 'AXI'
 permalink: /systemverilog-course/
 ---
 

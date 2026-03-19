@@ -2,9 +2,10 @@
 title: 'Reusable AXI-stream verification IPs in SystemVerilog'
 date: 2026-05-16 20:25:00
 categories:
-  - 'Engineering'
   - 'Projects'
 tags:
+  - 'SoC'
+  - 'AXI'
 permalink: /reusable-axis-vip/
 ---
 

@@ -2,9 +2,10 @@
 title: 'Lightweight Formal AXI VIP'
 date: 2026-03-16 20:05:00
 categories:
-  - 'Engineering'
   - 'Projects'
 tags:
+  - 'SoC'
+  - 'AXI'
 permalink: /formal-axi/
 ---
 
