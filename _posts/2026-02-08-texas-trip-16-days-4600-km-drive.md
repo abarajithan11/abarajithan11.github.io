@@ -10,6 +10,8 @@ tags:
   - 'USA'
 ---
 
+![]({{ site.content_base_url }}/images/2026_from_fb/texas-trip-16-days-4600-km-drive/10237504303938474.jpg)
+
 Drove 4660 km (2896 mi) in 13 days in a Subaru Outback as a road trip across New Mexico, Texas, and Louisiana. We visited 3 national parks and camped for 4 days straight, with 0 °C weather on the last day. Highlights:
 
 * **Los Alamos** --- where Oppenheimer’s team developed the bomb
@@ -25,8 +27,6 @@ Drove 4660 km (2896 mi) in 13 days in a Subaru Outback as a road trip across New
 * **New Orleans** --- city with the best vibes in the US; amazing street music at every corner; cute, colorful houses.
 
 More info in future posts...
-
-![]({{ site.content_base_url }}/images/2026_from_fb/texas-trip-16-days-4600-km-drive/10237504303938474.jpg)
 
 ![]({{ site.content_base_url }}/images/2026_from_fb/texas-trip-16-days-4600-km-drive/10237504304418486.jpg)
 
