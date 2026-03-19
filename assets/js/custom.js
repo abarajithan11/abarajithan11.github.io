@@ -363,6 +363,73 @@ document.addEventListener("DOMContentLoaded", function () {
     return node.textContent.trim() === child.textContent.trim();
   }
 
+  function buildPostCardMap() {
+    if (!Array.isArray(window.sitePostCards)) return new Map();
+
+    const cards = new Map();
+    window.sitePostCards.forEach(function (record) {
+      if (!record || !record.url) return;
+      cards.set(normalizePathname(record.url), record);
+    });
+    return cards;
+  }
+
+  function isSameOriginUrl(href) {
+    try {
+      return new URL(href, window.location.origin).origin === window.location.origin;
+    } catch (_error) {
+      return false;
+    }
+  }
+
+  function createPostPreviewCard(record) {
+    const wrapper = document.createElement("div");
+    wrapper.className = "link-preview-block";
+
+    const card = document.createElement("a");
+    card.className = "post-card link-preview-card";
+    card.href = record.url;
+
+    if (record.teaser) {
+      const imageWrap = document.createElement("div");
+      imageWrap.className = "post-card__image link-preview-card__image";
+
+      const image = document.createElement("img");
+      image.src = record.teaser;
+      image.alt = record.title || "";
+      image.loading = "lazy";
+
+      imageWrap.appendChild(image);
+      card.appendChild(imageWrap);
+    }
+
+    const body = document.createElement("div");
+    body.className = "post-card__body";
+
+    const title = document.createElement("h3");
+    title.className = "post-card__title";
+    title.textContent = record.title || record.url;
+    body.appendChild(title);
+
+    if (record.date) {
+      const meta = document.createElement("div");
+      meta.className = "post-card__meta";
+      meta.textContent = record.date;
+      body.appendChild(meta);
+    }
+
+    if (record.excerpt) {
+      const excerpt = document.createElement("p");
+      excerpt.className = "post-card__excerpt";
+      excerpt.textContent = record.excerpt;
+      body.appendChild(excerpt);
+    }
+
+    card.appendChild(body);
+    wrapper.appendChild(card);
+    return wrapper;
+  }
+
   function createEmbedBlock(paragraph, embedUrl, options) {
     const wrapper = document.createElement("div");
     wrapper.className = `embed-block ${options.wrapperClass}`;
@@ -396,6 +463,24 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     paragraph.replaceWith(wrapper);
+  }
+
+  function upgradeInternalPostLinks(content) {
+    const postCardMap = buildPostCardMap();
+    if (postCardMap.size === 0) return;
+
+    content.querySelectorAll("p").forEach(function (paragraph) {
+      if (!isStandaloneLinkParagraph(paragraph)) return;
+
+      const link = paragraph.firstElementChild;
+      if (!link || !isSameOriginUrl(link.href)) return;
+
+      const pathname = normalizePathname(new URL(link.href, window.location.origin).pathname);
+      const record = postCardMap.get(pathname);
+      if (!record) return;
+
+      paragraph.replaceWith(createPostPreviewCard(record));
+    });
   }
 
   function upgradeYouTubeEmbeds(content) {
@@ -583,6 +668,7 @@ document.addEventListener("DOMContentLoaded", function () {
     upgradeGoogleDriveEmbeds(content);
     upgradeGoogleSheetsEmbeds(content);
     upgradeOneDriveEmbeds(content);
+    upgradeInternalPostLinks(content);
     enableImageLightbox(content, lightbox);
 
     let node = content.firstElementChild;

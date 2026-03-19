@@ -173,6 +173,37 @@
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
+  window.sitePostCards = [
+    {% for post in site.posts %}
+      {% assign post_html = post.content %}
+      {% assign teaser = post.teaser | default: "" %}
+      {% if teaser == "" and post_html contains '<img ' %}
+        {% assign image_parts = post_html | split: '<img ' %}
+        {% assign first_image = image_parts[1] %}
+        {% assign teaser = first_image | split: 'src="' | last | split: '"' | first %}
+      {% endif %}
+      {% if teaser == "" and post_html contains '![' %}
+        {% assign markdown_parts = post_html | split: '![' %}
+        {% if markdown_parts.size > 1 %}
+          {% assign teaser = markdown_parts[1] | split: '](' | last | split: ')' | first %}
+        {% endif %}
+      {% endif %}
+      {% if teaser contains 'site.content_base_url' %}
+        {% assign teaser = teaser | split: '}}' | last %}
+      {% endif %}
+      {% if teaser contains '/content/' %}
+        {% assign teaser = teaser | split: '/content' | last %}
+      {% endif %}
+      {% assign excerpt = post.excerpt | markdownify | strip_html | strip_newlines | replace: "  ", " " | strip %}
+      {
+        url: {{ post.url | relative_url | jsonify }},
+        title: {{ post.title | jsonify }},
+        date: {{ post.date | date: "%B %-d, %Y" | jsonify }},
+        excerpt: {{ excerpt | jsonify }},
+        teaser: {% if teaser != "" %}{% if teaser contains "://" %}{{ teaser | jsonify }}{% else %}{{ site.content_base_url | append: teaser | jsonify }}{% endif %}{% else %}""{% endif %}
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
 </script>
-<script defer src="{{ '/assets/js/custom.js?v=18' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/custom.js?v=19' | relative_url }}"></script>
 
