@@ -7,6 +7,7 @@ categories:
 tags:
   - 'Travels'
   - 'Nature'
+  - 'USA'
 ---
 
 Drove 4660 km (2896 mi) in 13 days in a Subaru Outback as a road trip across New Mexico, Texas, and Louisiana. We visited 3 national parks and camped for 4 days straight, with 0 °C weather on the last day. Highlights:

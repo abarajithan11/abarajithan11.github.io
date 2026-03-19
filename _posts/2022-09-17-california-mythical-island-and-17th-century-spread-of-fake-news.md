@@ -3,9 +3,9 @@ title: 'California - 17th Century Fake News [India 2022]'
 date: 2022-09-17 08:14:22 -0700
 last_modified_at: 2022-09-17 08:14:22 -0700
 categories:
-  - 'Travel'
+  - 'Thoughts'
 tags:
-  - 'Travels'
+  - 'History'
 ---
 
 Around the same time Columbus landed, some guy published a random fictitious novel about a mythical island where only black women live (Amazon-style), the only metal used is gold, etc. In the book, he named the island California, ruled by a beautiful queen named Calafia, located "to the right of the Indies".

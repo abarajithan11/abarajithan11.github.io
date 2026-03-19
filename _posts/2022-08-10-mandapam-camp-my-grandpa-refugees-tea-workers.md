@@ -7,6 +7,7 @@ categories:
 tags:
   - 'Travels'
   - 'India'
+  - 'History'
 ---
 
 In 1917, the British set up a quarantine center at the edge of India. Indians, who were being brought to Sri Lanka to work in tea estates, were stopped there for 72 hours to check for symptoms of diseases. After independence, it remained the property of Sri Lanka on mainland Indian soil, until Sirimavo sold it back to India in 1965 for 1.9 million INR. It was then used to quarantine the tea workers who were being sent back by the Sirimavo regime. Today, it spans 95 acres and is being used by the Indian government to house Sri Lankan refugees.

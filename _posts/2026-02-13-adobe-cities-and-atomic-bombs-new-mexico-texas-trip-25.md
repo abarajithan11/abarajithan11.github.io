@@ -6,6 +6,8 @@ categories:
   - 'Travel'
 tags:
   - 'Travels'
+  - 'USA'
+  - 'History'
 ---
 
 Santa Fe and ABQ Old Town have a unique vibe, filled with adobe-like houses. This architectural style originated with the native tribes and was improved upon by the Spanish settlers. Many buildings have mud verandahs (திண்ணை), and are decorated with red chilies woven into various patterns. New Mexico cuisine is also unique, using a lot of red and green chilies.

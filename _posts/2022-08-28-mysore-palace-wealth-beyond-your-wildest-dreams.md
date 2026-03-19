@@ -7,6 +7,7 @@ categories:
 tags:
   - 'Travels'
   - 'India'
+  - 'History'
 ---
 
 The second most visited spot in India is home to the Wadiyar dynasty, who have been ruling the Kingdom of Mysore for 551 years, through 27 kings. “Heaven in the world” is how spectators describe the sight when the 97,000 bulbs lined along the palace come alive for 45 minutes on Sundays.

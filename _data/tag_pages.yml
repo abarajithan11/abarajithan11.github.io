@@ -12,11 +12,21 @@
   url: /tags/community-work/
   teaser: "/images/2026/sv_first_page.png"
   latest_title: "SystemVerilog Course at Scale"
-  count: 11
+  count: 10
+- title: "Food"
+  url: /tags/food/
+  teaser: "/images/2026_from_fb/mysore-food-the-cul-tural-inary-capital-of-karnataka/10225318050449753.jpg"
+  latest_title: "Mysore & Food [India 2022]"
+  count: 5
+- title: "History"
+  url: /tags/history/
+  teaser: "/images/2026_from_fb/adobe-cities-and-atomic-bombs-new-mexico-texas-trip-25/10237565563429923.jpg"
+  latest_title: "Adobe cities and Atomic bombs: New Mexico - Texas Trip ‘25"
+  count: 10
 - title: "India"
   url: /tags/india/
   teaser: "/images/2026_from_fb/bengaluru-tech-museum-eat-street-iskcon-kovil/10225330571682776.jpg"
-  latest_title: "Bengaluru - Tech Museum, Eat Street, Iskcon Kovil"
+  latest_title: "Bengaluru - Tech Museum, Eat Street, Iskcon Kovil [India 2022]"
   count: 32
 - title: "Nature"
   url: /tags/nature/
@@ -42,20 +52,25 @@
   url: /tags/soc/
   teaser: "/images/2026/firebridge.png"
   latest_title: "FireBridge: Verifying SoC Subsystems with Real Firmware Without Simulating a CPU"
-  count: 11
+  count: 10
+- title: "Sri Lanka"
+  url: /tags/sri-lanka/
+  teaser: "/images/2026_from_fb/jaffna-trip-3-day-plan/10224941048784947.jpg"
+  latest_title: "Jaffna Trip - 3 Day Plan"
+  count: 6
 - title: "Stories"
   url: /tags/stories/
   teaser: "/images/2026_from_fb/my-speech-at-chinthana-sunimali-s-wedding-transcript/10224950472260528.jpg"
-  latest_title: "My speech at Chinthana & Sunimali''s wedding - Transcript"
+  latest_title: "My speech at Chinthana & Sunimali''s wedding"
   count: 16
 - title: "Teaching"
   url: /tags/teaching/
   teaser: "/images/2026/sv_first_page.png"
   latest_title: "SystemVerilog Course at Scale"
-  count: 7
+  count: 6
 - title: "Thoughts"
   url: /tags/thoughts/
-  teaser: ""
+  teaser: "/images/2026_from_fb/craton.png"
   latest_title: "Tectonic Plates: TIL a couple of amazing things."
   count: 20
 - title: "Travels"
@@ -63,8 +78,18 @@
   teaser: "/images/2026_from_fb/adobe-cities-and-atomic-bombs-new-mexico-texas-trip-25/10237565563429923.jpg"
   latest_title: "Adobe cities and Atomic bombs: New Mexico - Texas Trip ‘25"
   count: 62
+- title: "USA"
+  url: /tags/usa/
+  teaser: "/images/2026_from_fb/adobe-cities-and-atomic-bombs-new-mexico-texas-trip-25/10237565563429923.jpg"
+  latest_title: "Adobe cities and Atomic bombs: New Mexico - Texas Trip ‘25"
+  count: 10
 - title: "Undergrad"
   url: /tags/undergrad/
   teaser: "/images/2021/11/IMG_20191204_112837--1--1.jpg"
   latest_title: "Vision-Based Adaptive Traffic Control on an MPSoC [ARM+FPGA]"
   count: 9
+- title: "Vietnam"
+  url: /tags/vietnam/
+  teaser: "/images/2022/01/DSC_0244.jpg"
+  latest_title: "Vietnam [2016]"
+  count: 2

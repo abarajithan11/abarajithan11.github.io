@@ -6,6 +6,7 @@ categories:
   - 'Travel'
 tags:
   - 'Travels'
+  - 'USA'
 ---
 
 2500 km in 6 days on a Convertible Mustang through 5 states

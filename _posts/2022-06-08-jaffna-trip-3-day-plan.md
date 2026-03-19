@@ -6,6 +6,7 @@ categories:
   - 'Travel'
 tags:
   - 'Travels'
+  - 'Sri Lanka'
 ---
 
 ![]({{ site.content_base_url }}/images/2026_from_fb/jaffna-trip-3-day-plan/10224941048784947.jpg)

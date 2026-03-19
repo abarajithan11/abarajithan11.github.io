@@ -7,6 +7,7 @@ categories:
 tags:
   - 'Travels'
   - 'Nature'
+  - 'USA'
 ---
 
 Monument Valley - Where Forrest Gump stops running

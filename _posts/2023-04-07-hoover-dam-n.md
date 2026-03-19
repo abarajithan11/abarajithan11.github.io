@@ -6,6 +6,8 @@ categories:
   - 'Travel'
 tags:
   - 'Travels'
+  - 'USA'
+  - 'History'
 ---
 
 TLDR: They spent decades gathering public support, 10 years in political lobbying, and just 2 years to build the largest dam in the world in the middle of the Great Depression, completing it two years ahead of schedule.

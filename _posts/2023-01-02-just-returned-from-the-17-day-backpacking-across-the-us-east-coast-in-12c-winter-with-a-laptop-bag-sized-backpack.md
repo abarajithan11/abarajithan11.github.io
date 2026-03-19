@@ -6,6 +6,7 @@ categories:
   - 'Travel'
 tags:
   - 'Travels'
+  - 'USA'
 ---
 
 I visited Las Vegas (0.5) Baltimore (1), DC (2), Philadelphia (2), Boston (3) and NYC (8). I planned to spend 3 days in Buffalo/Toronto, but my flights got cancelled, and 33 people died from a once-in-a-century snowstorm, so I decided to spend those days in NYC.

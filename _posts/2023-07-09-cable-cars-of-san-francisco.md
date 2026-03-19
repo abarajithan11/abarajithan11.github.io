@@ -6,6 +6,8 @@ categories:
   - 'Travel'
 tags:
   - 'Travels'
+  - 'USA'
+  - 'History'
 ---
 
 Unlike trams, cable cars do not have any motors inside them. A cable keeps moving under the streets, and the cars catch onto it, to move with it around the city.

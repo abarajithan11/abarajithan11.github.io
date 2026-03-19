@@ -7,6 +7,7 @@ categories:
 tags:
   - 'Travels'
   - 'India'
+  - 'Food'
 ---
 
 Mysore is easily one of the best cities to visit in India. It is compact in size, laid back in vibe, rich in history, and unique in culture. The same dynasty has been ruling the Mysore kingdom since the 12th century and is still living in a part of the magnificent palace.

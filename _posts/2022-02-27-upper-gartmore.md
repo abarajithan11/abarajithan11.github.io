@@ -7,6 +7,7 @@ categories:
 tags:
   - 'Nature'
   - 'Travels'
+  - 'Sri Lanka'
 permalink: /upper-gartmore/
 ---
 

@@ -8,6 +8,7 @@ tags:
   - 'India'
   - 'Stories'
   - 'Travels'
+  - 'Food'
 permalink: /ganja-lassi/
 ---
 

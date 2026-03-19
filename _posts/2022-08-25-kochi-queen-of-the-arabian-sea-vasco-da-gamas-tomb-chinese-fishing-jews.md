@@ -7,6 +7,7 @@ categories:
 tags:
   - 'Travels'
   - 'India'
+  - 'History'
 ---
 
 In 1341, a massive flood of the river Periyar destroyed Kerala, reshaping its coastline in the process. This formed the natural harbour of Kochi almost overnight. It was so important, that Chinese kings went to great lengths to influence and install friendly kings there in the 15th century. In 1498, Vasco da Gama landed in nearby Calicut, opening a direct trade route to Europe. Facing resistance in Calicut, the Portuguese moved and settled in Cochin. Vasco Da Gama’s body was buried here (photo of tomb) until it was moved to Lisbon 15 years later.

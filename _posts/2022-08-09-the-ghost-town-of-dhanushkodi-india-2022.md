@@ -7,6 +7,7 @@ categories:
 tags:
   - 'Travels'
   - 'India'
+  - 'History'
 ---
 
 In the 1950s, from Colombo Fort Railway Station, you could take a train ticket to Dhanushkodi (India). The train would take you to Thalai Mannar, then out to sea (photo), where you would be switched to a ferry that would take you to the vibrant little town of Dhanushkodi, where you could switch back to rail. This entire town was obliterated within just 2 hours in 1964 by a cyclone that killed 18,000 people in India & Sri Lanka. Dhanushkodi stands as a ghost town today.

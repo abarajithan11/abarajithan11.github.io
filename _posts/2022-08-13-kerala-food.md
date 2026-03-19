@@ -7,6 +7,7 @@ categories:
 tags:
   - 'Travels'
   - 'India'
+  - 'Food'
 ---
 
 I once called India the ‘foodie’s paradise’. Then Kerala is its unrivalled capital. I could try only a fraction of Kerala's wonderful food culture within three days. It's another reason I want to visit there again for a longer trip.

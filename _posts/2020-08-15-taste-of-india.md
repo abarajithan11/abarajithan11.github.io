@@ -7,6 +7,7 @@ categories:
 tags:
   - 'India'
   - 'Travels'
+  - 'Food'
 permalink: /taste-of-india/
 ---
 

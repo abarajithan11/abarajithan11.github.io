@@ -6,6 +6,7 @@ categories:
   - 'Travel'
 tags:
   - 'Travels'
+  - 'USA'
 ---
 
 Egypt, Venice, Rome & Paris, all within 3 hours. Nothing is holy here: fake mummies decorate grand casinos and a nightclub built like a Buddhist cave temple (photo) calls for "spiritual nightlife".
