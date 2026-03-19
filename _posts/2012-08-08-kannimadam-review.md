@@ -1,5 +1,5 @@
 ---
-title: 'கன்னிமாடம் அபராஜிதனும் கன்னிப்பையன் அபராஜிதனும் - Book Review'
+title: 'கன்னிமாடம் - Book Review'
 date: 2012-08-08 00:00:00
 last_modified_at: 2021-11-21 00:16:05
 categories:
