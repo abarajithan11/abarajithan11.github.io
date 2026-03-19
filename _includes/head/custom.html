@@ -77,6 +77,24 @@
   }
 </style>
 <script>
+  window.pageContext = {
+    isPost: {{ page.collection == "posts" | jsonify }},
+    commentsEnabled: {{ page.comments | default: false | jsonify }}
+  };
+  window.giscusConfig = {
+    repo: "abarajithan11/abarajithan11.github.io",
+    repoId: "R_kgDORH_xug",
+    category: "Announcements",
+    categoryId: "DIC_kwDORH_xus4C4vWc",
+    mapping: "pathname",
+    strict: "0",
+    reactionsEnabled: "1",
+    emitMetadata: "0",
+    inputPosition: "top",
+    theme: "light",
+    lang: "en",
+    loading: "lazy"
+  };
   window.siteTagPages = [
     {% for item in site.data.tag_pages %}
       {
@@ -95,5 +113,5 @@
     {% endfor %}
   ];
 </script>
-<script defer src="{{ '/assets/js/custom.js?v=16' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/custom.js?v=17' | relative_url }}"></script>
 

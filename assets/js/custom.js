@@ -525,6 +525,53 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  function injectGiscusComments() {
+    if (!window.pageContext || !window.pageContext.isPost) return;
+    if (!window.pageContext.commentsEnabled) return;
+    if (document.querySelector(".giscus")) return;
+
+    const articleContent = document.querySelector(".page__content");
+    if (!articleContent) return;
+
+    const commentsSection = document.createElement("section");
+    commentsSection.className = "page__comments";
+
+    const title = document.createElement("h4");
+    title.className = "page__comments-title";
+    title.textContent = "Comments";
+    commentsSection.appendChild(title);
+
+    const container = document.createElement("div");
+    container.className = "page__comments-body";
+    commentsSection.appendChild(container);
+
+    articleContent.insertAdjacentElement("afterend", commentsSection);
+
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.crossOrigin = "anonymous";
+
+    const config = window.giscusConfig || {};
+    script.setAttribute("data-repo", config.repo || "");
+    script.setAttribute("data-repo-id", config.repoId || "");
+    script.setAttribute("data-category", config.category || "");
+    script.setAttribute("data-category-id", config.categoryId || "");
+    script.setAttribute("data-mapping", config.mapping || "pathname");
+    script.setAttribute("data-strict", config.strict || "0");
+    script.setAttribute(
+      "data-reactions-enabled",
+      config.reactionsEnabled || "1"
+    );
+    script.setAttribute("data-emit-metadata", config.emitMetadata || "0");
+    script.setAttribute("data-input-position", config.inputPosition || "top");
+    script.setAttribute("data-theme", config.theme || "light");
+    script.setAttribute("data-lang", config.lang || "en");
+    script.setAttribute("data-loading", config.loading || "lazy");
+
+    container.appendChild(script);
+  }
+
   const lightbox = createLightbox();
   hideHomeNavOnHomepage();
   injectSidebarTags();
@@ -567,4 +614,6 @@ document.addEventListener("DOMContentLoaded", function () {
       node = cursor;
     }
   });
+
+  injectGiscusComments();
 });
