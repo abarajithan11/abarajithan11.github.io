@@ -15,7 +15,7 @@ permalink: /childhoods-end/
 
 ![]({{ site.content_base_url }}/images/2021/11/childhoods_end.jpg)
 
-The world is at the verge of nuclear annihilation, as US and USSR face each other in third world war. All of a sudden, the decisive moment is interrupted by an alien invasion. The aliens, all powerful, yet friendly and humourous, assume the position of ‘overlords’ and bring peace and prosperity to the entire planet within five years. With all the problems gone, finally the world becomes the ultimate utopia. During the rule, overlords seem fascinated by human psychics (not our physics :-) ) and spirituality.
+The world is at the verge of nuclear annihilation, as US and USSR face each other in third world war. All of a sudden, the decisive moment is interrupted by an alien invasion. The aliens, all powerful, yet friendly and humourous, assume the position of ‘overlords’ and bring peace and prosperity to the entire planet within five years. With all the problems gone, finally the world becomes the ultimate utopia. During the rule, overlords seem fascinated by human psychics, not our physics, and spirituality.
 
 However, a group of humans argue that human creativity and culture has been stagnated due to the sudden controlled prosperity. Hence, with the permission of overlords, form a small society in a Pacific island, free of overlords’ supervision. There, a few years later, born are two children who seem to have wild, unbelievable nightmares. In their dreams, they visit and witness life in the strangest of the planets of the universe, which even the all-knowing overlords are unaware of.
 

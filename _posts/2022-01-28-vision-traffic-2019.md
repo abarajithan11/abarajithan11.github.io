@@ -28,15 +28,15 @@ A patent for our system is currently under review at NIPO and the system is bein
 
 [Our project won Gold at NBQSA 2020 (National ICT Awards) organized by British Computer Society in Tertiary Student Category and is currently (2021 December) competing at APICTA (Asia Pacific) Awards held in Malaysia.](https://www.youtube.com/watch?v=Va-1rjSr7QY)
 
-## It's storytime... How it started:
+## How it started
 
-In my 3rd year (5th semester), by pure chance, we formed a team of four: Abrutech (Abarajithan, Rukshan, Tehara, Chinthana) for [our processor project](/processor-2018/). Soon we figured out that we had great chemistry, we complemented each other's strengths and weaknesses, a team made in heaven. :-)
+In my 3rd year (5th semester), by pure chance, we formed a team of four: Abrutech (Abarajithan, Rukshan, Tehara, Chinthana) for [our processor project](/processor-2018/). Soon we realized that we worked unusually well together, complementing one another's strengths and weaknesses.
 
 [Custom Processor (Verilog), ISA, Compiler & Simulator (Python)](/processor-2018/)
 
 I had a knack for digital architecture design and I was good at coming up with ideas and algorithms. Rukshan was the best verification engineer I have seen. With infinite patience and thoroughness, he never skipped a corner case. A Verilog module he wrote and tested is as good as formally verified. Tehara had the passion and patience to modify neural networks and train them for weeks. Chinthana was the street smart guy, the jack-of-all-trades, who could learn and do any task within hours.
 
-By the end of that project, I had decided that I want this group forever, especially for the final year project. Also, the feeling I got when I designed architecture was nothing but pure bliss. It was addictive, I had never felt that before. I was in love.
+By the end of that project, I had decided that I wanted this group to stay together, especially for the final year project. Also, the feeling I got when I designed architecture was exhilarating. It was the first time I had felt so drawn to that kind of work.
 
 In the next semester, we all started our internships. At CSIRO (Australia), as I worked with [building CNNs on Tensorflow/Keras, training them and implementing them on edge devices (Jetson TX2)](/csiro-2018/), I itched to design an architecture to accelerate complex CNNs, such as object detectors. That was a perfect idea for our team. Rukshan was implementing a Maxpool engine for a simpler CNN at NTU (Singapore), Chinthana was building a python compiler for ML on ASIC at Wave Computing and Tehera was working object detectors (RCNNs) at Zone 24x7. So, we collectively decided on this topic and were brainstorming remotely from three countries.
 
@@ -44,7 +44,7 @@ In the next semester, we all started our internships. At CSIRO (Australia), as I
 
 However, when we proposed the idea to a few scientists at CSIRO and lecturers in our department, they suggested that an FPGA implementation of a custom CNN engine would be a waste of time, as GPU-based systems are the popular ones for inference back then, and that we will not be able to publish this. Disheartened, we searched for a staff-proposed project where this solution might make sense. We found Prof. Rohan's project, funded by the world bank, titled *Vision-Based Traffic Control*. It was a topic that was attempted a few times in the past and failed. One team had tried to fly hot air balloons, another MSc team tried a simpler approach with Raspberry Pi, of passing the images through an edge-detection kernel, counting white pixels and using a custom fully-connected network of 2 layers trained on a custom dataset of few hundred images to estimate a traffic level (1-5) from the white pixel count.
 
-We proposed to tackle this problem with our own mass-manufacturable, robust solution. A pre-trained and then fine-tuned object detector running on our custom engine in an FPGA and a custom algorithm tested in VISSIM simulations to control the traffic lights based on those detections. This received a huge backlash from some staff members, who pointed out a few valid concerns. We may not have enough time to obtain government permission to demonstrate this on the road, and the CNNs may not work with Sri Lankan data. After some traumatizing back and forth via academic politics, we picked the project in February.
+We proposed to tackle this problem with our own mass-manufacturable, robust solution: a pre-trained and then fine-tuned object detector running on our custom engine in an FPGA, plus a custom algorithm tested in VISSIM simulations to control the traffic lights based on those detections. This received a huge backlash from some staff members, who pointed out a few valid concerns. We might not have enough time to obtain government permission to demonstrate this on the road, and the CNNs might not work with Sri Lankan data. After some draining back-and-forth shaped by academic politics, we picked the project in February.
 
 As a response to "Like everyone, you will start collecting data way too late... in August, and find your model doesn't work", I vowed to demonstrate it within ten days! Rukshan built a data collection device, powered by a power bank through a 40-feet wire and programmed a python GUI to control its 2-axis servo and camera via Wi-Fi. We collected 750 images, Tehara ran pretrained YOLOv2 on them and we showed that we can detect ALL vehicles in both day and night time, acing the feasibility presentation within 10 days. With that start, we were good to go.
 
@@ -141,7 +141,7 @@ We are forever indebted to our families of Tehara and Chinthana for hosting our 
 
 ### My team: abrutech
 
-We stayed for months at each other's homes to work together day and night. We became a part of each other's families, celebrating birthdays, night outs... the most icon team in our batch, bonded for life! <3
+We stayed for months at each other's homes to work together day and night. We became part of each other's families, celebrating birthdays and nights out, and became one of the closest teams in our batch.
 
 ![]({{ site.content_base_url }}/images/2021/11/20200219_152537.jpg)
 
@@ -163,7 +163,7 @@ We stayed for months at each other's homes to work together day and night. We be
 
 ### How I work
 
-My whiteboard designs throughout the project. Some were not implemented. Just to show you how I work. :-)
+My whiteboard designs throughout the project. Some were not implemented. Just to show how I work.
 
 ![]({{ site.content_base_url }}/images/2021/11/IMG_20181220_023339.jpg)
 
@@ -194,5 +194,4 @@ My whiteboard designs throughout the project. Some were not implemented. Just to
 ![]({{ site.content_base_url }}/images/2021/11/IMG_20200115_092544.jpg)
 
 ![]({{ site.content_base_url }}/images/2021/11/IMG_20200115_092701.jpg)
-
 

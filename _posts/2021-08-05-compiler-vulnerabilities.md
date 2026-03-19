@@ -11,9 +11,9 @@ permalink: /compiler-vulnerabilities/
 
 ![]({{ site.content_base_url }}/images/2021/11/compiler-issues-compiler-t2mkn8.jpg)
 
-An important argument placed against e-voting machines is that there is absolutely no way to prevent large-scale fraud. Even if the firmware is open-source, how do you verify it's the same code programmed into the machine? Even if it was compiled in front of your eyes, how do u know the compiler itself is safe?  
+An important argument placed against e-voting machines is that there is absolutely no way to prevent large-scale fraud. Even if the firmware is open-source, how do you verify it's the same code programmed into the machine? Even if it was compiled in front of your eyes, how do you know the compiler itself is safe?  
   
-GCC, the most popular C/C++ compiler itself is actually written in C. Then how is it compiled? Using older versions of itself! This fact was used by Ken Thompson, the legend who designed and implemented UNIX, the OS on which Linux (hence all android phones, data centers, mars rovers) and macOS (an overpriced piece of shit ;-) ) are built upon.  
+GCC, the most popular C/C++ compiler itself is actually written in C. Then how is it compiled? Using older versions of itself. This fact was used by Ken Thompson, the legend who designed and implemented UNIX, the OS on which Linux (hence all android phones, data centers, mars rovers) and macOS are built upon.  
   
 When he wrote the 'login' program of UNIX (during early days), he put a backdoor for debugging purposes. That is, given his secret password, any UNIX machine would unlock. But anyone else who reads the source code of login would notice this and panic. So, he hid that backdoor in the compiler, such that if the login program is compiled, it would insert the backdoor into the binary (assembly), else it would compile other programs normally.   
   

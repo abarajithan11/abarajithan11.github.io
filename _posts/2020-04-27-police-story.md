@@ -12,7 +12,7 @@ permalink: /police-story/
 
 ![]({{ site.content_base_url }}/images/2021/11/94883249_10219473969071371_1930449978346438656_n.jpg)
 
-TLDR: *A doctor tested (?!) me for COVID-19, I fought with policemen, shouted at them, they took me on a bike and got stopped by traffic police for a traffic violation. I escaped, saved a German guy as well. Also, IT'S NOT WHAT IT LOOKS LIKE!*
+TLDR: *A doctor "tested" me for COVID-19, I fought with policemen, they took me on a bike and got stopped by traffic police for a traffic violation. I escaped and helped a German guy as well. Also, it was not what it looked like.*
 
 [Abarajithan Gn](https://web.facebook.com/abarajithan11/posts/10219473969231375)
 
@@ -32,11 +32,11 @@ There was this German guy. He was travelling around the world on foot! The dude 
 
 Okay, after the doctor confirmed the flight, police changed their argument: "Well, yeah. but the flight WILL GET cancelled. And here's a curfew. You can't get out of hotel". I got angry, so decided to have my dinner. At 7 pm, I argued again, and finally, they said "Ok, your risk. It will get cancelled. If you want, you can walk to their airport".
 
-I FRIGGING BOILED!!
+I was furious.
 
 I shouted at them. The airport is 13 km away. Since morning, I have been telling them to just let me go. If they had simply agreed, I'd've happily walked for 3 hours. Everyone: airlines, Delhi airport, doctor and terminal manager were saying flight is confirmed, while only these policemen kept denying that as "fake news". They deny the whole day and with just 2.5 hours for the flight, they ask me to walk! After listening to my shouting, without understanding a single word, they said, "Okay, we'll drop you on a scooter".
 
-So, 3 people got on this tiny scooter. The hotel owner, a policeman and behind them, barely clinging to the scooter, me! I went triples on a scooter!!! An authentic Indian experience! That too, with a policeman!
+So, 3 people got on this tiny scooter. The hotel owner, a policeman and behind them, barely clinging to the scooter, me! I went triples on a scooter. An authentic Indian experience! That too, with a policeman in the middle!
 
 Anyway, a few km away from the airport, we got stopped by some... guess who... policemen. Those guys were furious. "Why do you ride triples on a scooter? Especially during a damn curfew?"
 

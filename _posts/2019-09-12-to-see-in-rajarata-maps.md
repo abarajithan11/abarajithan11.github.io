@@ -21,7 +21,7 @@ I'm sharing them here, so anyone who is interested can use them as a starting po
 
 ![]({{ site.content_base_url }}/images/2021/11/70408838_10217433062329978_2252387266427092992_n--1--1.jpg)
 
-Share any interesting information you know about these cities in the comments. <3
+Share any interesting information you know about these cities in the comments.
 
 [Download Booklets](http://bit.ly/RajarataBooklets)
 

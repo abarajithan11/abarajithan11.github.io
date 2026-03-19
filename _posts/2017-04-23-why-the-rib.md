@@ -28,7 +28,7 @@ Me - Hahahaha... 'That's a good one. Maybe that's why women are ready to burst a
 
 "Then the Lord God made a woman from the appendix, and he brought her to the man."
 
-*A conversation on the stairs of Adam's Peak... <3*
+*A conversation on the stairs of Adam's Peak.*
 
 First posted on Facebook: <https://web.facebook.com/abarajithan11/posts/10211040889209645>
 
@@ -36,7 +36,7 @@ First posted on Facebook: <https://web.facebook.com/abarajithan11/posts/10211040
 
 Decided at the last moment, hitchhiked (kidnapped??) at the middle of night in a random lorry watching the magnificent starry sky, climbing all night with Jo... everything is worth this view from the top.
 
-Met these guys at the top: Thomas and his friend who love their two week experience in Sri Lanka. Impressed by their adaptability and optimism. Great to see u guys!
+Met these guys at the top: Thomas and his friend, who were loving their two-week experience in Sri Lanka. Impressed by their adaptability and optimism. Great to meet them there.
 
 ![]({{ site.content_base_url }}/images/2021/11/18055762_1891261191136677_4179361375703128015_o.jpg)
 
