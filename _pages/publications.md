@@ -15,7 +15,7 @@ An open-source, modular framework generating a parameterizable Coarse-Grained Re
    
 A hardware architecture and engine engineered to efficiently process convolutional layers, fully-connected layers, and matrix products within any DNN using a hardware-friendly uniform dataflow designed for maximum data reuse.
 *G Abarajithan, CUS Edussooriya. arXiv preprint.*
-**[[Paper](https://arxiv.org/abs/2112.02793)] [[Blog Series](/dnn-to-chip-1/)] [[GitHub](https://github.com/abarajithan11/kraken)]**
+**[[Paper](https://arxiv.org/abs/2112.02793)]**
 
 ## Collaborations
 
@@ -29,7 +29,7 @@ A codesign tool that utilizes a hardware-aware training algorithm to remove or s
    
 Digital logic implementations of a lightweight multilayer perceptron denoising filter (MLPF) for Event Cameras, successfully reducing the background noise rate by a factor of 100X at the edge.
 *A Rios-Navarro, S Guo, G Abarajithan, K Vijayakumar, et al. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2023.*
-**[[Paper](https://arxiv.org/abs/2304.07543)] [[Blog Post](/asic-mlp-denoiser/)] [[GitHub](https://github.com/abarajithan11/asic_mlp_denoiser)]**
+**[[Paper](https://arxiv.org/abs/2304.07543)] [[GitHub](https://github.com/abarajithan11/asic_mlp_denoiser)]**
 
 #### Machine Learning on Heterogeneous, Edge, and Quantum Hardware for Particle Physics (ML-HEQUPP)
    

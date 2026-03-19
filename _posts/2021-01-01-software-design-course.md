@@ -17,7 +17,7 @@ A major curriculum revision for our Department of Electronics and Telecommunicat
 
 ## My other initiatives
 
-During this time, I pioneered several hands-on workshops to the students of our department and general public, to boost their productivity and to interactively test the theoretical knowledge they gain in lectures. Missing Semester (MS) series, which I independently started with my [MS1: SystemVerilog](/systemverilog-2020/) sessions, gained traction, leading to senior staff and fellow junior staff conducting more programs: MS2: ROS for Robotics and [MS3: Embedded Systems](/embedded-2021/) (for which I also contributed).
+During this time, I pioneered several hands-on workshops to the students of our department and general public, to boost their productivity and to interactively test the theoretical knowledge they gain in lectures. Missing Semester (MS) series, which I independently started with my [MS1: SystemVerilog](/systemverilog-course/) sessions, gained traction, leading to senior staff and fellow junior staff conducting more programs: MS2: ROS for Robotics and [MS3: Embedded Systems](/embedded-2021/) (for which I also contributed).
 
 I also introduced version control with git to final year students through seminars. On the one hand, git is an invaluable tool to users (students) that acts as a time machine, allowing them to reliably move to any immutable past / parallel snapshot, allowing them to manage the complexity of their projects. On the other hand, the well documented and immutable development history provided by git allows the managers (teachers) to keep track of each member's contribution with timestamps and the change they made.
 

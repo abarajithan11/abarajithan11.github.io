@@ -18,7 +18,7 @@ permalink: /systemverilog-course/
 In 2020 November, I conducted a free, open, and independent hands-on webinar.
 
 - It was widely successful, with 170+ attending from 9 institutes in Sri Lanka, India, and Sweden.
-- [Zoom recording](http://dms.uom.lk/s/wdRSTcFoHXkSTy7) was downloaded over 2300 times.
+- Zoom recording was downloaded over 2300 times.
 - [Feedback](https://bit.ly/sv-feedback) about the [content, visuals](http://bit.ly/sv-slides), and teaching style was overwhelmingly positive.
 - [GitHub Repo with example](https://github.com/SkillSurf/systemverilog)
 
