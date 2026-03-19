@@ -18,3 +18,10 @@ Setup:
   * Google Analytics 4
   * Microsoft Clarity
   * Cloudflare Analytics
+
+
+Uploading many files at once via rclone:
+
+```
+rclone copy from_dir r2:blog-assets/content/to_dir -P
+```
