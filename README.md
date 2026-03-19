@@ -1,6 +1,6 @@
 # Aba's Blog - Minimal Mistakes theme
 
-Setup:
+## Setup:
 
 * **This repo** - holds the content as markdown files
 * **Minimal** Mistakes - theme
@@ -20,8 +20,20 @@ Setup:
   * Cloudflare Analytics
 
 
-Uploading many files at once via rclone:
+## Maintenance:
+
+* **R2 Upload** - Uploading many files at once via rclone:
 
 ```
 rclone copy from_dir r2:blog-assets/content/to_dir -P
 ```
+
+* **Tag pages** - After adding/removing/renaming tags in post front matter, run:
+
+```powershell
+python .\scripts\generate_tag_pages.py
+```
+
+* **Sidebar tag grouping** - `_data/sidebar_tag_hierarchy.yml`
+* **Media base URL** - `content_base_url` in `_config.yml`
+* **Config changes** - if running locally with `jekyll serve`, restart after editing `_config.yml`
