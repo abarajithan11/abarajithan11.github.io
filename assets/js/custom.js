@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (urlsList) {
       const heading = document.createElement("li");
       heading.className = "sidebar-tags__heading";
-      heading.textContent = "Post Groups";
+      heading.textContent = "Tag Groups";
       urlsList.appendChild(heading);
 
       tagNodes.forEach(function (node) {
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const title = document.createElement("div");
     title.className = "sidebar-tags__heading";
-    title.textContent = "Post Groups";
+    title.textContent = "Tag Groups";
     section.appendChild(title);
 
     const list = document.createElement("ul");

@@ -6,7 +6,7 @@ classes: wide
 author_profile: true
 ---
 
-I am a PhD student in Kastner Research Lab @ UCSD CSE, focusing on hardware security and verification, building robust hardware/software co-designs, and accelerating AI/ML at the edge. Welcome to my personal blog, where I document my technical explorations, projects, and thoughts.
+I am a PhD student in [Kastner Research Lab](https://kastner.ucsd.edu/research/) @ UCSD CSE, focusing on hardware security and verification, building robust hardware/software co-designs, and accelerating AI/ML at the edge. Welcome to my personal blog, where I document my technical explorations, projects, and thoughts.
 
 ## Tech Stack
 
