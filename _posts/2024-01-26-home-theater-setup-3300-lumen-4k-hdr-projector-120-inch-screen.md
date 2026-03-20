@@ -12,7 +12,7 @@ tags:
 
 3300-lumen 4K HDR projector, 120" screen, soundbar + subwoofer + surround speakers. Total cost ~$2500
 
-I bought these in the US, carried them to Jaffna, and fixed them. It is set in the living room, without any serious effort to darken the room. Video: first at night & lights off, then night & lights on, finally daytime with lights off. Color bars are artifacts of phone recording.
+I bought these in the US, carried them to Jaffna, and installed them. It is set up in the living room, without any serious effort to darken the room. The video shows, in order, night with lights off, night with lights on, and daytime with lights off. The color bars are artifacts of the phone recording.
 
 ## Projector
 
@@ -31,14 +31,14 @@ Price: $40
 Price: $195
 - Elite Screens Yard Master 2 (120-inch)
 - [Wirecutter review](https://www.nytimes.com/wirecutter/reviews/best-outdoor-projector-screen/)
-- I first chose Sliver Ticket STR 120", but it was too heavy & too big (too expensive) to ship internationally. So I bought this outdoor one, which was lighter and smaller in package. I shipped this separately
+- I first chose Silver Ticket STR 120", but it was too heavy and too big, and therefore too expensive, to ship internationally. So I bought this outdoor one, which was lighter and smaller in its packaging. I shipped this separately.
 
 ## Soundbar + Subwoofer
 
 Price: $324
 - Polk Audio MagniFi Mini AX Ultra-Compact Sound Bar with Wireless Subwoofer, Dolby Atmos, and DTS:X Certified
 - [Wirecutter review](https://www.nytimes.com/wirecutter/reviews/best-soundbar/)
-- This was the most affordable and portable system, with great quality as per reviews. I took them in the standard checked-in suitcases.
+- This was the most affordable and portable system, with great quality according to the reviews. I packed them in standard checked suitcases.
 
 ## Surround Speakers
 
@@ -53,7 +53,7 @@ Price: (x2) $63
 
 ## Setup
 - I connected the projector to the soundbar with the HDMI cable (eARC sound)
-- The soundbar, subwoofer, and surround speakers get connected wirelessly
+- The soundbar, subwoofer, and surround speakers are connected wirelessly
 - I fixed the screen such that bottom 1/3 was at eye level when sitting down
 - The projector was fixed at 3.3m (~11 ft)
 

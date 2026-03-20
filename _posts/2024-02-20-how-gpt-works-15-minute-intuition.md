@@ -17,7 +17,7 @@ Karpathy was an OpenAI co-founder and the Tesla autopilot vision team lead. Betw
 - GPT is a decoder model. It doesn't have memory or internal state. It only looks at a fixed context of input to generate outputs. GPT-4 Turbo takes in 128k input tokens and only looks at those.
 
 ## Why the transformer architecture matters
-- It can "learn" during the inference time
+- It can "learn" during inference
 - The architecture has not changed much in the past 6 years, since the 2017 "Attention is All You Need". Many are trying to improve it, but it has remained resilient.
 
 [My simplified code](https://github.com/abarajithan11/nanoGPT)

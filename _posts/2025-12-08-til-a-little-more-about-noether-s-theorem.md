@@ -10,7 +10,7 @@ tags:
 
 ![]({{ site.content_base_url }}/images/2026_from_fb/noether.png)
 
-Noether was a female mathematician who looked into why energy is not conserved in Einstein's General Relativity, and came up with a fundamental theorem of reality generalized to all conservation laws. Eg:
+Emmy Noether was a mathematician who looked into why energy is not conserved in Einstein's General Relativity, and came up with a fundamental theorem of reality that generalizes to all conservation laws. For example:
 
 * Momentum is conserved iff there's a translation symmetry (if it doesn't matter WHERE something happens)
 * Energy is conserved iff there's a time symmetry (if it doesn't matter WHEN something happens)
