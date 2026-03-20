@@ -11,9 +11,7 @@ tags:
 
 ![]({{ site.content_base_url }}/images/2026_from_fb/webbs-orbit.png)
 
-<video controls src="{{ site.content_base_url }}/images/2026_from_fb/q-how-does-the-webb-telescope-orbit-nothing-l2/5158778500852255.mp4" preload="metadata"></video>
-
-A: It is a "Conical Pendulum" Orbiting the Sun
+## It is a "Conical Pendulum" Orbiting the Sun
 
 Imagine a basic conical pendulum. The bead goes in a circle around an empty spot. The centripetal force is provided by the horizontal component of tension, while its weight is balanced by its vertical component.
 
@@ -23,6 +21,7 @@ If you put them together, you can imagine Webb's orbit around the sun and L2. It
 
 The component of gravity along the Sun-Earth line (x-direction) gives the centripetal force to go around the sun. The component perpendicular to that (y-direction) gives the centripetal force to go around L2, like a conical pendulum orbiting the sun.
 
+<video controls src="{{ site.content_base_url }}/images/2026_from_fb/q-how-does-the-webb-telescope-orbit-nothing-l2/5158778500852255.mp4" preload="metadata"></video>
 
 ## Note
 

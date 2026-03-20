@@ -31,10 +31,46 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  function updateSidebarAllPostsCount() {
+    if (!Array.isArray(window.sitePostCards) || window.sitePostCards.length === 0) {
+      return;
+    }
+
+    const postCount = window.sitePostCards.length;
+
+    document.querySelectorAll(".sidebar .author__urls a").forEach(function (link) {
+      const href = link.getAttribute("href");
+      if (!href) return;
+
+      let linkPathname = href;
+      try {
+        linkPathname = new URL(href, window.location.origin).pathname;
+      } catch (_error) {
+        return;
+      }
+
+      if (normalizePathname(linkPathname) !== "/posts") return;
+      if (!link.textContent.trim().startsWith("All posts")) return;
+
+      const labelNode = Array.from(link.childNodes).find(function (node) {
+        return node.nodeType === Node.TEXT_NODE && node.textContent.trim() !== "";
+      });
+
+      const newLabel = ` All posts (${postCount})`;
+      if (labelNode) {
+        labelNode.textContent = newLabel;
+      } else {
+        link.appendChild(document.createTextNode(newLabel));
+      }
+    });
+  }
+
   function createTagLink(tagPage) {
     const link = document.createElement("a");
     link.href = tagPage.url;
-    link.textContent = tagPage.title;
+    const countSuffix =
+      typeof tagPage.count === "number" ? ` (${tagPage.count})` : "";
+    link.textContent = `${tagPage.title}${countSuffix}`;
     return link;
   }
 
@@ -660,6 +696,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const lightbox = createLightbox();
   hideHomeNavOnHomepage();
   injectSidebarTags();
+  updateSidebarAllPostsCount();
 
   document.querySelectorAll(".page__content").forEach(function (content) {
     upgradeYouTubeEmbeds(content);
