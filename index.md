@@ -35,6 +35,8 @@ I am a PhD student in [Kastner Research Lab](https://kastner.ucsd.edu/research/)
 * **AXI Stream Systolic Array:**
   A lightweight, highly parameterizable systolic array in SV, integrated with Ibex-SoC via AXI DMAs, a custom DMA controller, and corresponding C firmware. Currently being formally verified. **[[more...]](/axis-systolic-array-testbed/)**
 
+* Course projects I invested heavily in: **[[Complete UVM Testbench in 580 lines]](https://github.com/abarajithan11/uvm_decrypter)**, **[[A Rust-based Compiler for a Custom Functional Language to x86]](https://github.com/abarajithan11/x86-compiler)**
+
 ## Publications
 
 * CGRA4ML: A Hardware/Software Framework to Implement Neural Networks for Scientific Edge Computing. **G Abarajithan**, Z Ma, R Munasinghe, F Restuccia, R Kastner. *ACM Transactions on Reconfigurable Technology and Systems, 2026/2024.* **[[link]](https://dl.acm.org/doi/10.1145/3801097)**
