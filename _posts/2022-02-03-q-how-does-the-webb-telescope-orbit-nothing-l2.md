@@ -2,6 +2,7 @@
 title: "How does the Webb Telescope orbit nothing (L2)?"
 date: 2022-02-03 02:25:10 -0800
 last_modified_at: 2022-02-03 02:25:10 -0800
+teaser: /images/2026_from_fb/webbs-orbit.png
 categories:
   - "Other"
 tags:

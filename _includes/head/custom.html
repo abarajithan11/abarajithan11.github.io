@@ -190,11 +190,13 @@
           {% assign teaser = markdown_parts[1] | split: '](' | last | split: ')' | first %}
         {% endif %}
       {% endif %}
-      {% if teaser contains 'site.content_base_url' %}
-        {% assign teaser = teaser | split: '}}' | last %}
-      {% endif %}
+      {% assign teaser = teaser | strip | replace: '{{ site.content_base_url }}', '' | replace: site.content_base_url, '' %}
       {% if teaser contains '/content/' %}
         {% assign teaser = teaser | split: '/content' | last %}
+      {% endif %}
+      {% assign teaser_first_char = teaser | slice: 0, 1 %}
+      {% if teaser != "" and teaser contains '://' == false and teaser_first_char != '/' %}
+        {% assign teaser = '/' | append: teaser %}
       {% endif %}
       {% assign excerpt = post.excerpt | markdownify | strip_html | strip_newlines | replace: "  ", " " | strip %}
       {
