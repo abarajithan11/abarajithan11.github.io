@@ -35,7 +35,7 @@ I am a PhD student in [Kastner Research Lab](https://kastner.ucsd.edu/research/)
 * **AXI Stream Systolic Array:**
   A lightweight, highly parameterizable systolic array in SV, integrated with Ibex-SoC via AXI DMAs, a custom DMA controller, and corresponding C firmware. Currently being formally verified. **[[more...]](/axis-systolic-array-testbed/)**
 
-* Course projects I invested heavily in: **[[Complete UVM Testbench in 580 lines]](https://github.com/abarajithan11/uvm_decrypter)**, **[[A Rust-based Compiler for a Custom Functional Language to x86]](https://github.com/abarajithan11/x86-compiler)**
+* **Course projects** I invested heavily in: **[Complete UVM Testbench in 580 lines](https://github.com/abarajithan11/uvm_decrypter)**, **[A Rust-based Compiler for a Custom Functional Language to x86](https://github.com/abarajithan11/x86-compiler)**
 
 ## Publications
 
