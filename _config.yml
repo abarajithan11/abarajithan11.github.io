@@ -18,7 +18,7 @@ url: "https://abapages.com"
 baseurl: ""
 email: agnaneswaran<at>gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  PhD student @ UC San Diego | SoC Integration | Hardware Security & Verification | RTL for Edge AI
+  PhD student @ UC San Diego; SoC Integration; Hardware Security & Verification; RTL for Edge AI
 # twitter_username: username
 github_username: abarajithan11
 minimal_mistakes_skin: "contrast"
@@ -63,7 +63,7 @@ author:
   name   : "G Abarajithan"
   url    : "https://abapages.com/"
   avatar : "https://media.abapages.com/content/images/bio-photo.jpg"
-  bio    : "PhD student @ UC San Diego | SoC Integration | Hardware Security & Verification | RTL for Edge AI"
+  bio    : "PhD student @ UC San Diego; SoC Integration; Hardware Security & Verification; RTL for Edge AI"
   links:
     - label: "Contact Me"
       icon: "fas fa-fw fa-envelope"

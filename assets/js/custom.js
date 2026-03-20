@@ -52,11 +52,23 @@ document.addEventListener("DOMContentLoaded", function () {
       if (normalizePathname(linkPathname) !== "/posts") return;
       if (!link.textContent.trim().startsWith("All posts")) return;
 
+      const labelElement = Array.from(link.querySelectorAll("span, strong, em")).find(
+        function (node) {
+          return node.textContent.trim().startsWith("All posts");
+        }
+      );
+
+      const newLabelText = `All posts (${postCount})`;
+      if (labelElement) {
+        labelElement.textContent = newLabelText;
+        return;
+      }
+
       const labelNode = Array.from(link.childNodes).find(function (node) {
         return node.nodeType === Node.TEXT_NODE && node.textContent.trim() !== "";
       });
 
-      const newLabel = ` All posts (${postCount})`;
+      const newLabel = ` ${newLabelText}`;
       if (labelNode) {
         labelNode.textContent = newLabel;
       } else {
