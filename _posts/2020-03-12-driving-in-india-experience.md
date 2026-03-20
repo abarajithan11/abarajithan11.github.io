@@ -11,7 +11,7 @@ tags:
 permalink: /driving-in-india-experience/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/robin-flckr-traffic-india.webp)
+![]({{ site.content_base_url }}/images/2021/11/robin-flckr-traffic-india.jpg)
 
 I might be the first guy to use indicators in India. Most motorbikes and autos don't even have side mirrors! They remove it, some bikes even turn them inwards, so they can creep into the narrowest of gaps without breaking the mirror! The only button/switch drivers use is the honk. They overtake from both sides, absolutely no rules in roundabouts.
 

@@ -9,7 +9,7 @@ tags:
 permalink: /story-of-the-joy-plant-and-heroin/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/heroin-withdrawal-01-1024x683.webp)
+![]({{ site.content_base_url }}/images/2021/11/heroin-withdrawal-01-1024x683.jpg)
 
 > "Take the best orgasm you ever had, multiply it by a thousand and you're still nowhere near it."
 

@@ -12,7 +12,7 @@ tags:
 permalink: /ganja-lassi/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/bhang-lassi-6.webp)
+![]({{ site.content_base_url }}/images/2021/11/bhang-lassi-6.jpg)
 
 TL;DR: *Cannabis is technically illegal, but this is traditional in India and is more potent than smoking ganja. I took precautions and had from a popular shop. Effects were windows media player visualizations and auditory hallucinations. All is well.*
 

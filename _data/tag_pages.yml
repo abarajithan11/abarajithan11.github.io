@@ -1,7 +1,7 @@
 - title: "AXI"
   url: /tags/axi/
-  teaser: "/images/2026/firebridge.png"
-  latest_title: "FireBridge: Verifying SoC Subsystems with Real Firmware Without Simulating a CPU"
+  teaser: "/images/2026/cgra4ml_sys.png"
+  latest_title: "CGRA4ML: Py+SV+C Framework for DNNs → FPGA/ASIC"
   count: 7
 - title: "Australia"
   url: /tags/australia/
@@ -50,8 +50,8 @@
   count: 3
 - title: "SoC"
   url: /tags/soc/
-  teaser: "/images/2026/firebridge.png"
-  latest_title: "FireBridge: Verifying SoC Subsystems with Real Firmware Without Simulating a CPU"
+  teaser: "/images/2026/cgra4ml_sys.png"
+  latest_title: "CGRA4ML: Py+SV+C Framework for DNNs → FPGA/ASIC"
   count: 10
 - title: "Sri Lanka"
   url: /tags/sri-lanka/
@@ -60,9 +60,9 @@
   count: 6
 - title: "Stories"
   url: /tags/stories/
-  teaser: "/images/2026_from_fb/my-speech-at-chinthana-sunimali-s-wedding-transcript/10224950472260528.jpg"
-  latest_title: "My speech at Chinthana & Sunimali''s wedding"
-  count: 16
+  teaser: "/images/2026_from_fb/benq.jpg"
+  latest_title: "Home Theater Setup: 3300-lumen 4K HDR projector, 120-inch screen"
+  count: 18
 - title: "Teaching"
   url: /tags/teaching/
   teaser: "/images/2026/sv_first_page.png"
@@ -70,19 +70,19 @@
   count: 6
 - title: "Thoughts"
   url: /tags/thoughts/
-  teaser: "/images/2026_from_fb/craton.png"
-  latest_title: "Tectonic Plates: TIL a couple of amazing things."
-  count: 20
+  teaser: "/images/2026_from_fb/noether.png"
+  latest_title: "TIL a little more about Noether's theorem"
+  count: 24
 - title: "Travels"
   url: /tags/travels/
   teaser: "/images/2026_from_fb/adobe-cities-and-atomic-bombs-new-mexico-texas-trip-25/10237565563429923.jpg"
   latest_title: "Adobe cities and Atomic bombs: New Mexico - Texas Trip ‘25"
-  count: 62
+  count: 61
 - title: "USA"
   url: /tags/usa/
   teaser: "/images/2026_from_fb/adobe-cities-and-atomic-bombs-new-mexico-texas-trip-25/10237565563429923.jpg"
   latest_title: "Adobe cities and Atomic bombs: New Mexico - Texas Trip ‘25"
-  count: 10
+  count: 9
 - title: "Undergrad"
   url: /tags/undergrad/
   teaser: "/images/2021/11/IMG_20191204_112837--1--1.jpg"

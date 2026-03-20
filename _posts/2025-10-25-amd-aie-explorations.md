@@ -63,6 +63,6 @@ This material introduces the AIE programming model through:
 
 The assignment code includes files like `basic_mm.py`, `matmul.cc`, `passthrough.py`, and `nn.py`.
 
-![]({{ site.content_base_url }}/images/2026/aie_project.webp)
+![]({{ site.content_base_url }}/images/2026/aie_project.png)
 
 
