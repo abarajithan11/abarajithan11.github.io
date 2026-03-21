@@ -1,5 +1,5 @@
 ---
-title: 'California - 17th Century Fake News [India 2022]'
+title: 'California: Mythical Island and 17th-Century Fake News'
 date: 2022-09-17 08:14:22 -0700
 last_modified_at: 2022-09-17 08:14:22 -0700
 categories:
