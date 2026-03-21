@@ -77,6 +77,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  function renameMobileAuthorToggle() {
+    document
+      .querySelectorAll(".author__urls-wrapper button, .author__urls-wrapper .btn")
+      .forEach(function (button) {
+        if (button.textContent.trim() === "Follow") {
+          button.textContent = "More";
+        }
+      });
+  }
+
   function createTagLink(tagPage) {
     const link = document.createElement("a");
     link.href = tagPage.url;
@@ -707,6 +717,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const lightbox = createLightbox();
   hideHomeNavOnHomepage();
+  renameMobileAuthorToggle();
   injectSidebarTags();
   updateSidebarAllPostsCount();
 
