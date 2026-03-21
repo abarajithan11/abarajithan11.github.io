@@ -9,11 +9,8 @@ tags:
 permalink: /war-crimes-george-floyd/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/101699042_10219831944500533_7946623017331720192_n.jpg)
 
 TLDR: *We need to compare apples to apples, Sri Lankan people to US people and SL govt to US govt. I have a unique (not really) stance on war crimes. Read on to find out. US govt is definitely hypocritical. But US people are far better than us in protesting against injustice.*
-
-![]({{ site.content_base_url }}/images/2021/11/101699042_10219831944500533_7946623017331720192_n-1.jpg)
 
 The widely popular "meme"/sentiment which fueled me to write this
 
@@ -40,6 +37,8 @@ Everyone agrees on this: In general, our forces are humane and our policemen are
 We have a lot to learn from US people: how to value freedom, truth and justice. They have a lot to learn from us: our family values, selflessness and how to stay the fuck inside our home during a pandemic. Let's focus on improving ourselves.
 
 ---
+
+![]({{ site.content_base_url }}/images/2021/11/101699042_10219831944500533_7946623017331720192_n.jpg)
 
 This was first posted on Facebook and became widely popular: [facebook.com/abarajithan11/posts/10219831944740539](https://web.facebook.com/abarajithan11/posts/10219831944740539)
 

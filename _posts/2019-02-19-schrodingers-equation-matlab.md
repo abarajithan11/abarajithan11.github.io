@@ -9,7 +9,6 @@ tags:
 permalink: /schrodingers-equation-matlab/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/direct_2D_wav-eps-converted-to.png)
 
 In my junior year, I picked an elective on Quantum Mechanics: Electronic Devices. The project that was worth 50% was to solve the time-independent Schrodinger's equation in 1,2,3-D numerically, using MATLAB.
 
@@ -20,7 +19,7 @@ Through this, I understood Schrodinger's equation in two levels:
 1. Mathematically, it is a simple-harmonic-motion in space. I was fascinated to find that in 3-D, with a point charge, this SHM yields the s-p-d orbitals of the hydrogen atom. Later I found that such 'harmonic oscillators' are found at the foundations of different branches of physics.
 2. It basically says that wavefunctions are the eigenfunctions and the discrete energy values are the eigenvalues of the Hamiltonian operator, which is constrained by the potential field.
 
-![]({{ site.content_base_url }}/images/2021/11/direct_2D_wav-eps-converted-to-1.png)
+![]({{ site.content_base_url }}/images/2021/11/direct_2D_wav-eps-converted-to.png)
 
 Although I learned eigen-things in Linear Algebra class, I did not have an intuition for them. Therefore, I spent a few days building up a deeper intuition about them. I watched this entire series, took copious notes.
 
@@ -317,5 +316,4 @@ end
 - [12] “LAPLACIAN - The Discrete Laplacian Operator.” [Online]. Available: <https://people.sc.fsu.edu/~jburkardt/m_src/laplacian/laplacian.html>.
 - [13] M. A. Mahmood, “Novel Numerical Solution of Schrodinger Equation for Hydrogen-like Atoms,” vol. 6, no. 3, p. 5, 2015.
 - [14] G. Lindblad, “Quantum Mechanics with MATLAB,” p. 28.
-
 

@@ -9,11 +9,6 @@ tags:
 permalink: /a-road-from-elephant-pass-book-review/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/s-l1600.jpg)
-
-Finished reading this masterpiece! What a novel!
-
-![]({{ site.content_base_url }}/images/2021/11/s-l1600-1.jpg)
 
 An LTTE (Tamil) girl turns herself into the camp at Elephant pass, minutes before LTTE starts their Operation Ceaseless Waves -3 (ஓயாத அலைகள் 3) in March 2000. And she says she has vital information that could end the war. A (Sinhala) army captain undertakes the mission of bringing her to the intelligence headquarters in Colombo through a detour, that takes them through the ruined Wilpattu forest. When they finally reach Colombo after six days, a twist is revealed...
 
@@ -24,5 +19,7 @@ Moreover, he presents such an accurate cross section through all of Sri Lanka's 
 The character development of the two people crafted flawlessly. They fall in love by the end (through a steamy scene), but it all feels natural and smooth.
 
 Thanks to Ashwin for lending me this long-kept-yet-unread book from his collection! Gotta read Nihal's other books too! Especially the one about JVP times.
+
+![]({{ site.content_base_url }}/images/2021/11/s-l1600.jpg)
 
 First posted on Facebook: [web.facebook.com/abarajithan11/posts/10210783513095403](https://web.facebook.com/abarajithan11/posts/10210783513095403)

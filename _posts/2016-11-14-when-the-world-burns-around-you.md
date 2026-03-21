@@ -9,8 +9,6 @@ tags:
 permalink: /when-the-world-burns-around-you/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/yy.jpg)
-
 This is a speech I wrote in 2016, about my mom, for the module: Communication Skills.
 
 ---
@@ -23,7 +21,7 @@ For my mother, the university was like a horror movie, only without subtitles. D
 
 Then, something happened. Fortunately for her, and unfortunately for the rest of the country, the full scale ethic conflict began in Sri Lanka. Jaffna library has been burnt down, Black July riots began in Colombo where thousands of people were burnt alive in streets. With Jaffna city burning, the university activities were stopped. All students were sent back home indefinitely.
 
-![]({{ site.content_base_url }}/images/2021/11/yy-1.jpg)
+![]({{ site.content_base_url }}/images/2021/11/yy.jpg)
 
 But, she didn’t go. She spent every single day of that burning period in the library, trying to read the fat books which she couldn’t understand a word. She referred to dictionaries, rewrote the books’ notes again and again and again. A couple of months later, the university began. They had the year-end exams and she, who was bound to fail, not just passed, but became the batch top!
 
