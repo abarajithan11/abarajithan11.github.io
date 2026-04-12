@@ -1,0 +1,100 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.framework.startCommand": "powershell -ExecutionPolicy Bypass -File ./.frontmatter/scripts/start-jekyll-windows.ps1",
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.content.placeholders": [
+    {
+      "id": "permalink",
+      "value": "/{{slug}}/"
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Posts",
+      "path": "[[workspace]]/_posts",
+      "filePrefix": "{{date|yyyy-MM-dd}}-",
+      "trailingSlash": true
+    },
+    {
+      "title": "Pages",
+      "path": "[[workspace]]/_pages",
+      "filePrefix": "",
+      "trailingSlash": true
+    }
+  ],
+  "frontMatter.preview.host": "http://localhost:4000",
+  "frontMatter.preview.trailingSlash": true,
+  "frontMatter.taxonomy.dateFormat": "yyyy-MM-dd HH:mm:ss xx",
+  "frontMatter.taxonomy.slugTemplate": "{{fm.permalink}}",
+  "frontMatter.taxonomy.noPropertyValueQuotes": [
+    "date",
+    "last_modified_at"
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Card image",
+          "name": "preview",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Last modified",
+          "name": "last_modified_at",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isModifiedDate": true
+        },
+        {
+          "title": "Permalink",
+          "name": "permalink",
+          "type": "string",
+          "single": true,
+          "default": "{{permalink}}"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Layout",
+          "name": "layout",
+          "type": "string",
+          "single": true,
+          "default": "single",
+          "hidden": true
+        }
+      ]
+    }
+  ]
+}
