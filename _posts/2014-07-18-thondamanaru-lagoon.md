@@ -9,16 +9,17 @@ tags:
 permalink: /thondamanaru-lagoon/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/thond.png)
-
 In 2014, I volunteered to help my mom's team of professors and research assistants on a project to analyze biological and socio-economic parameters of a lagoon ecosystem. This lagoon has been central to many disputes in my hometown, Jaffna.
 
-[Embedded media](https://www.youtube.com/watch?v=BEB6x7Gmsh0)
 
 I was responsible for editing and producing
 
 - Four one-hour long documentaries
 - Ten-minute trailer (given below)
+
+![]({{ site.content_base_url }}/images/2021/11/thond.png)
+
+[Embedded media](https://www.youtube.com/watch?v=BEB6x7Gmsh0)
 
 ## Main activities
 

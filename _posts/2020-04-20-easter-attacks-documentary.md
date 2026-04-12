@@ -9,8 +9,6 @@ tags:
 permalink: /easter-attacks-documentary/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/easter.jpg)
-
 Terror in Paradise: A must-watch for all Sri Lankans.
 
 [Embedded media](https://www.youtube.com/watch?v=RQCp50EDrDk)
@@ -24,5 +22,7 @@ After all this, the Muslim community is being blamed, Muslims were being physica
 Indian intelligence, we know that story. 3 months before the attack, SL got extremely detailed information. Hell, even a few hours before the blast, they got another warning. But they did nothing. Why?
 
 The answer is actually simple. ISIS failed in its dream to form an Islamic State when it lost its stronghold in Syria. They publicly changed their objective into decentralised terrorism. Zahran was brewing it in Sri Lanka for years and the government did nothing despite the warnings of the Muslim community. During the final showdown, the government was stuck in a constitutional crisis, President and Prime Minister, despite knowing about this (according to 150 reports), were behaving like a divorcing couple, and everything came together, resulting in the disaster. This is criminal negligence.
+
+![]({{ site.content_base_url }}/images/2021/11/easter.jpg)
 
 First posted on Facebook: [facebook.com/abarajithan11/posts/10219394381321727](https://web.facebook.com/abarajithan11/posts/10219394381321727)

@@ -9,9 +9,9 @@ tags:
 permalink: /gollum-ring-finding-robot/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/20170719_115907.jpg)
-
 Through this project we built Gollum, an outdoor mobile robot to perform GPS following, obstacle avoiding, wall following, color detection, parallel alignment and robotic arm manipulation. I was responsible for designing the algorithm and programming the robot (1,200 lines of code)
+
+![]({{ site.content_base_url }}/images/2021/11/20170719_115907.jpg)
 
 Code: [github.com/abarajithan11/gollum-robot](https://github.com/abarajithan11/gollum-robot)
 

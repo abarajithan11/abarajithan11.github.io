@@ -9,7 +9,6 @@ tags:
 permalink: /islandwide-mora-exams/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/16Jul13PhysicsT.JPG)
 
 This year, the 7th annual islandwide model examinations for GCE A/L is being conducted in 20 districts entirely by the students of E15, E16 batches, under the supervision of E14 batch (Nishanthan anna...) of Tamil Union of UoM. Papers are set by prestigious teachers of Jaffna, printed there itself, packed and distributed to 20 districts throughout the island.
 
@@ -24,5 +23,7 @@ This is what we in MORA are known for. We take up something impossible, like con
 If our workload is exhilarating in the districts, I can only imagine the workload in Jaffna, with hundreds of students working 24x7 and thousands of papers moving in and out. On the whole, it is an amazing experience, being part of something big and so impeccably organized.
 
 \*\* Those who need a copy of our model papers, please visit moraetamils.com after next week.
+
+![]({{ site.content_base_url }}/images/2021/11/16Jul13PhysicsT.JPG)
 
 First posted on Facebook: [facebook.com/abarajithan11/posts/10208434306246700](https://web.facebook.com/abarajithan11/posts/10208434306246700)

@@ -9,7 +9,6 @@ tags:
 permalink: /solar-eclipse-faq/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/80627233_10218314715890766_2079494659301703680_n.jpg)
 
 ## Why is it harmful to look at it with naked eyes?
 
@@ -44,6 +43,8 @@ After a few million years, we would not get total solar eclipses, because the mo
 Einstein became the "rock star of the science world" after his theory was confirmed during the 1919 eclipse. His General Relativity was an outlandish theory, claiming "space and time are bound together into a 4D rubber sheet (riemman manifold) that bends around massive objects, causing other massive and non massive objects to get attracted". To prove it experimentally, Einstein proposed to observe the stars during a total eclipse. Light (from stars) is massless, hence according to Newton's model, should be unaffected by sun's gravity. According to Einstein, the paths of those light beams should bend towards the sun. We have highly accurate star maps from night time observations over centuries. But the only time we can see the stars around the sun (daytime) is a total eclipse. A team of photographers and astronomers travelled to Africa in 1919. When they recorded the star positions during the total eclipse, they found that not only the stars have MOVED towards the sun, but also they have moved by the exact same degree as Einstein calculated on paper. He skyrocketed to fame overnight and hence this eclipse ultimately made him the synonym for genius.
 
 ---
+
+![]({{ site.content_base_url }}/images/2021/11/80627233_10218314715890766_2079494659301703680_n.jpg)
 
 Feel free to correct me, or add more interesting facts.  
 Thanks to Pirakash for pointing out an error in (7)

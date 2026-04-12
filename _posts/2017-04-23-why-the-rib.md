@@ -9,7 +9,6 @@ tags:
 permalink: /why-the-rib/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/10303775-Pilgrims-going-downstairs-at-night-in-Sri-Pada-mountain-Sri-Lanka.jpg)
 
 Jo - 'Hmm?'  
 Me - 'Well, god created Eve from Adam's rib right?'  
@@ -31,6 +30,8 @@ Me - Hahahaha... 'That's a good one. Maybe that's why women are ready to burst a
 *A conversation on the stairs of Adam's Peak.*
 
 First posted on Facebook: <https://web.facebook.com/abarajithan11/posts/10211040889209645>
+
+![]({{ site.content_base_url }}/images/2021/11/10303775-Pilgrims-going-downstairs-at-night-in-Sri-Pada-mountain-Sri-Lanka.jpg)
 
 ---
 

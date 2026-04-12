@@ -11,13 +11,13 @@ tags:
 permalink: /northeast-india-2019/
 ---
 
-![]({{ site.content_base_url }}/images/2022/01/cov-1.png)
-
 1 week, 2 people, 5 states, 7 flights, 8 languages, 1000 km (by road)  
   
 Went for a week-long workshop on SOC design, took an extra week to travel across Northeast India (that part spilling beyond Bangladesh). Chinese-looking people, hundreds of tribes, diverse languages, cultures, great food, and amazing sights. India is truly unparalleled in diversity.
 
 Once I told mom that I applied for this workshop in Assam, she wanted to join. She is passionate about exploring India and its cultures and always wanted to visit the rolling mountains of North-East Asia. She applied as a resource person for a university workshop at Jorhat and joined me.
+
+![]({{ site.content_base_url }}/images/2022/01/cov-1.png)
 
 ## Itinerary
 

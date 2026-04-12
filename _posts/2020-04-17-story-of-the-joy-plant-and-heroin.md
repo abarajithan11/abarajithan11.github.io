@@ -9,7 +9,6 @@ tags:
 permalink: /story-of-the-joy-plant-and-heroin/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/heroin-withdrawal-01-1024x683.jpg)
 
 > "Take the best orgasm you ever had, multiply it by a thousand and you're still nowhere near it."
 
@@ -20,5 +19,7 @@ Opium is the dried latex of poppy plant with an 8000 year history. Sumerian tabl
 Morphine was isolated from opium in 1803 and is still one of the most popular painkillers. Vicodin (Dr. House) is an opiate painkiller as well. Heroin is made from Morphine and is THE most addictive drug out there. Typically injected to vein by a syringe, it is also smoked, snorted or inhaled. It is sold as a brown / white tar like powder, which is mixed with citric acid and water and injected.
 
 In Sri Lanka, heroin addiction dates back to at least 1982. Next year, 92 heroin addicts were hospitalized. Last month, 33 million dollars worth heroin and meth were seized. However, the awareness seems to be non-existent. Parents, teachers and kids have no idea what it even looks like.
+
+![]({{ site.content_base_url }}/images/2021/11/heroin-withdrawal-01-1024x683.jpg)
 
 First posted on Facebook: [facebook.com/abarajithan11/posts/10219354260478731](https://web.facebook.com/abarajithan11/posts/10219354260478731)

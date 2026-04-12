@@ -9,11 +9,11 @@ tags:
 permalink: /smart-lock/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/smartlock.png)
-
 The objective of this project is to gain experience in designing and launching a brand new product into a market. Our product is the 'Smart Door Lock', a safe door lock with IOT features.
 
-I am the Group Leader for the group of 10. Apart from management and coordination responsibilities, I was the main mechanical designer in version 1.0 and the person responsible for micro-controller programming in version 2.0
+I was the led a group of 10. Apart from management and coordination responsibilities, I was the main mechanical designer in version 1.0 and the person responsible for micro-controller programming in version 2.0
+
+![]({{ site.content_base_url }}/images/2021/11/smartlock.png)
 
 #### Version 1.0
 

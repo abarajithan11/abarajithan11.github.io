@@ -10,11 +10,7 @@ tags:
 permalink: /police-story/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/94883249_10219473969071371_1930449978346438656_n.jpg)
-
 TLDR: *A doctor "tested" me for COVID-19, I fought with policemen, they took me on a bike and got stopped by traffic police for a traffic violation. I escaped and helped a German guy as well. Also, it was not what it looked like.*
-
-[Abarajithan Gn](https://web.facebook.com/abarajithan11/posts/10219473969231375)
 
 From Rajasthan, I went to Amritsar, (Punjab, 20 km from the Pakistan border). As soon as I reached there, they locked down Punjab. Survived on biscuits for three days. On the fourth day, police closed the hostel. First I checked online, found the last flight from Amritsar to Delhi was at 10 pm that day and quickly booked the ticket. Then I went to the only hotel available to have lunch.
 
@@ -53,3 +49,8 @@ Now, the punchline.
 Last week, the Sri Lankan government decided to send flights and get students back from Indian cities. The first city they sent a flight to?
 
 Amritsar!
+
+![]({{ site.content_base_url }}/images/2021/11/94883249_10219473969071371_1930449978346438656_n.jpg)
+
+[Abarajithan Gn](https://web.facebook.com/abarajithan11/posts/10219473969231375)
+

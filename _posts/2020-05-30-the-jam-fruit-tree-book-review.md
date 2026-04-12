@@ -9,8 +9,6 @@ tags:
 permalink: /the-jam-fruit-tree-book-review/
 ---
 
-![]({{ site.content_base_url }}/images/2022/01/Feature-image-e1490252320964.jpg)
-
 One of the best novels I've read in English!
 
 The 'chronicle' starts with an intensely sexual narrative and develops into a thoroughly detailed account of the Burgher community of Sri Lanka from the 1930s to the 1980s. Their history, culture, festivals, food, wedding, funeral, day-to-day life... it's all told through a juicy tale of three generations of a family.
@@ -23,7 +21,8 @@ I seriously love his style. He is super-honest and straightforward. The descript
 
 [A Jaffna Marriage Story, Jam Fruit Tree style](/jaffna-marriage-story/)
 
-![]({{ site.content_base_url }}/images/2022/01/100955219_10219786304639565_8158902497491025920_n.jpg)
+![]({{ site.content_base_url }}/images/2022/01/Feature-image-e1490252320964.jpg)
+
 
 #### First posted on Facebook:
 

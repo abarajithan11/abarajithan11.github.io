@@ -10,9 +10,10 @@ tags:
 permalink: /chemistry-posters/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/org.png)
 
 I created these charts to prepare for my GCE A/L Examinations. When I graduated from school, I redesigned them in Powerpoint and printed them into charts.
+
+![]({{ site.content_base_url }}/images/2021/11/org.png)
 
 ## Organic Chemistry (Slideshow)
 

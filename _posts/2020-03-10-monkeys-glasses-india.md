@@ -11,13 +11,14 @@ tags:
 permalink: /monkeys-glasses-india/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/monkey-trying-to-put-pair-sunglasses-bali-indonesia-134317165.jpg)
 
 Both my glasses were broken by monkeys last week.
 
 I grew up with monkeys in Peradeniya. But I've never seen the likes of those who live in Vrindavan. They have learned to play this trick on tourists: They jump from nowhere, snatch your glasses, climb on a tree and you have to buy a frootie (fruit juice packet for 50 LKR) and throw at them to get it back.
 
 Both my glasses: the photochromatic one and the powered sunglasses were lost this way and were damaged beyond repair when I got them back. Ordered two new glasses at Jaipur. All is well.
+
+![]({{ site.content_base_url }}/images/2021/11/monkey-trying-to-put-pair-sunglasses-bali-indonesia-134317165.jpg)
 
 #### First posted on Facebook:
 

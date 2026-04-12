@@ -9,17 +9,16 @@ tags:
 permalink: /the-hitchhikers-guide-to-the-galaxy/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/52914679_10216028332572612_3682163260582264832_n.jpg)
-
-![]({{ site.content_base_url }}/images/2021/11/14907277_10211587843720082_95454537983939585_n.jpg)
-
 This is a 700 page novel. And on the 30th page, the galactic hyper-way council destroys the earth to build an intergalactic highway.
 
 Buckle your seat belts and jump into a satire-filled roller coaster ride across the universe, visiting the galactic industry that builds planets (a dude got an award for designing the coastline of Norway), the restaurant at the end of the universe (that moves back and forth the big crunch via time turbans), to meet the hyper-intelligent pan-dimensional beings who ran a computer for 7 million years to find answer to ‘Life universe and everything’ and got disappointed with its legendary answer: 42, to read the last message of God to his creation and then the God himself: a schizophrenic lonely old man with a cat in a cottage who continues to believe that the universe doesn’t exist.
 
 This, dear fellas, is British humour at its best! Again, don’t be fooled by the movie, you would be rolling and laughing at his satire and word play at each line and be entranced by his imagination through a story that has no story. This is my effing bible and I would bring this into any conversation whenever possible. Got the book, if anyone needs.
 
-![]({{ site.content_base_url }}/images/2021/11/52914679_10216028332572612_3682163260582264832_n-1.jpg)
+![]({{ site.content_base_url }}/images/2021/11/52914679_10216028332572612_3682163260582264832_n.jpg)
+
+![]({{ site.content_base_url }}/images/2021/11/14907277_10211587843720082_95454537983939585_n.jpg)
+
 
 ## Memorable quotes
 

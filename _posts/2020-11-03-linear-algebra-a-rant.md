@@ -9,8 +9,6 @@ tags:
 permalink: /linear-algebra-a-rant/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/1010596732-disc001-file001-frame00180-size-original.jpg)
-
 Grade 8: Here is a matrix, just a few numbers in a box. You can add, subtract boxes. And you can multiply two boxes in this very complicated weird way. But why? DON'T ASK QUESTIONS. It's just the way it is. And wait, you can't divide those boxes.
 
 Then come vectors in A/Ls, after years of struggling to multiply those stupid boxes. They actually show some geometric intuition of vectors. But they never connect the vectors to matrices.
@@ -18,6 +16,8 @@ Then come vectors in A/Ls, after years of struggling to multiply those stupid bo
 Then, we have Linear algebra in Universities. "Transformation A applied to vector x is Ax. Here are a bunch of dry theorems about the composition, commutativity, and inversion of transformations."
 
 This is outrageous. The whole point of a matrix is that it transforms a vector from one space to another. Nothing about matrices make sense without this fact. They should be introduced in ALs, after finishing vectors. Our math education is full of such examples of putting Descartes before the horse (got it?).
+
+![]({{ site.content_base_url }}/images/2021/11/1010596732-disc001-file001-frame00180-size-original.jpg)
 
 ## Matrix Multiplication
 

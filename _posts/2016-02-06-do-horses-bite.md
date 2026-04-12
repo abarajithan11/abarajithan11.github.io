@@ -11,11 +11,11 @@ permalink: /do-horses-bite/
 
 This is the story of one of my weirdest experiences: being bitten by a horse (yup, seriously!), and its consequences.
 
-![]({{ site.content_base_url }}/images/2021/11/13495495_10208464548682742_4325626376483111133_o.jpg)
-
 *Ambuluwawa Tower, Gampola*
 
 After A/L exams, three of us (myself, Dhanushan, and Nirmal) decided to visit the tower of Ambuluwawa, in Gampola. The area surrounding the tower was full of stray horses, in groups, in pairs, and in every possible combination. Needless to say, we were making all kinds of horse jokes while arriving at the tower. Climbing the tower, on top of a tall mountain was an unforgettable experience, with the entire world below us and the wind rushing past us.
+
+![]({{ site.content_base_url }}/images/2021/11/13495495_10208464548682742_4325626376483111133_o.jpg)
 
 When we finally climbed down and prepared to leave, we encountered this lonely horse, standing calmly and quietly in a hall. With the photographer’s spirit rising within me, I took a couple of shots of the horse and told Dhanushan:
 

@@ -9,11 +9,11 @@ tags:
 permalink: /to-see-in-rajarata-maps/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/70408838_10217433062329978_2252387266427092992_n.jpg)
-
 My boarding aunty (Neela Desilva) made me two booklets (PDF links are given), on the great cities of Anuradhapura and Polonnaruwa. She has gathered maps, newspaper extracts and wealth of information throughout the years.
 
 I have been to these ancient cities like 5-6 times, once even cycling around Atamastana (the best way to see Anuradhapura). But I have not seen most places and I definitely did not know enough about each place to appreciate them to the extent they deserve. These maps lay out a route which can help to see most places quickly, even on a bicycle.
+
+![]({{ site.content_base_url }}/images/2021/11/70408838_10217433062329978_2252387266427092992_n.jpg)
 
 I'm sharing them here, so anyone who is interested can use them as a starting point, find more information on the internet and use the maps the next time they visit there. You might be able to appreciate them on a whole new level.
 

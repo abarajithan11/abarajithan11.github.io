@@ -10,9 +10,10 @@ tags:
 permalink: /robotics-workshops-2017/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/DSC_6256-2.JPG)
 
 As with all developing countries, students of Sri Lanka are not exposed to the latest technologies. Students are usually exposed to programming (mostly on paper) in age 16 if only they chose an optional subject: ICT. To introduce the wonders of microprocessors and to unleash the limitless possibilities by untapping the creativity in our students, my team decided to conduct arduino robotics workshops around Sri Lanka.
+
+![]({{ site.content_base_url }}/images/2021/11/DSC_6256-2.JPG)
 
 [A heartfelt thank you note (unsolicited) from girls at Hillwood College Kandy.](https://www.youtube.com/watch?v=ZhYwkXCfcBw)
 

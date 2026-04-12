@@ -9,7 +9,7 @@ tags:
 permalink: /tale-of-three-cities/
 ---
 
-![]({{ site.content_base_url }}/images/2021/11/Photo-3.jpg)
+This was a speech I prepared for a course in undergrad, where we were supposed to reflect on our personal journeys.
 
 > All lands are mine   
 > All men are my kin
@@ -17,6 +17,8 @@ permalink: /tale-of-three-cities/
 Let me ask you a simple question. Where are you from? In other words, what is your hometown?
 
 Now, you might be thinking, “Come on, you made up such a lame question to begin the speech!” Yes, this is really a primitive question to which you all know the answer by heart. But, in my case, the answer to this simple question is not so simple. Dear sir and my dear friends, let me tell you why. Let me tell you, a tale of three cities.
+
+![]({{ site.content_base_url }}/images/2021/11/Photo-3.jpg)
 
 ![]({{ site.content_base_url }}/images/2021/11/DSC_6778.jpg)
 
