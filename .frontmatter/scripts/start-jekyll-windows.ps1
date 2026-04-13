@@ -42,5 +42,5 @@ if (-not ($env:Path -split ";" | Where-Object { $_ -eq $rubyBin })) {
 }
 
 Write-Host "Starting Jekyll with $bundleCommand"
-& $bundleCommand exec jekyll serve --livereload --host localhost --port 4000
+& $bundleCommand exec jekyll serve --livereload --force_polling --host localhost --port 4000
 exit $LASTEXITCODE
