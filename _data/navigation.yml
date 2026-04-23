@@ -7,6 +7,8 @@ main:
     url: /publications/
   - title: "Projects"
     url: /projects/
+  - title: "CSE140"
+    url: https://abapages.com/digital-design/
   - title: "Teaching"
     url: /teaching/
   - title: "Travel"
